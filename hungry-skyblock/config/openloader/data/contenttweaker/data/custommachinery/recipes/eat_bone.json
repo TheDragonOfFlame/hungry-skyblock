@@ -1,0 +1,19 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "custommachinery:muncher",
+    "time": 80,
+    "requirements": [
+        {
+            "type": "custommachinery:item",
+            "mode": "input",
+            "item": "minecraft:bone",
+            "amount": 1
+        },
+        {
+            "type": "custommachinery:item",
+            "mode": "output",
+            "item": "minecraft:bone_meal",
+            "amount": 5
+        }
+    ]
+}

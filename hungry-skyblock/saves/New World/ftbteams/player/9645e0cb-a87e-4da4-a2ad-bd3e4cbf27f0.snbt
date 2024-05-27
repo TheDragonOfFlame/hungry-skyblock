@@ -1,0 +1,17 @@
+{
+	id: "9645e0cb-a87e-4da4-a2ad-bd3e4cbf27f0"
+	type: "player"
+	player_name: "TheDragonOfFlame"
+	ranks: {
+		9645e0cb-a87e-4da4-a2ad-bd3e4cbf27f0: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "TheDragonOfFlame"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59A5"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

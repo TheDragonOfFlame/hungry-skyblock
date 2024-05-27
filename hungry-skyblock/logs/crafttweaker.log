@@ -1,0 +1,483 @@
+[18:43:30.970][INFO]: Successfully injected RecipeFS file system
+[18:43:31.192][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[18:43:31.255][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:vanilla
+[18:43:31.260][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:forge
+[18:43:31.348][INFO]: Successfully identified and loaded plugin contenttweaker:core
+[18:43:31.354][INFO]: Successfully identified and loaded plugin jeitweaker:common
+[18:43:31.362][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[18:43:31.364][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[18:43:31.384][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
+[18:43:31.384][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
+[18:43:31.392][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
+[18:43:31.393][INFO]: Running JeiTweaker plugin initialization
+[18:43:31.400][INFO]: JeiTweaker plugin initialization completed successfully
+[18:43:31.832][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[18:43:31.835][INFO]: - 'contenttweaker' at version '2.0.0+4'
+[18:43:31.835][INFO]: - 'crafttweaker' at version '10.1.55'
+[18:43:31.835][INFO]: - 'custommachinery' at version '0.9.20'
+[18:43:31.835][INFO]: - 'farmersdelight' at version '1.19.2-1.2.4'
+[18:43:31.835][INFO]: - 'jeitweaker' at version '4.0.13'
+[18:43:32.163][INFO]: Started loading scripts for loader 'contenttweaker'
+[18:43:32.500][INFO]: Compiling and executing scripts
+[18:43:32.648][INFO]: Successfully initialized modules [crafttweaker, contenttweaker, expansions]
+[18:43:32.651][INFO]: Loading file 'new_items.zs' with priority 0
+[18:43:32.657][INFO]: Loading file 'plates.zs' with priority 0
+[18:43:32.789][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mud_ball
+[18:43:32.855][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:dirt_clump
+[18:43:32.859][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:vegitation
+[18:43:32.861][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:crimson_vegitation
+[18:43:32.862][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:warped_vegitation
+[18:43:32.862][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:basic_plate
+[18:43:32.862][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:magma_and_ice_stew
+[18:43:32.863][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:azalea_plate
+[18:43:32.864][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:sapling_plate
+[18:43:32.881][INFO]: Execution for loader 'contenttweaker' completed successfully
+[18:43:38.085][INFO]: Started loading scripts for loader 'initialize'
+[18:43:38.491][INFO]: Compiling and executing scripts
+[18:43:38.501][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[18:43:38.562][INFO]: Execution for loader 'initialize' completed successfully
+[18:44:41.113][INFO]: Started loading scripts for loader 'tags'
+[18:44:41.241][INFO]: Compiling and executing scripts
+[18:44:41.300][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[18:44:41.369][INFO]: Execution for loader 'tags' completed successfully
+[18:44:42.421][INFO]: Started loading scripts for loader 'crafttweaker'
+[18:44:42.504][INFO]: Compiling and executing scripts
+[18:44:43.111][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[18:44:43.113][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[18:44:43.122][INFO]: Loading file 'farmers.zs' with priority 0
+[18:44:43.132][INFO]: Loading file 'new_recipes.zs' with priority 0
+[18:44:43.133][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[18:44:43.133][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[18:44:43.294][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[18:44:43.307][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[18:44:43.309][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[18:44:43.315][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[18:44:43.317][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[18:44:43.318][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[18:44:43.319][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[18:44:43.319][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[18:44:43.319][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[18:44:43.322][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[18:44:43.323][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[18:44:43.334][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[18:44:43.340][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[18:44:43.343][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[18:44:43.343][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[18:44:43.343][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[18:44:43.344][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[18:44:43.345][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[18:44:43.349][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[18:44:43.349][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[18:44:43.350][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[18:44:43.350][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[18:44:43.351][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[18:44:43.351][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[18:44:43.351][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[18:44:43.354][INFO]: Execution for loader 'crafttweaker' completed successfully
+[18:44:43.368][INFO]: This reload was made possible by Jordan Pineo and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[18:45:17.170][INFO]: Started loading scripts for loader 'tags'
+[18:45:17.172][INFO]: Undoing previous actions
+[18:45:17.298][INFO]: Compiling and executing scripts
+[18:45:17.341][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[18:45:17.386][INFO]: Execution for loader 'tags' completed successfully
+[18:45:17.937][INFO]: Started loading scripts for loader 'crafttweaker'
+[18:45:17.937][INFO]: Undoing previous actions
+[18:45:17.990][INFO]: Compiling and executing scripts
+[18:45:18.145][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[18:45:18.146][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[18:45:18.148][INFO]: Loading file 'farmers.zs' with priority 0
+[18:45:18.149][INFO]: Loading file 'new_recipes.zs' with priority 0
+[18:45:18.149][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[18:45:18.149][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[18:45:18.237][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[18:45:18.237][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[18:45:18.237][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[18:45:18.238][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[18:45:18.238][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[18:45:18.238][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[18:45:18.238][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[18:45:18.238][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[18:45:18.239][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[18:45:18.239][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[18:45:18.240][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[18:45:18.240][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[18:45:18.241][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[18:45:18.241][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[18:45:18.241][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[18:45:18.241][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[18:45:18.241][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[18:45:18.242][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[18:45:18.242][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[18:45:18.242][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[18:45:18.243][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[18:45:18.243][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[18:45:18.243][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[18:45:18.244][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[18:45:18.244][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[18:45:18.244][INFO]: Execution for loader 'crafttweaker' completed successfully
+[18:45:18.247][INFO]: This reload was made possible by Jonathan McManus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[18:50:13.907][INFO]: Started loading scripts for loader 'tags'
+[18:50:13.909][INFO]: Undoing previous actions
+[18:50:13.971][INFO]: Compiling and executing scripts
+[18:50:14.007][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[18:50:14.060][INFO]: Execution for loader 'tags' completed successfully
+[18:50:14.642][INFO]: Started loading scripts for loader 'crafttweaker'
+[18:50:14.642][INFO]: Undoing previous actions
+[18:50:14.727][INFO]: Compiling and executing scripts
+[18:50:14.870][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[18:50:14.871][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[18:50:14.873][INFO]: Loading file 'farmers.zs' with priority 0
+[18:50:14.880][INFO]: Loading file 'new_recipes.zs' with priority 0
+[18:50:14.888][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[18:50:14.888][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[18:50:14.966][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[18:50:14.968][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[18:50:14.968][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[18:50:14.968][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[18:50:14.970][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[18:50:14.970][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[18:50:14.971][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[18:50:14.971][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[18:50:14.971][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[18:50:14.972][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[18:50:14.974][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[18:50:14.975][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[18:50:14.975][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[18:50:14.976][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[18:50:14.977][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[18:50:14.977][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[18:50:14.977][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[18:50:14.977][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[18:50:14.979][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[18:50:14.979][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[18:50:14.979][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[18:50:14.979][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[18:50:14.980][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[18:50:14.980][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[18:50:14.980][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[18:50:14.981][INFO]: Execution for loader 'crafttweaker' completed successfully
+[18:50:14.983][INFO]: This reload was made possible by Jessie Sims and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[18:58:26.422][INFO]: Started loading scripts for loader 'tags'
+[18:58:26.427][INFO]: Undoing previous actions
+[18:58:26.538][INFO]: Compiling and executing scripts
+[18:58:26.600][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[18:58:26.677][INFO]: Execution for loader 'tags' completed successfully
+[18:58:27.291][INFO]: Started loading scripts for loader 'crafttweaker'
+[18:58:27.291][INFO]: Undoing previous actions
+[18:58:27.367][INFO]: Compiling and executing scripts
+[18:58:27.486][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[18:58:27.487][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[18:58:27.489][INFO]: Loading file 'farmers.zs' with priority 0
+[18:58:27.491][INFO]: Loading file 'new_recipes.zs' with priority 0
+[18:58:27.491][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[18:58:27.492][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[18:58:27.576][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[18:58:27.577][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[18:58:27.577][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[18:58:27.578][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[18:58:27.578][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[18:58:27.578][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[18:58:27.578][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[18:58:27.578][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[18:58:27.578][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[18:58:27.582][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[18:58:27.583][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[18:58:27.583][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[18:58:27.584][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[18:58:27.585][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[18:58:27.585][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[18:58:27.585][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[18:58:27.587][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[18:58:27.587][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[18:58:27.588][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[18:58:27.588][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[18:58:27.589][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[18:58:27.589][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[18:58:27.589][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[18:58:27.589][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[18:58:27.589][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[18:58:27.590][INFO]: Execution for loader 'crafttweaker' completed successfully
+[18:58:27.593][INFO]: This reload was made possible by BrÃ¸nsted and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[19:15:03.641][INFO]: Item: <item:enchanted:icy_needle> * 64
+[19:17:49.796][INFO]: Started loading scripts for loader 'tags'
+[19:17:49.798][INFO]: Undoing previous actions
+[19:17:50.081][INFO]: Compiling and executing scripts
+[19:17:50.137][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[19:17:50.198][INFO]: Execution for loader 'tags' completed successfully
+[19:17:50.805][INFO]: Started loading scripts for loader 'crafttweaker'
+[19:17:50.805][INFO]: Undoing previous actions
+[19:17:50.897][INFO]: Compiling and executing scripts
+[19:17:51.132][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:17:51.135][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[19:17:51.139][INFO]: Loading file 'farmers.zs' with priority 0
+[19:17:51.143][INFO]: Loading file 'new_recipes.zs' with priority 0
+[19:17:51.144][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[19:17:51.144][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[19:17:51.381][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[19:17:51.416][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[19:17:51.417][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[19:17:51.418][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[19:17:51.419][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[19:17:51.419][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[19:17:51.419][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[19:17:51.419][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[19:17:51.420][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[19:17:51.423][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[19:17:51.424][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[19:17:51.426][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[19:17:51.426][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[19:17:51.427][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[19:17:51.427][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[19:17:51.427][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[19:17:51.428][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:blue_ice>'
+[19:17:51.428][WARN]: A recipe with the name 'dirt_from_clumps' already exists and will be overwritten: this is most likely an error in your scripts
+[19:17:51.439][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[19:17:51.440][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[19:17:51.442][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[19:17:51.443][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[19:17:51.444][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[19:17:51.445][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[19:17:51.446][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[19:17:51.446][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[19:17:51.446][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[19:17:51.453][INFO]: Execution for loader 'crafttweaker' completed successfully
+[19:17:51.487][INFO]: This reload was made possible by Zuniroa and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[19:18:48.613][INFO]: Started loading scripts for loader 'tags'
+[19:18:48.614][INFO]: Undoing previous actions
+[19:18:48.735][INFO]: Compiling and executing scripts
+[19:18:48.812][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[19:18:48.877][INFO]: Execution for loader 'tags' completed successfully
+[19:18:49.443][INFO]: Started loading scripts for loader 'crafttweaker'
+[19:18:49.443][INFO]: Undoing previous actions
+[19:18:49.498][INFO]: Compiling and executing scripts
+[19:18:49.661][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:18:49.662][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[19:18:49.663][INFO]: Loading file 'farmers.zs' with priority 0
+[19:18:49.664][INFO]: Loading file 'new_recipes.zs' with priority 0
+[19:18:49.665][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[19:18:49.667][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[19:18:49.734][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[19:18:49.735][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[19:18:49.736][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[19:18:49.736][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[19:18:49.736][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[19:18:49.737][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[19:18:49.737][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[19:18:49.737][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[19:18:49.737][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[19:18:49.739][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[19:18:49.739][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[19:18:49.740][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[19:18:49.741][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[19:18:49.742][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[19:18:49.742][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[19:18:49.742][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[19:18:49.742][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:blue_ice>'
+[19:18:49.742][WARN]: A recipe with the name 'dirt_from_clumps' already exists and will be overwritten: this is most likely an error in your scripts
+[19:18:49.744][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[19:18:49.744][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[19:18:49.746][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[19:18:49.746][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[19:18:49.747][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[19:18:49.747][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[19:18:49.748][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[19:18:49.748][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[19:18:49.748][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[19:18:49.749][INFO]: Execution for loader 'crafttweaker' completed successfully
+[19:18:49.753][INFO]: This reload was made possible by KoTeŭKa and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[19:19:19.104][INFO]: Started loading scripts for loader 'tags'
+[19:19:19.106][INFO]: Undoing previous actions
+[19:19:19.299][INFO]: Compiling and executing scripts
+[19:19:19.375][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[19:19:19.466][INFO]: Execution for loader 'tags' completed successfully
+[19:19:20.476][INFO]: Started loading scripts for loader 'crafttweaker'
+[19:19:20.477][INFO]: Undoing previous actions
+[19:19:20.616][INFO]: Compiling and executing scripts
+[19:19:20.799][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:19:20.799][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[19:19:20.810][INFO]: Loading file 'farmers.zs' with priority 0
+[19:19:20.814][INFO]: Loading file 'new_recipes.zs' with priority 0
+[19:19:20.814][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[19:19:20.814][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[19:19:20.929][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[19:19:20.931][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[19:19:20.932][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[19:19:20.932][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[19:19:20.933][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[19:19:20.933][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[19:19:20.933][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[19:19:20.933][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[19:19:20.935][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[19:19:20.941][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[19:19:20.941][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[19:19:20.943][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[19:19:20.944][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[19:19:20.945][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[19:19:20.945][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[19:19:20.946][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[19:19:20.946][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
+[19:19:20.947][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[19:19:20.947][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[19:19:20.950][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[19:19:20.950][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[19:19:20.951][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[19:19:20.951][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[19:19:20.952][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[19:19:20.952][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[19:19:20.953][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[19:19:20.954][INFO]: Execution for loader 'crafttweaker' completed successfully
+[19:19:20.960][INFO]: This reload was made possible by Peregrinus11 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[19:25:30.491][INFO]: Started loading scripts for loader 'tags'
+[19:25:30.493][INFO]: Undoing previous actions
+[19:25:30.578][INFO]: Compiling and executing scripts
+[19:25:30.605][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[19:25:30.644][INFO]: Execution for loader 'tags' completed successfully
+[19:25:31.063][INFO]: Started loading scripts for loader 'crafttweaker'
+[19:25:31.063][INFO]: Undoing previous actions
+[19:25:31.093][INFO]: Compiling and executing scripts
+[19:25:31.178][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:25:31.179][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[19:25:31.181][INFO]: Loading file 'farmers.zs' with priority 0
+[19:25:31.183][INFO]: Loading file 'new_recipes.zs' with priority 0
+[19:25:31.183][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[19:25:31.183][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[19:25:31.218][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[19:25:31.218][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[19:25:31.219][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[19:25:31.219][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[19:25:31.220][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[19:25:31.220][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[19:25:31.220][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[19:25:31.220][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[19:25:31.221][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[19:25:31.222][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[19:25:31.222][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[19:25:31.223][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[19:25:31.223][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[19:25:31.224][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[19:25:31.224][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[19:25:31.224][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[19:25:31.224][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
+[19:25:31.224][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[19:25:31.224][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[19:25:31.225][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[19:25:31.225][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[19:25:31.226][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[19:25:31.226][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[19:25:31.226][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[19:25:31.226][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[19:25:31.226][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[19:25:31.226][INFO]: Execution for loader 'crafttweaker' completed successfully
+[19:25:31.229][INFO]: This reload was made possible by Jessie Sims and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[19:27:11.501][INFO]: Started loading scripts for loader 'tags'
+[19:27:11.504][INFO]: Undoing previous actions
+[19:27:11.582][INFO]: Compiling and executing scripts
+[19:27:11.615][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[19:27:11.664][INFO]: Execution for loader 'tags' completed successfully
+[19:27:12.050][INFO]: Started loading scripts for loader 'crafttweaker'
+[19:27:12.050][INFO]: Undoing previous actions
+[19:27:12.071][INFO]: Compiling and executing scripts
+[19:27:12.160][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:27:12.160][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[19:27:12.161][INFO]: Loading file 'farmers.zs' with priority 0
+[19:27:12.162][INFO]: Loading file 'new_recipes.zs' with priority 0
+[19:27:12.162][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[19:27:12.162][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[19:27:12.226][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[19:27:12.228][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[19:27:12.229][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[19:27:12.229][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[19:27:12.229][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[19:27:12.229][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[19:27:12.229][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[19:27:12.229][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[19:27:12.229][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[19:27:12.231][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[19:27:12.231][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[19:27:12.232][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[19:27:12.232][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[19:27:12.233][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[19:27:12.233][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[19:27:12.233][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[19:27:12.233][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
+[19:27:12.233][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[19:27:12.233][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[19:27:12.235][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[19:27:12.235][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[19:27:12.237][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[19:27:12.237][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[19:27:12.237][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[19:27:12.237][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[19:27:12.237][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[19:27:12.238][INFO]: Execution for loader 'crafttweaker' completed successfully
+[19:27:12.240][INFO]: This reload was made possible by DreamThorn and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[19:28:27.720][INFO]: Item: <item:minecraft:oak_leaves> * 64
+[19:28:27.741][INFO]: Block: <block:minecraft:oak_leaves>
+[19:28:27.746][INFO]: BlockState: <blockstate:minecraft:oak_leaves:waterlogged=false,distance=7,persistent=false>
+[19:28:27.750][INFO]: Item Tag Entries
+[19:28:27.754][INFO]:     -  <tag:items:diet:vegetables>
+[19:28:27.754][INFO]:     -  <tag:items:minecraft:leaves>
+[19:28:27.754][INFO]:     -  <tag:items:minecraft:completes_find_tree_tutorial>
+[19:28:27.755][INFO]: Block Tag Entries
+[19:28:27.755][INFO]:     -  <tag:blocks:minecraft:parrots_spawnable_on>
+[19:28:27.755][INFO]:     -  <tag:blocks:skyblockbuilder:additional_valid_spawn>
+[19:28:27.755][INFO]:     -  <tag:blocks:minecraft:mineable/hoe>
+[19:28:27.755][INFO]:     -  <tag:blocks:minecraft:leaves>
+[19:28:27.755][INFO]:     -  <tag:blocks:botania:horn_of_the_canopy_breakable>
+[19:28:27.755][INFO]:     -  <tag:blocks:minecraft:completes_find_tree_tutorial>
+[19:28:27.755][INFO]:     -  <tag:blocks:minecraft:lava_pool_stone_cannot_replace>
+[19:28:53.894][INFO]: Started loading scripts for loader 'tags'
+[19:28:53.896][INFO]: Undoing previous actions
+[19:28:54.071][INFO]: Compiling and executing scripts
+[19:28:54.140][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[19:28:54.252][INFO]: Execution for loader 'tags' completed successfully
+[19:28:55.294][INFO]: Started loading scripts for loader 'crafttweaker'
+[19:28:55.296][INFO]: Undoing previous actions
+[19:28:55.399][INFO]: Compiling and executing scripts
+[19:28:55.545][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[19:28:55.546][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[19:28:55.548][INFO]: Loading file 'farmers.zs' with priority 0
+[19:28:55.552][INFO]: Loading file 'new_recipes.zs' with priority 0
+[19:28:55.553][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[19:28:55.553][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[19:28:55.628][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[19:28:55.629][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[19:28:55.629][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[19:28:55.629][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[19:28:55.630][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[19:28:55.630][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[19:28:55.630][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[19:28:55.630][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[19:28:55.630][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[19:28:55.632][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[19:28:55.632][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[19:28:55.633][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[19:28:55.633][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[19:28:55.634][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[19:28:55.634][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[19:28:55.634][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[19:28:55.635][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
+[19:28:55.635][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[19:28:55.636][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
+[19:28:55.636][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[19:28:55.637][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[19:28:55.637][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[19:28:55.637][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[19:28:55.637][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[19:28:55.638][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[19:28:55.638][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[19:28:55.638][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[19:28:55.639][INFO]: Execution for loader 'crafttweaker' completed successfully
+[19:28:55.642][INFO]: This reload was made possible by Ivy_ and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[19:31:30.728][INFO]: Item: <item:minecraft:white_wool> * 64
+[19:31:30.733][INFO]: Block: <block:minecraft:white_wool>
+[19:31:30.733][INFO]: BlockState: <blockstate:minecraft:white_wool>
+[19:31:30.734][INFO]: Item Tag Entries
+[19:31:30.734][INFO]:     -  <tag:items:minecraft:wool>
+[19:31:30.734][INFO]:     -  <tag:items:minecraft:dampens_vibrations>
+[19:31:30.734][INFO]:     -  <tag:items:diet:ingredients>
+[19:31:30.735][INFO]: Block Tag Entries
+[19:31:30.735][INFO]:     -  <tag:blocks:minecraft:wool>
+[19:31:30.735][INFO]:     -  <tag:blocks:minecraft:dampens_vibrations>
+[19:31:30.735][INFO]:     -  <tag:blocks:minecraft:occludes_vibration_signals>
+[19:31:30.735][INFO]:     -  <tag:blocks:farmersdelight:mineable/knife>

@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_age_of_mud"
+	group: ""
+	icon: "contenttweaker:mud_ball"
+	id: "5D2A14887B402E92"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Mmmm dirt..."
+				""
+				"&dHint:&r The Auto-Muncher can eat many of the same things as you, and show you the recipes in JEI."
+			]
+			id: "4B3482BC29F5276D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7E77F222C0D8F727"
+				type: "checkmark"
+			}]
+			title: "Dinner Time"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B3482BC29F5276D"]
+			description: ["Eat mud."]
+			id: "5F465250D106CC59"
+			tasks: [
+				{
+					id: "63162B2441397126"
+					item: "contenttweaker:mud_ball"
+					type: "item"
+				}
+				{
+					id: "2E72BA67BE781886"
+					item: "minecraft:mud"
+					type: "item"
+				}
+			]
+			title: "Mud is Yummy Too"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F465250D106CC59"]
+			id: "49F3D0052651684F"
+			tasks: [{
+				id: "0794C2E70B0DBFDC"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["49F3D0052651684F"]
+			description: ["Eating dirt is great, but more variety would spice things up. With a plate, you can craft meals to eat several different items at once!"]
+			id: "61AD3B7C25B6F703"
+			tasks: [{
+				id: "7D1A34297E018753"
+				item: "contenttweaker:basic_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F465250D106CC59"]
+			description: ["Mud balls can be eaten to make dirt clumps, which caan be crafted back into dirt, allowing you to make more and more dirt, albiet slowly."]
+			id: "05F419DDE0577EF1"
+			tasks: [{
+				id: "0F6385BD27A5398B"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B3482BC29F5276D"]
+			description: ["This plant material seems to come from grass and other plant matter. Wonder what it tastes like... But be sure to save ssome as a crafting component."]
+			id: "71F8FDB06506C379"
+			tasks: [{
+				id: "1DBBD0617F6127A3"
+				item: "contenttweaker:vegitation"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71F8FDB06506C379"]
+			description: [
+				"To the death!"
+				""
+				"Oh, but you can't till soil... Hmmm."
+				""
+				"(Mandrake seeds can be obtained by eating vegitation)."
+			]
+			id: "75EB0725FD18FED6"
+			tasks: [
+				{
+					id: "3DF8D33B65F5669D"
+					item: "enchanted:mandrake_seeds"
+					type: "item"
+				}
+				{
+					entity: "enchanted:mandrake"
+					icon: "enchanted:mandrake_root"
+					id: "7D3D3A0DB33BC9E9"
+					title: "Kill 1x Mandrake"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75EB0725FD18FED6"]
+			description: ["Eating a bone summons a Skeleton, so be careful. It also gives you some bone meal. "]
+			id: "09DDDEBB7F2DACF7"
+			tasks: [{
+				id: "77F684CAFC09D8CE"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4B3482BC29F5276D"]
+			description: ["These roots look like they come from a tree. Maybe you could coax them to grow again."]
+			id: "5B252466EB03600A"
+			tasks: [{
+				id: "6860B42F3E321A8A"
+				item: "minecraft:rooted_dirt"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B252466EB03600A"]
+			description: ["Maybe don't eat these yet..."]
+			id: "1295F359F6C08602"
+			tasks: [{
+				id: "537B3CA2D77AFA32"
+				item: "minecraft:hanging_roots"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"61AD3B7C25B6F703"
+				"1295F359F6C08602"
+				"09DDDEBB7F2DACF7"
+			]
+			description: ["Combining a clump of dirt, vegitation, and some roots yields a strange approximation of a bush."]
+			id: "7C5819459BE15DEA"
+			tasks: [{
+				id: "3968AEE4C8CF0797"
+				item: "contenttweaker:azalea_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7C5819459BE15DEA"]
+			id: "3C36D54A5396286A"
+			tasks: [{
+				id: "5860FCC3114CB7E9"
+				item: "minecraft:azalea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["09DDDEBB7F2DACF7"]
+			id: "63E33147CA831DC8"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "29C6124206320009"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3C36D54A5396286A"
+				"47143EB365B5FBF6"
+			]
+			id: "12D9393EF0736D32"
+			tasks: [{
+				id: "1E0C77E6DEFB7DA6"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["09DDDEBB7F2DACF7"]
+			id: "47143EB365B5FBF6"
+			tasks: [{
+				id: "53E6F1C65AE0B494"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+	]
+	title: "The Age of Mud"
+}

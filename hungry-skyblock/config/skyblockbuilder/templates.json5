@@ -1,0 +1,29 @@
+{
+  // The template which will be used for spawn only
+  // Example: 
+  {
+      "name": "default",
+      "desc": "The starter island for this pack.",
+      "file": "starter_island.nbt",
+      "spawns": "starter_island",
+      "direction": "south",
+      "offset": [ 0, 0 ]
+  }
+  "spawn": null,
+  
+  "spawns": {
+    "default": [
+      [ 6, 3, 5 ]
+    ]
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "default",
+      "file": "starter_island.nbt",
+      "spawns": "starter_island",
+      "direction": "south"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_wood_revolution"
+	group: ""
+	icon: "botania:magenta_mystical_flower"
+	id: "440E50A040E01B00"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72FCA60E566FA03C"]
+			description: [""]
+			id: "3CA1C9C68B17DE98"
+			tasks: [{
+				id: "5C6C10B92B449920"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Eat your Crafting Table"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12D9393EF0736D32"]
+			id: "72FCA60E566FA03C"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5F442668C54E17C6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["72FCA60E566FA03C"]
+			id: "47D14D8CBFD508FF"
+			tasks: [{
+				id: "3719690CF1D37F03"
+				item: {
+					Count: 1b
+					id: "woodenshears:wooden_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47D14D8CBFD508FF"]
+			id: "04612FFDB2F9C1EA"
+			tasks: [{
+				id: "0B247966DBD350BA"
+				item: "minecraft:flowering_azalea_leaves"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04612FFDB2F9C1EA"]
+			id: "515308902B316D26"
+			rewards: [{
+				id: "3D6002DF088F33E8"
+				item: {
+					Count: 1b
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D482A7B9E83354"
+				item: "botania:magenta_petal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CA1C9C68B17DE98"]
+			id: "67D5494D81D39EE1"
+			tasks: [{
+				id: "442E3D66AD93DE7E"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3122B2BDC93D9396"]
+			id: "67A185D52F319C55"
+			tasks: [{
+				id: "29FCA219D457A67B"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4CAF8FFED8E969B0"
+				"67D5494D81D39EE1"
+			]
+			id: "570522BFD0F968CF"
+			tasks: [{
+				id: "5EFF4A228C0718E1"
+				item: {
+					Count: 1b
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["515308902B316D26"]
+			description: ["The petal apothecary allows you to use the magic of the mystical flower petals to create new items. Simply fill it with water, throw in the ingredients, and finally throw in some seeds, and the item should be produced."]
+			id: "7CBC63B18576365E"
+			tasks: [{
+				id: "2FFAC74338236E99"
+				item: "botania:apothecary_deepslate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"570522BFD0F968CF"
+				"7CBC63B18576365E"
+			]
+			description: ["The pure daisy is made from 4 white petals."]
+			id: "2F49F4ABEF7095D7"
+			tasks: [{
+				id: "6664CADCFD7117C4"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["515308902B316D26"]
+			description: ["The floral fertilizer can be crafted from bone meal and petals. Eating it gets you petals, and using it on dirt or grass grows flowers, which can be crafted into petals."]
+			id: "28D141A8D5FBDD23"
+			tasks: [{
+				id: "70CFD41328000308"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72FCA60E566FA03C"]
+			description: ["Snowbell seeds can be obtained by eating vegitation."]
+			id: "3122B2BDC93D9396"
+			tasks: [{
+				id: "0BD59B102B61477C"
+				item: "enchanted:snowbell_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67A185D52F319C55"]
+			id: "4CAF8FFED8E969B0"
+			tasks: [{
+				id: "659F0CF08FE151C8"
+				item: "minecraft:snow_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F49F4ABEF7095D7"]
+			description: ["Placing the Pure Daisy next to stone or terracotta yields Livingrock after some time."]
+			id: "077CC55694CD6D99"
+			tasks: [{
+				id: "06E09303090D33DF"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["077CC55694CD6D99"]
+			description: ["Eating Livingrock crushes it down into Cobblestone."]
+			id: "39D14C750D9A326F"
+			tasks: [{
+				id: "6359B5F1B8FEDFE8"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+	]
+	title: "The Flower Revolution"
+}

@@ -1,0 +1,162 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_age_of_automation"
+	group: ""
+	icon: "contenttweaker:magma_and_ice_stew"
+	id: "7C9B2DA9B842193B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["39D14C750D9A326F"]
+			id: "06A4B35C06B0DCD7"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "275014B1FD91433E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["06A4B35C06B0DCD7"]
+			id: "5C261D58B520BFF5"
+			tasks: [{
+				id: "6B12EED1CB67C004"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["06A4B35C06B0DCD7"]
+			description: ["Sweet Berries can be made from two red petals and some vegitation in the Petal Apothecary."]
+			id: "1BD1501278D536FF"
+			tasks: [{
+				id: "7EEA5C356805B1B1"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5C261D58B520BFF5"
+				"1BD1501278D536FF"
+			]
+			description: ["An Iron Oreberry Bush can be made in the Petal Apothecary from a gray petal, a light gray petal, sweet berries, and stone."]
+			id: "784A061DE3700AA8"
+			tasks: [{
+				id: "5F740A348D9CC20C"
+				item: "oreberriesreplanted:iron_oreberry_bush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["784A061DE3700AA8"]
+			description: ["Nothing to do but wait for the berries to grow. Well, if you want, you could try eating stone."]
+			id: "782C8EA4635F933F"
+			tasks: [{
+				id: "3333B5B47FDF886F"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["782C8EA4635F933F"]
+			description: ["Get bricks by eating Terracotta and then Clay Balls."]
+			id: "3A067C4F89026EE7"
+			tasks: [{
+				id: "04B5F46898BECA5C"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["782C8EA4635F933F"]
+			id: "4E15B2A572D47808"
+			tasks: [{
+				id: "1D7D7AD269CA2891"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4E15B2A572D47808"
+				"3A067C4F89026EE7"
+			]
+			description: ["Cook four Stone in a pot."]
+			id: "04F18859E2505B8F"
+			tasks: [{
+				id: "6DD2642F2FF91B43"
+				item: "minecraft:magma_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04F18859E2505B8F"]
+			description: ["Cook four Magma Blocks in a pot and remove it with a bucket."]
+			id: "697F691895C75263"
+			tasks: [{
+				id: "3C7E28053291AFAB"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3122B2BDC93D9396"]
+			id: "0DF70F8192E8FD2A"
+			tasks: [{
+				id: "163222F114D5F5E5"
+				item: "minecraft:blue_ice"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"697F691895C75263"
+				"0DF70F8192E8FD2A"
+			]
+			id: "4429F37676FA2F26"
+			tasks: [{
+				id: "22E3937F52C3905E"
+				item: "contenttweaker:magma_and_ice_stew"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4429F37676FA2F26"]
+			description: ["Eat Obsidain to go to the Nether (not yet implemented dimension)."]
+			id: "47D74C4A7D03D99D"
+			tasks: [{
+				id: "564CAB4E5390478B"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+	]
+	title: "Iron and Fire"
+}

@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:cabbage_seeds",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:tomato_seeds",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "culturaldelights:cucumber_seeds",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "culturaldelights:eggplant_seeds",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:mandrake_seeds",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enchanted:snowbell_seeds",
+          "weight": 8
+        },
+        {
+            "type": "minecraft:item",
+            "name": "botania:grass_seeds",
+            "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "contenttweaker:vegitation",
+          "functions": [
+            {
+                "function": "minecraft:set_count",
+                "count": {
+                    "type": "minecraft:uniform",
+                    "min": 0,
+                    "max": 1
+            },
+                "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

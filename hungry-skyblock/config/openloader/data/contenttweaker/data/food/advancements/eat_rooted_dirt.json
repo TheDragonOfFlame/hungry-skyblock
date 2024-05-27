@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rooted_dirt"
+    },
+    "title": {
+      "translate": "advancements.husbandry.eat_rooted_dirt.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.eat_rooted_dirt.description"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rooted_dirt"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "food:eat_rooted_dirt",
+    "loot": [
+      "food:meals/eat_rooted_dirt"
+    ]
+  }
+}

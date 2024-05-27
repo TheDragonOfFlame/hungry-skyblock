@@ -1,0 +1,20 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "botania:lexicon": {
+      "viewedEntries": [
+        "botania:basics/rune_altar",
+        "botania:tools/grass_seeds",
+        "botania:functional_flowers/daffomill",
+        "botania:generating_flowers/munchdew",
+        "botania:generating_flowers/gourmaryllis",
+        "botania:generating_flowers/intro",
+        "botania:generating_flowers/endoflame",
+        "botania:mana/intro"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
