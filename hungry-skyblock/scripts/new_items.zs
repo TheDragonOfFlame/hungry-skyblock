@@ -28,5 +28,4 @@ import contenttweaker.builder.vanilla.item.Basic;
 
 <factory:item>.typed<Basic>()
     .tab(<tab:building_blocks>)
-    .maxStackSize(1)
     .build("magma_and_ice_stew");

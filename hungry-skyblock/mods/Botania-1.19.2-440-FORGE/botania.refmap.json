@@ -1,0 +1,524 @@
+{
+  "mappings": {
+    "vazkii/botania/mixin/PistonBaseBlockAccessor": {
+      "moveBlocks": "m_60181_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z"
+    },
+    "vazkii/botania/mixin/client/RecipeBookComponentAccessor": {
+      "recipeBookPage": "f_100284_:Lnet/minecraft/client/gui/screens/recipebook/RecipeBookPage;"
+    },
+    "vazkii/botania/mixin/client/LevelRendererMixin": {
+      "Lnet/minecraft/client/multiplayer/ClientLevel;getRainLevel(F)F": "Lnet/minecraft/client/multiplayer/ClientLevel;m_46722_(F)F",
+      "Lnet/minecraft/client/multiplayer/ClientLevel;getStarBrightness(F)F": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104811_(F)F",
+      "renderLevel": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lcom/mojang/math/Matrix4f;)V",
+      "Lnet/minecraft/client/multiplayer/ClientLevel;getTimeOfDay(F)F": "Lnet/minecraft/client/multiplayer/ClientLevel;m_46942_(F)F",
+      "Lcom/mojang/blaze3d/systems/RenderSystem;applyModelViewMatrix()V": "Lcom/mojang/blaze3d/systems/RenderSystem;m_157182_()V",
+      "renderSky": "Lnet/minecraft/client/renderer/LevelRenderer;m_202423_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/math/Matrix4f;FLnet/minecraft/client/Camera;ZLjava/lang/Runnable;)V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;mulPose(Lcom/mojang/math/Quaternion;)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85845_(Lcom/mojang/math/Quaternion;)V",
+      "Lcom/mojang/blaze3d/systems/RenderSystem;setShaderTexture(ILnet/minecraft/resources/ResourceLocation;)V": "Lcom/mojang/blaze3d/systems/RenderSystem;m_157456_(ILnet/minecraft/resources/ResourceLocation;)V"
+    },
+    "vazkii/botania/mixin/BeeMixin": {
+      "Lnet/minecraft/world/entity/animal/Bee;level:Lnet/minecraft/world/level/Level;": "Lnet/minecraft/world/entity/animal/Bee;f_19853_:Lnet/minecraft/world/level/Level;",
+      "isFlowerValid": "Lnet/minecraft/world/entity/animal/Bee;m_27896_(Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "vazkii/botania/mixin/LootTableMixin": {
+      "getRandomItemsRaw": "Lnet/minecraft/world/level/storage/loot/LootTable;m_79131_(Lnet/minecraft/world/level/storage/loot/LootContext;Ljava/util/function/Consumer;)V"
+    },
+    "vazkii/botania/mixin/BaseSpawnerMixin": {
+      "isNearPlayer": "Lnet/minecraft/world/level/BaseSpawner;m_151343_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "vazkii/botania/mixin/HopperBlockEntityAccessor": {
+      "canPlaceItemInContainer": "m_59334_(Lnet/minecraft/world/Container;Lnet/minecraft/world/item/ItemStack;ILnet/minecraft/core/Direction;)Z",
+      "canMergeItems": "m_59344_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z"
+    },
+    "vazkii/botania/mixin/client/ItemInHandRendererMixin": {
+      "renderItem": "Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109322_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/renderer/block/model/ItemTransforms$TransformType;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "vazkii/botania/mixin/client/RenderBuffersAccessor": {
+      "fixedBuffers": "f_110093_:Ljava/util/SortedMap;"
+    },
+    "vazkii/botania/mixin/FireBlockAccessor": {
+      "setFlammable": "m_53444_(Lnet/minecraft/world/level/block/Block;II)V"
+    },
+    "vazkii/botania/mixin/LevelAccessor": {
+      "neighborUpdater": "f_220350_:Lnet/minecraft/world/level/redstone/NeighborUpdater;"
+    },
+    "vazkii/botania/mixin/PistonBaseBlockMixin": {
+      "moveBlocks": "Lnet/minecraft/world/level/block/piston/PistonBaseBlock;m_60181_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z",
+      "moveBlocks(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z": "Lnet/minecraft/world/level/block/piston/PistonBaseBlock;m_60181_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z"
+    },
+    "vazkii/botania/mixin/client/AbstractContainerScreenAccessor": {
+      "hoveredSlot": "f_97734_:Lnet/minecraft/world/inventory/Slot;"
+    },
+    "vazkii/botania/forge/mixin/client/ModelBakeryForgeAccessor": {
+      "resourceManager": "f_119243_:Lnet/minecraft/server/packs/resources/ResourceManager;"
+    },
+    "vazkii/botania/mixin/ItemEntityAccessor": {
+      "pickupDelay": "f_31986_:I",
+      "age": "f_31985_:I"
+    },
+    "vazkii/botania/mixin/ThrowableProjectileMixin": {
+      "Lnet/minecraft/world/phys/Vec3;scale(D)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/world/phys/Vec3;m_82490_(D)Lnet/minecraft/world/phys/Vec3;",
+      "tick": "Lnet/minecraft/world/entity/projectile/ThrowableProjectile;m_8119_()V"
+    },
+    "vazkii/botania/mixin/NoiseBasedChunkGeneratorAccessor": {
+      "noises": "f_188604_:Lnet/minecraft/core/Registry;"
+    },
+    "vazkii/botania/mixin/PollinateGoalMixin": {
+      "net.minecraft.world.entity.animal.Bee$BeePollinateGoal": "net/minecraft/world/entity/animal/Bee$BeePollinateGoal",
+      "<init>(Lnet/minecraft/world/entity/animal/Bee;)V": "Lnet/minecraft/world/entity/animal/Bee$BeePollinateGoal;<init>(Lnet/minecraft/world/entity/animal/Bee;)V"
+    },
+    "vazkii/botania/mixin/NearestAttackableTargetGoalAccessor": {
+      "targetType": "f_26048_:Ljava/lang/Class;"
+    },
+    "vazkii/botania/mixin/SpawnPlacementsMixin": {
+      "checkSpawnRules": "Lnet/minecraft/world/entity/SpawnPlacements;m_217074_(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z"
+    },
+    "vazkii/botania/mixin/ServerLevelMixin": {
+      "addPlayer": "Lnet/minecraft/server/level/ServerLevel;m_8853_(Lnet/minecraft/server/level/ServerPlayer;)V"
+    },
+    "vazkii/botania/mixin/PlayerMixin": {
+      "dropEquipment": "Lnet/minecraft/world/entity/player/Player;m_5907_()V",
+      "Lnet/minecraft/world/entity/Entity;hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z": "Lnet/minecraft/world/entity/Entity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "attack": "Lnet/minecraft/world/entity/player/Player;m_5706_(Lnet/minecraft/world/entity/Entity;)V",
+      "Lnet/minecraft/world/entity/player/Player;getVehicle()Lnet/minecraft/world/entity/Entity;": "Lnet/minecraft/world/entity/player/Player;m_20202_()Lnet/minecraft/world/entity/Entity;",
+      "checkRidingStatistics": "Lnet/minecraft/world/entity/player/Player;m_36387_(DDD)V",
+      "Lnet/minecraft/world/entity/player/Inventory;dropAll()V": "Lnet/minecraft/world/entity/player/Inventory;m_36071_()V",
+      "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;getKnockbackBonus(Lnet/minecraft/world/entity/LivingEntity;)I": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44894_(Lnet/minecraft/world/entity/LivingEntity;)I"
+    },
+    "vazkii/botania/mixin/NaturalSpawnerMixin": {
+      "Lnet/minecraft/server/level/ServerLevel;addFreshEntityWithPassengers(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/server/level/ServerLevel;m_47205_(Lnet/minecraft/world/entity/Entity;)V",
+      "spawnCategoryForPosition(Lnet/minecraft/world/entity/MobCategory;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/NaturalSpawner$SpawnPredicate;Lnet/minecraft/world/level/NaturalSpawner$AfterSpawnCallback;)V": "Lnet/minecraft/world/level/NaturalSpawner;m_47038_(Lnet/minecraft/world/entity/MobCategory;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/NaturalSpawner$SpawnPredicate;Lnet/minecraft/world/level/NaturalSpawner$AfterSpawnCallback;)V",
+      "isValidPositionForMob": "Lnet/minecraft/world/level/NaturalSpawner;m_46991_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Mob;D)Z"
+    },
+    "vazkii/botania/mixin/ServerPlayerMixin": {
+      "initMenu": "Lnet/minecraft/server/level/ServerPlayer;m_143399_(Lnet/minecraft/world/inventory/AbstractContainerMenu;)V",
+      "tick": "Lnet/minecraft/server/level/ServerPlayer;m_8119_()V"
+    },
+    "vazkii/botania/mixin/LivingEntityAccessor": {
+      "useItemRemaining": "f_20936_:I",
+      "createLootContext": "m_7771_(ZLnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/world/level/storage/loot/LootContext$Builder;"
+    },
+    "vazkii/botania/mixin/client/ClientLevelDataMixin": {
+      "getClearColorScale": "Lnet/minecraft/client/multiplayer/ClientLevel$ClientLevelData;m_205519_()F",
+      "getHorizonHeight": "Lnet/minecraft/client/multiplayer/ClientLevel$ClientLevelData;m_171687_(Lnet/minecraft/world/level/LevelHeightAccessor;)D"
+    },
+    "vazkii/botania/mixin/FarmBlockMixin": {
+      "canSurvive": "Lnet/minecraft/world/level/block/FarmBlock;m_7898_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z",
+      "Lnet/minecraft/world/level/LevelReader;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;": "Lnet/minecraft/world/level/LevelReader;m_8055_(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"
+    },
+    "vazkii/botania/mixin/CriteriaTriggersAccessor": {
+      "register": "m_10595_(Lnet/minecraft/advancements/CriterionTrigger;)Lnet/minecraft/advancements/CriterionTrigger;"
+    },
+    "vazkii/botania/mixin/LoomMenuMixin": {
+      "getSelectablePatterns(Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;": "Lnet/minecraft/world/inventory/LoomMenu;m_219993_(Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;"
+    },
+    "vazkii/botania/mixin/client/RenderTypeAccessor": {
+      "create": "m_173215_(Ljava/lang/String;Lcom/mojang/blaze3d/vertex/VertexFormat;Lcom/mojang/blaze3d/vertex/VertexFormat$Mode;IZZLnet/minecraft/client/renderer/RenderType$CompositeState;)Lnet/minecraft/client/renderer/RenderType$CompositeRenderType;"
+    },
+    "vazkii/botania/mixin/TextureSlotAccessor": {
+      "create": "m_125898_(Ljava/lang/String;)Lnet/minecraft/data/models/model/TextureSlot;"
+    },
+    "vazkii/botania/mixin/client/MinecraftAccessor": {
+      "itemColors": "f_91041_:Lnet/minecraft/client/color/item/ItemColors;"
+    },
+    "vazkii/botania/mixin/MobEffectAccessor": {
+      "category": "f_19447_:Lnet/minecraft/world/effect/MobEffectCategory;"
+    },
+    "vazkii/botania/mixin/client/ModelBakeryAccessor": {
+      "atlasSet": "f_119244_:Lnet/minecraft/client/renderer/texture/AtlasSet;",
+      "UNREFERENCED_TEXTURES": "f_119234_:Ljava/util/Set;"
+    },
+    "vazkii/botania/mixin/RecipeManagerAccessor": {
+      "byType": "m_44054_(Lnet/minecraft/world/item/crafting/RecipeType;)Ljava/util/Map;"
+    },
+    "vazkii/botania/mixin/CreeperMixin": {
+      "registerGoals": "Lnet/minecraft/world/entity/monster/Creeper;m_8099_()V"
+    },
+    "vazkii/botania/mixin/BlockModelGeneratorsAccessor": {
+      "createFacingDispatch": "m_124850_()Lnet/minecraft/data/models/blockstates/PropertyDispatch;",
+      "createHorizontalFacingDispatch": "m_124727_()Lnet/minecraft/data/models/blockstates/PropertyDispatch;",
+      "createFenceGate": "m_124809_(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/data/models/blockstates/BlockStateGenerator;",
+      "createFence": "m_124904_(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/data/models/blockstates/BlockStateGenerator;",
+      "createAxisAlignedPillarBlock": "m_124881_(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/data/models/blockstates/BlockStateGenerator;",
+      "createRotatedVariants": "m_124688_(Lnet/minecraft/resources/ResourceLocation;)[Lnet/minecraft/data/models/blockstates/Variant;",
+      "createSlab": "m_124928_(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/data/models/blockstates/BlockStateGenerator;"
+    },
+    "vazkii/botania/mixin/AbstractFurnaceBlockEntityAccessor": {
+      "quickCheck": "f_222691_:Lnet/minecraft/world/item/crafting/RecipeManager$CachedCheck;",
+      "cookingTotalTime": "f_58319_:I",
+      "litTime": "f_58316_:I",
+      "items": "f_58310_:Lnet/minecraft/core/NonNullList;",
+      "cookingProgress": "f_58318_:I"
+    },
+    "vazkii/botania/mixin/AbstractHorseAccessor": {
+      "inventory": "f_30520_:Lnet/minecraft/world/SimpleContainer;"
+    },
+    "vazkii/botania/mixin/MobAccessor": {
+      "targetSelector": "f_21346_:Lnet/minecraft/world/entity/ai/goal/GoalSelector;",
+      "getAmbientSound": "m_7515_()Lnet/minecraft/sounds/SoundEvent;",
+      "lootTable": "f_21355_:Lnet/minecraft/resources/ResourceLocation;",
+      "goalSelector": "f_21345_:Lnet/minecraft/world/entity/ai/goal/GoalSelector;"
+    },
+    "vazkii/botania/mixin/AbstractMinecartMixin": {
+      "tick": "Lnet/minecraft/world/entity/vehicle/AbstractMinecart;m_8119_()V"
+    },
+    "vazkii/botania/mixin/ItemEntityMixin": {
+      "Lnet/minecraft/world/entity/item/ItemEntity;age:I": "Lnet/minecraft/world/entity/item/ItemEntity;f_31985_:I",
+      "tick": "Lnet/minecraft/world/entity/item/ItemEntity;m_8119_()V"
+    },
+    "vazkii/botania/mixin/client/ModelManagerAccessor": {
+      "bakedRegistry": "f_119397_:Ljava/util/Map;"
+    },
+    "vazkii/botania/mixin/WitherEntityAccessor": {
+      "getHeadZ": "m_31518_(I)D",
+      "getHeadX": "m_31514_(I)D",
+      "getHeadY": "m_31516_(I)D"
+    },
+    "vazkii/botania/mixin/BiomeAccessor": {
+      "getTemperature": "m_47505_(Lnet/minecraft/core/BlockPos;)F"
+    },
+    "vazkii/botania/mixin/DamageSourceAccessor": {
+      "bypassArmor": "m_19380_()Lnet/minecraft/world/damagesource/DamageSource;"
+    },
+    "vazkii/botania/mixin/SoundTypeAccessor": {
+      "breakSound": "f_56733_:Lnet/minecraft/sounds/SoundEvent;"
+    },
+    "vazkii/botania/mixin/client/ItemRendererAccessor": {
+      "renderQuadList": "m_115162_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Ljava/util/List;Lnet/minecraft/world/item/ItemStack;II)V"
+    },
+    "vazkii/botania/mixin/client/SkullBlockRendererMixin": {
+      "createSkullRenderers": "Lnet/minecraft/client/renderer/blockentity/SkullBlockRenderer;m_173661_(Lnet/minecraft/client/model/geom/EntityModelSet;)Ljava/util/Map;",
+      "getRenderType": "Lnet/minecraft/client/renderer/blockentity/SkullBlockRenderer;m_112523_(Lnet/minecraft/world/level/block/SkullBlock$Type;Lcom/mojang/authlib/GameProfile;)Lnet/minecraft/client/renderer/RenderType;"
+    },
+    "vazkii/botania/mixin/CollectingNeighborUpdaterMixin": {
+      "runUpdates": "Lnet/minecraft/world/level/redstone/CollectingNeighborUpdater;m_230645_()V"
+    },
+    "vazkii/botania/mixin/HurtByTargetGoalAccessor": {
+      "toIgnoreDamage": "f_26035_:[Ljava/lang/Class;"
+    },
+    "vazkii/botania/mixin/EntityAccessor": {
+      "unsetRemoved": "m_146912_()V"
+    },
+    "vazkii/botania/mixin/LoomMenuPatternSlotMixin": {
+      "mayPlace": "Lnet/minecraft/world/inventory/LoomMenu$5;m_5857_(Lnet/minecraft/world/item/ItemStack;)Z",
+      "net.minecraft.world.inventory.LoomMenu$5": "net/minecraft/world/inventory/LoomMenu$5"
+    },
+    "vazkii/botania/mixin/GoalSelectorAccessor": {
+      "availableGoals": "f_25345_:Ljava/util/Set;"
+    },
+    "vazkii/botania/mixin/StatsAccessor": {
+      "makeCustomStat": "m_13007_(Ljava/lang/String;Lnet/minecraft/stats/StatFormatter;)Lnet/minecraft/resources/ResourceLocation;"
+    },
+    "vazkii/botania/mixin/AdvancementProviderAccessor": {
+      "tabs": "f_123963_:Ljava/util/List;"
+    },
+    "vazkii/botania/mixin/CreeperAccessor": {
+      "swell": "f_32270_:I"
+    },
+    "vazkii/botania/mixin/RecipeProviderAccessor": {
+      "inventoryTrigger": "m_126011_([Lnet/minecraft/advancements/critereon/ItemPredicate;)Lnet/minecraft/advancements/critereon/InventoryChangeTrigger$TriggerInstance;",
+      "saveRecipe": "m_236359_(Lnet/minecraft/data/CachedOutput;Lcom/google/gson/JsonObject;Ljava/nio/file/Path;)V"
+    },
+    "vazkii/botania/mixin/EntityMixin": {
+      "isInvulnerableTo": "Lnet/minecraft/world/entity/Entity;m_6673_(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+    },
+    "vazkii/botania/mixin/client/SplashManagerMixin": {
+      "apply(Ljava/util/List;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V": "Lnet/minecraft/client/resources/SplashManager;m_5787_(Ljava/util/List;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V"
+    },
+    "vazkii/botania/mixin/client/RecipeBookComponentMixin": {
+      "renderGhostRecipeTooltip": "Lnet/minecraft/client/gui/screens/recipebook/RecipeBookComponent;m_100374_(Lcom/mojang/blaze3d/vertex/PoseStack;IIII)V"
+    },
+    "vazkii/botania/forge/mixin/RegistryForgeAccessor": {
+      "registerDefaulted": "m_206027_(Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;Lnet/minecraft/core/Registry$RegistryBootstrap;)Lnet/minecraft/core/DefaultedRegistry;"
+    },
+    "vazkii/botania/mixin/client/SoundEngineMixin": {
+      "play": "Lnet/minecraft/client/sounds/SoundEngine;m_120312_(Lnet/minecraft/client/resources/sounds/SoundInstance;)V",
+      "calculateVolume(Lnet/minecraft/client/resources/sounds/SoundInstance;)F": "Lnet/minecraft/client/sounds/SoundEngine;m_120327_(Lnet/minecraft/client/resources/sounds/SoundInstance;)F",
+      "calculateVolume(FLnet/minecraft/sounds/SoundSource;)F": "Lnet/minecraft/client/sounds/SoundEngine;m_235257_(FLnet/minecraft/sounds/SoundSource;)F",
+      "Lnet/minecraft/util/Mth;clamp(FFF)F": "Lnet/minecraft/util/Mth;m_14036_(FFF)F"
+    },
+    "vazkii/botania/mixin/BushBlockMixin": {
+      "mayPlaceOn": "Lnet/minecraft/world/level/block/BushBlock;m_6266_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "vazkii/botania/forge/mixin/AbstractFurnaceBlockEntityForgeAccessor": {
+      "canBurn": "m_155005_(Lnet/minecraft/world/item/crafting/Recipe;Lnet/minecraft/core/NonNullList;I)Z"
+    },
+    "vazkii/botania/mixin/ItemMixin": {
+      "getCraftingRemainingItem": "Lnet/minecraft/world/item/Item;m_41469_()Lnet/minecraft/world/item/Item;"
+    },
+    "vazkii/botania/forge/mixin/RecipeProviderForgeAccessor": {
+      "saveAdvancement": "m_236367_(Lnet/minecraft/data/CachedOutput;Lcom/google/gson/JsonObject;Ljava/nio/file/Path;)V"
+    },
+    "vazkii/botania/mixin/client/LevelRendererAccessor": {
+      "renderShape": "m_109782_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/phys/shapes/VoxelShape;DDDFFFF)V"
+    },
+    "vazkii/botania/mixin/client/RecipeBookPageAccessor": {
+      "hoveredButton": "f_100395_:Lnet/minecraft/client/gui/screens/recipebook/RecipeButton;"
+    },
+    "vazkii/botania/mixin/DispenserBlockAccessor": {
+      "DISPENSER_REGISTRY": "f_52661_:Ljava/util/Map;"
+    }
+  },
+  "data": {
+    "searge": {
+      "vazkii/botania/mixin/PistonBaseBlockAccessor": {
+        "moveBlocks": "m_60181_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z"
+      },
+      "vazkii/botania/mixin/client/RecipeBookComponentAccessor": {
+        "recipeBookPage": "f_100284_:Lnet/minecraft/client/gui/screens/recipebook/RecipeBookPage;"
+      },
+      "vazkii/botania/mixin/client/LevelRendererMixin": {
+        "Lnet/minecraft/client/multiplayer/ClientLevel;getRainLevel(F)F": "Lnet/minecraft/client/multiplayer/ClientLevel;m_46722_(F)F",
+        "Lnet/minecraft/client/multiplayer/ClientLevel;getStarBrightness(F)F": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104811_(F)F",
+        "renderLevel": "Lnet/minecraft/client/renderer/LevelRenderer;m_109599_(Lcom/mojang/blaze3d/vertex/PoseStack;FJZLnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/GameRenderer;Lnet/minecraft/client/renderer/LightTexture;Lcom/mojang/math/Matrix4f;)V",
+        "Lnet/minecraft/client/multiplayer/ClientLevel;getTimeOfDay(F)F": "Lnet/minecraft/client/multiplayer/ClientLevel;m_46942_(F)F",
+        "Lcom/mojang/blaze3d/systems/RenderSystem;applyModelViewMatrix()V": "Lcom/mojang/blaze3d/systems/RenderSystem;m_157182_()V",
+        "renderSky": "Lnet/minecraft/client/renderer/LevelRenderer;m_202423_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/math/Matrix4f;FLnet/minecraft/client/Camera;ZLjava/lang/Runnable;)V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;mulPose(Lcom/mojang/math/Quaternion;)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85845_(Lcom/mojang/math/Quaternion;)V",
+        "Lcom/mojang/blaze3d/systems/RenderSystem;setShaderTexture(ILnet/minecraft/resources/ResourceLocation;)V": "Lcom/mojang/blaze3d/systems/RenderSystem;m_157456_(ILnet/minecraft/resources/ResourceLocation;)V"
+      },
+      "vazkii/botania/mixin/BeeMixin": {
+        "Lnet/minecraft/world/entity/animal/Bee;level:Lnet/minecraft/world/level/Level;": "Lnet/minecraft/world/entity/animal/Bee;f_19853_:Lnet/minecraft/world/level/Level;",
+        "isFlowerValid": "Lnet/minecraft/world/entity/animal/Bee;m_27896_(Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "vazkii/botania/mixin/LootTableMixin": {
+        "getRandomItemsRaw": "Lnet/minecraft/world/level/storage/loot/LootTable;m_79131_(Lnet/minecraft/world/level/storage/loot/LootContext;Ljava/util/function/Consumer;)V"
+      },
+      "vazkii/botania/mixin/BaseSpawnerMixin": {
+        "isNearPlayer": "Lnet/minecraft/world/level/BaseSpawner;m_151343_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "vazkii/botania/mixin/HopperBlockEntityAccessor": {
+        "canPlaceItemInContainer": "m_59334_(Lnet/minecraft/world/Container;Lnet/minecraft/world/item/ItemStack;ILnet/minecraft/core/Direction;)Z",
+        "canMergeItems": "m_59344_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Z"
+      },
+      "vazkii/botania/mixin/client/ItemInHandRendererMixin": {
+        "renderItem": "Lnet/minecraft/client/renderer/ItemInHandRenderer;m_109322_(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/renderer/block/model/ItemTransforms$TransformType;ZLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "vazkii/botania/mixin/client/RenderBuffersAccessor": {
+        "fixedBuffers": "f_110093_:Ljava/util/SortedMap;"
+      },
+      "vazkii/botania/mixin/FireBlockAccessor": {
+        "setFlammable": "m_53444_(Lnet/minecraft/world/level/block/Block;II)V"
+      },
+      "vazkii/botania/mixin/LevelAccessor": {
+        "neighborUpdater": "f_220350_:Lnet/minecraft/world/level/redstone/NeighborUpdater;"
+      },
+      "vazkii/botania/mixin/PistonBaseBlockMixin": {
+        "moveBlocks": "Lnet/minecraft/world/level/block/piston/PistonBaseBlock;m_60181_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z",
+        "moveBlocks(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z": "Lnet/minecraft/world/level/block/piston/PistonBaseBlock;m_60181_(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Z)Z"
+      },
+      "vazkii/botania/mixin/client/AbstractContainerScreenAccessor": {
+        "hoveredSlot": "f_97734_:Lnet/minecraft/world/inventory/Slot;"
+      },
+      "vazkii/botania/forge/mixin/client/ModelBakeryForgeAccessor": {
+        "resourceManager": "f_119243_:Lnet/minecraft/server/packs/resources/ResourceManager;"
+      },
+      "vazkii/botania/mixin/ItemEntityAccessor": {
+        "pickupDelay": "f_31986_:I",
+        "age": "f_31985_:I"
+      },
+      "vazkii/botania/mixin/ThrowableProjectileMixin": {
+        "Lnet/minecraft/world/phys/Vec3;scale(D)Lnet/minecraft/world/phys/Vec3;": "Lnet/minecraft/world/phys/Vec3;m_82490_(D)Lnet/minecraft/world/phys/Vec3;",
+        "tick": "Lnet/minecraft/world/entity/projectile/ThrowableProjectile;m_8119_()V"
+      },
+      "vazkii/botania/mixin/NoiseBasedChunkGeneratorAccessor": {
+        "noises": "f_188604_:Lnet/minecraft/core/Registry;"
+      },
+      "vazkii/botania/mixin/PollinateGoalMixin": {
+        "net.minecraft.world.entity.animal.Bee$BeePollinateGoal": "net/minecraft/world/entity/animal/Bee$BeePollinateGoal",
+        "<init>(Lnet/minecraft/world/entity/animal/Bee;)V": "Lnet/minecraft/world/entity/animal/Bee$BeePollinateGoal;<init>(Lnet/minecraft/world/entity/animal/Bee;)V"
+      },
+      "vazkii/botania/mixin/NearestAttackableTargetGoalAccessor": {
+        "targetType": "f_26048_:Ljava/lang/Class;"
+      },
+      "vazkii/botania/mixin/SpawnPlacementsMixin": {
+        "checkSpawnRules": "Lnet/minecraft/world/entity/SpawnPlacements;m_217074_(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)Z"
+      },
+      "vazkii/botania/mixin/ServerLevelMixin": {
+        "addPlayer": "Lnet/minecraft/server/level/ServerLevel;m_8853_(Lnet/minecraft/server/level/ServerPlayer;)V"
+      },
+      "vazkii/botania/mixin/PlayerMixin": {
+        "dropEquipment": "Lnet/minecraft/world/entity/player/Player;m_5907_()V",
+        "Lnet/minecraft/world/entity/Entity;hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z": "Lnet/minecraft/world/entity/Entity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+        "attack": "Lnet/minecraft/world/entity/player/Player;m_5706_(Lnet/minecraft/world/entity/Entity;)V",
+        "Lnet/minecraft/world/entity/player/Player;getVehicle()Lnet/minecraft/world/entity/Entity;": "Lnet/minecraft/world/entity/player/Player;m_20202_()Lnet/minecraft/world/entity/Entity;",
+        "checkRidingStatistics": "Lnet/minecraft/world/entity/player/Player;m_36387_(DDD)V",
+        "Lnet/minecraft/world/entity/player/Inventory;dropAll()V": "Lnet/minecraft/world/entity/player/Inventory;m_36071_()V",
+        "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;getKnockbackBonus(Lnet/minecraft/world/entity/LivingEntity;)I": "Lnet/minecraft/world/item/enchantment/EnchantmentHelper;m_44894_(Lnet/minecraft/world/entity/LivingEntity;)I"
+      },
+      "vazkii/botania/mixin/NaturalSpawnerMixin": {
+        "Lnet/minecraft/server/level/ServerLevel;addFreshEntityWithPassengers(Lnet/minecraft/world/entity/Entity;)V": "Lnet/minecraft/server/level/ServerLevel;m_47205_(Lnet/minecraft/world/entity/Entity;)V",
+        "spawnCategoryForPosition(Lnet/minecraft/world/entity/MobCategory;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/NaturalSpawner$SpawnPredicate;Lnet/minecraft/world/level/NaturalSpawner$AfterSpawnCallback;)V": "Lnet/minecraft/world/level/NaturalSpawner;m_47038_(Lnet/minecraft/world/entity/MobCategory;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/NaturalSpawner$SpawnPredicate;Lnet/minecraft/world/level/NaturalSpawner$AfterSpawnCallback;)V",
+        "isValidPositionForMob": "Lnet/minecraft/world/level/NaturalSpawner;m_46991_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/Mob;D)Z"
+      },
+      "vazkii/botania/mixin/ServerPlayerMixin": {
+        "initMenu": "Lnet/minecraft/server/level/ServerPlayer;m_143399_(Lnet/minecraft/world/inventory/AbstractContainerMenu;)V",
+        "tick": "Lnet/minecraft/server/level/ServerPlayer;m_8119_()V"
+      },
+      "vazkii/botania/mixin/LivingEntityAccessor": {
+        "useItemRemaining": "f_20936_:I",
+        "createLootContext": "m_7771_(ZLnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/world/level/storage/loot/LootContext$Builder;"
+      },
+      "vazkii/botania/mixin/client/ClientLevelDataMixin": {
+        "getClearColorScale": "Lnet/minecraft/client/multiplayer/ClientLevel$ClientLevelData;m_205519_()F",
+        "getHorizonHeight": "Lnet/minecraft/client/multiplayer/ClientLevel$ClientLevelData;m_171687_(Lnet/minecraft/world/level/LevelHeightAccessor;)D"
+      },
+      "vazkii/botania/mixin/FarmBlockMixin": {
+        "canSurvive": "Lnet/minecraft/world/level/block/FarmBlock;m_7898_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z",
+        "Lnet/minecraft/world/level/LevelReader;getBlockState(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;": "Lnet/minecraft/world/level/LevelReader;m_8055_(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"
+      },
+      "vazkii/botania/mixin/CriteriaTriggersAccessor": {
+        "register": "m_10595_(Lnet/minecraft/advancements/CriterionTrigger;)Lnet/minecraft/advancements/CriterionTrigger;"
+      },
+      "vazkii/botania/mixin/LoomMenuMixin": {
+        "getSelectablePatterns(Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;": "Lnet/minecraft/world/inventory/LoomMenu;m_219993_(Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;"
+      },
+      "vazkii/botania/mixin/client/RenderTypeAccessor": {
+        "create": "m_173215_(Ljava/lang/String;Lcom/mojang/blaze3d/vertex/VertexFormat;Lcom/mojang/blaze3d/vertex/VertexFormat$Mode;IZZLnet/minecraft/client/renderer/RenderType$CompositeState;)Lnet/minecraft/client/renderer/RenderType$CompositeRenderType;"
+      },
+      "vazkii/botania/mixin/TextureSlotAccessor": {
+        "create": "m_125898_(Ljava/lang/String;)Lnet/minecraft/data/models/model/TextureSlot;"
+      },
+      "vazkii/botania/mixin/client/MinecraftAccessor": {
+        "itemColors": "f_91041_:Lnet/minecraft/client/color/item/ItemColors;"
+      },
+      "vazkii/botania/mixin/MobEffectAccessor": {
+        "category": "f_19447_:Lnet/minecraft/world/effect/MobEffectCategory;"
+      },
+      "vazkii/botania/mixin/client/ModelBakeryAccessor": {
+        "atlasSet": "f_119244_:Lnet/minecraft/client/renderer/texture/AtlasSet;",
+        "UNREFERENCED_TEXTURES": "f_119234_:Ljava/util/Set;"
+      },
+      "vazkii/botania/mixin/RecipeManagerAccessor": {
+        "byType": "m_44054_(Lnet/minecraft/world/item/crafting/RecipeType;)Ljava/util/Map;"
+      },
+      "vazkii/botania/mixin/CreeperMixin": {
+        "registerGoals": "Lnet/minecraft/world/entity/monster/Creeper;m_8099_()V"
+      },
+      "vazkii/botania/mixin/BlockModelGeneratorsAccessor": {
+        "createFacingDispatch": "m_124850_()Lnet/minecraft/data/models/blockstates/PropertyDispatch;",
+        "createHorizontalFacingDispatch": "m_124727_()Lnet/minecraft/data/models/blockstates/PropertyDispatch;",
+        "createFenceGate": "m_124809_(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/data/models/blockstates/BlockStateGenerator;",
+        "createFence": "m_124904_(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/data/models/blockstates/BlockStateGenerator;",
+        "createAxisAlignedPillarBlock": "m_124881_(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/data/models/blockstates/BlockStateGenerator;",
+        "createRotatedVariants": "m_124688_(Lnet/minecraft/resources/ResourceLocation;)[Lnet/minecraft/data/models/blockstates/Variant;",
+        "createSlab": "m_124928_(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)Lnet/minecraft/data/models/blockstates/BlockStateGenerator;"
+      },
+      "vazkii/botania/mixin/AbstractFurnaceBlockEntityAccessor": {
+        "quickCheck": "f_222691_:Lnet/minecraft/world/item/crafting/RecipeManager$CachedCheck;",
+        "cookingTotalTime": "f_58319_:I",
+        "litTime": "f_58316_:I",
+        "items": "f_58310_:Lnet/minecraft/core/NonNullList;",
+        "cookingProgress": "f_58318_:I"
+      },
+      "vazkii/botania/mixin/AbstractHorseAccessor": {
+        "inventory": "f_30520_:Lnet/minecraft/world/SimpleContainer;"
+      },
+      "vazkii/botania/mixin/MobAccessor": {
+        "targetSelector": "f_21346_:Lnet/minecraft/world/entity/ai/goal/GoalSelector;",
+        "getAmbientSound": "m_7515_()Lnet/minecraft/sounds/SoundEvent;",
+        "lootTable": "f_21355_:Lnet/minecraft/resources/ResourceLocation;",
+        "goalSelector": "f_21345_:Lnet/minecraft/world/entity/ai/goal/GoalSelector;"
+      },
+      "vazkii/botania/mixin/AbstractMinecartMixin": {
+        "tick": "Lnet/minecraft/world/entity/vehicle/AbstractMinecart;m_8119_()V"
+      },
+      "vazkii/botania/mixin/ItemEntityMixin": {
+        "Lnet/minecraft/world/entity/item/ItemEntity;age:I": "Lnet/minecraft/world/entity/item/ItemEntity;f_31985_:I",
+        "tick": "Lnet/minecraft/world/entity/item/ItemEntity;m_8119_()V"
+      },
+      "vazkii/botania/mixin/client/ModelManagerAccessor": {
+        "bakedRegistry": "f_119397_:Ljava/util/Map;"
+      },
+      "vazkii/botania/mixin/WitherEntityAccessor": {
+        "getHeadZ": "m_31518_(I)D",
+        "getHeadX": "m_31514_(I)D",
+        "getHeadY": "m_31516_(I)D"
+      },
+      "vazkii/botania/mixin/BiomeAccessor": {
+        "getTemperature": "m_47505_(Lnet/minecraft/core/BlockPos;)F"
+      },
+      "vazkii/botania/mixin/DamageSourceAccessor": {
+        "bypassArmor": "m_19380_()Lnet/minecraft/world/damagesource/DamageSource;"
+      },
+      "vazkii/botania/mixin/SoundTypeAccessor": {
+        "breakSound": "f_56733_:Lnet/minecraft/sounds/SoundEvent;"
+      },
+      "vazkii/botania/mixin/client/ItemRendererAccessor": {
+        "renderQuadList": "m_115162_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Ljava/util/List;Lnet/minecraft/world/item/ItemStack;II)V"
+      },
+      "vazkii/botania/mixin/client/SkullBlockRendererMixin": {
+        "createSkullRenderers": "Lnet/minecraft/client/renderer/blockentity/SkullBlockRenderer;m_173661_(Lnet/minecraft/client/model/geom/EntityModelSet;)Ljava/util/Map;",
+        "getRenderType": "Lnet/minecraft/client/renderer/blockentity/SkullBlockRenderer;m_112523_(Lnet/minecraft/world/level/block/SkullBlock$Type;Lcom/mojang/authlib/GameProfile;)Lnet/minecraft/client/renderer/RenderType;"
+      },
+      "vazkii/botania/mixin/CollectingNeighborUpdaterMixin": {
+        "runUpdates": "Lnet/minecraft/world/level/redstone/CollectingNeighborUpdater;m_230645_()V"
+      },
+      "vazkii/botania/mixin/HurtByTargetGoalAccessor": {
+        "toIgnoreDamage": "f_26035_:[Ljava/lang/Class;"
+      },
+      "vazkii/botania/mixin/EntityAccessor": {
+        "unsetRemoved": "m_146912_()V"
+      },
+      "vazkii/botania/mixin/LoomMenuPatternSlotMixin": {
+        "mayPlace": "Lnet/minecraft/world/inventory/LoomMenu$5;m_5857_(Lnet/minecraft/world/item/ItemStack;)Z",
+        "net.minecraft.world.inventory.LoomMenu$5": "net/minecraft/world/inventory/LoomMenu$5"
+      },
+      "vazkii/botania/mixin/GoalSelectorAccessor": {
+        "availableGoals": "f_25345_:Ljava/util/Set;"
+      },
+      "vazkii/botania/mixin/StatsAccessor": {
+        "makeCustomStat": "m_13007_(Ljava/lang/String;Lnet/minecraft/stats/StatFormatter;)Lnet/minecraft/resources/ResourceLocation;"
+      },
+      "vazkii/botania/mixin/AdvancementProviderAccessor": {
+        "tabs": "f_123963_:Ljava/util/List;"
+      },
+      "vazkii/botania/mixin/CreeperAccessor": {
+        "swell": "f_32270_:I"
+      },
+      "vazkii/botania/mixin/RecipeProviderAccessor": {
+        "inventoryTrigger": "m_126011_([Lnet/minecraft/advancements/critereon/ItemPredicate;)Lnet/minecraft/advancements/critereon/InventoryChangeTrigger$TriggerInstance;",
+        "saveRecipe": "m_236359_(Lnet/minecraft/data/CachedOutput;Lcom/google/gson/JsonObject;Ljava/nio/file/Path;)V"
+      },
+      "vazkii/botania/mixin/EntityMixin": {
+        "isInvulnerableTo": "Lnet/minecraft/world/entity/Entity;m_6673_(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+      },
+      "vazkii/botania/mixin/client/SplashManagerMixin": {
+        "apply(Ljava/util/List;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V": "Lnet/minecraft/client/resources/SplashManager;m_5787_(Ljava/util/List;Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/util/profiling/ProfilerFiller;)V"
+      },
+      "vazkii/botania/mixin/client/RecipeBookComponentMixin": {
+        "renderGhostRecipeTooltip": "Lnet/minecraft/client/gui/screens/recipebook/RecipeBookComponent;m_100374_(Lcom/mojang/blaze3d/vertex/PoseStack;IIII)V"
+      },
+      "vazkii/botania/forge/mixin/RegistryForgeAccessor": {
+        "registerDefaulted": "m_206027_(Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;Lnet/minecraft/core/Registry$RegistryBootstrap;)Lnet/minecraft/core/DefaultedRegistry;"
+      },
+      "vazkii/botania/mixin/client/SoundEngineMixin": {
+        "play": "Lnet/minecraft/client/sounds/SoundEngine;m_120312_(Lnet/minecraft/client/resources/sounds/SoundInstance;)V",
+        "calculateVolume(Lnet/minecraft/client/resources/sounds/SoundInstance;)F": "Lnet/minecraft/client/sounds/SoundEngine;m_120327_(Lnet/minecraft/client/resources/sounds/SoundInstance;)F",
+        "calculateVolume(FLnet/minecraft/sounds/SoundSource;)F": "Lnet/minecraft/client/sounds/SoundEngine;m_235257_(FLnet/minecraft/sounds/SoundSource;)F",
+        "Lnet/minecraft/util/Mth;clamp(FFF)F": "Lnet/minecraft/util/Mth;m_14036_(FFF)F"
+      },
+      "vazkii/botania/mixin/BushBlockMixin": {
+        "mayPlaceOn": "Lnet/minecraft/world/level/block/BushBlock;m_6266_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "vazkii/botania/forge/mixin/AbstractFurnaceBlockEntityForgeAccessor": {
+        "canBurn": "m_155005_(Lnet/minecraft/world/item/crafting/Recipe;Lnet/minecraft/core/NonNullList;I)Z"
+      },
+      "vazkii/botania/mixin/ItemMixin": {
+        "getCraftingRemainingItem": "Lnet/minecraft/world/item/Item;m_41469_()Lnet/minecraft/world/item/Item;"
+      },
+      "vazkii/botania/forge/mixin/RecipeProviderForgeAccessor": {
+        "saveAdvancement": "m_236367_(Lnet/minecraft/data/CachedOutput;Lcom/google/gson/JsonObject;Ljava/nio/file/Path;)V"
+      },
+      "vazkii/botania/mixin/client/LevelRendererAccessor": {
+        "renderShape": "m_109782_(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lnet/minecraft/world/phys/shapes/VoxelShape;DDDFFFF)V"
+      },
+      "vazkii/botania/mixin/client/RecipeBookPageAccessor": {
+        "hoveredButton": "f_100395_:Lnet/minecraft/client/gui/screens/recipebook/RecipeButton;"
+      },
+      "vazkii/botania/mixin/DispenserBlockAccessor": {
+        "DISPENSER_REGISTRY": "f_52661_:Ljava/util/Map;"
+      }
+    }
+  }
+}

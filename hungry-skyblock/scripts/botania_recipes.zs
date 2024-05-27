@@ -56,6 +56,31 @@
 }
 );
 
+<recipeType:botania:petal_apothecary>.addJsonRecipe("gold_oreberry", {
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "tag": "botania:petals/gray"
+    },
+    {
+      "tag": "botania:petals/yellow"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "output": {
+    "item": "oreberriesreplanted:gold_oreberry_bush"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}
+);
+
 <recipeType:botania:petal_apothecary>.remove(<item:botania:gourmaryllis>);
 <recipeType:botania:petal_apothecary>.addJsonRecipe("gourmaryllis", {
   "type": "botania:petal_apothecary",
@@ -139,6 +164,18 @@
   },
   "reagent": {
     "tag": "botania:seed_apothecary_reagent"
+  }
+}
+);
+
+<recipeType:botania:mana_infusion>.addJsonRecipe("bone_to_pork", {
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:bone"
+  },
+  "mana": 50,
+  "output": {
+    "item": "farmersdelight:ham"
   }
 }
 );

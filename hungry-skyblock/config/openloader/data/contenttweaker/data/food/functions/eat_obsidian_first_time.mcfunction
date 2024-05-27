@@ -1,0 +1,1 @@
+execute in minecraft:the_nether run place template food:nether_island -3 64 -3

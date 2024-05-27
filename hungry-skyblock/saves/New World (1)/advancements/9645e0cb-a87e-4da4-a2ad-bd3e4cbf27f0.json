@@ -1,309 +1,75 @@
 {
-  "botania:recipes/botania/floating_pure_daisy": {
+  "herbalist_garden:geteffect": {
     "criteria": {
-      "has_item": "2024-05-26 19:06:00 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lime_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "botania:main/lexicon_use": {
-    "criteria": {
-      "use_lexicon": "2024-05-26 19:08:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/black_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "botania:recipes/botania/dreamwood_wand": {
-    "criteria": {
-      "has_item": "2024-05-26 19:05:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2024-05-26 19:25:47 -0600"
-    },
-    "done": true
-  },
-  "botania:recipes/botania/petal_white": {
-    "criteria": {
-      "has_alt_item": "2024-05-26 19:05:45 -0600"
-    },
-    "done": true
-  },
-  "farmersdelight:main/place_cooking_pot": {
-    "criteria": {
-      "cooking_pot": "2024-05-26 17:33:34 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2024-05-26 19:05:41 -0600"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:river": "2024-05-26 17:23:54 -0600"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/magenta_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/orange_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2024-05-26 17:34:10 -0600"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2024-05-26 17:33:11 -0600"
-    },
-    "done": true
-  },
-  "botania:recipes/botania/apothecary_mossy": {
-    "criteria": {
-      "has_item": "2024-05-26 19:05:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2024-05-26 19:00:11 -0600"
-    },
-    "done": true
-  },
-  "botania:recipes/botania/white_petal_block": {
-    "criteria": {
-      "has_item": "2024-05-26 19:05:45 -0600"
-    },
-    "done": true
-  },
-  "botania:recipes/botania/apothecary_default": {
-    "criteria": {
-      "has_item": "2024-05-26 19:05:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cyan_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_mushroom_stew": "2024-05-26 17:24:27 -0600"
-    },
-    "done": true
-  },
-  "botania:recipes/botania/conversions/white_petal_block_deconstruct": {
-    "criteria": {
-      "has_item": "2024-05-26 19:05:45 -0600"
+      "geteffect": "2024-05-27 11:00:44 -0600"
     },
     "done": true
   },
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
-      "has_obsidian": "2024-05-26 19:00:11 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
+      "has_obsidian": "2024-05-27 11:00:54 -0600"
     },
     "done": true
   },
   "farmersdelight:main/root": {
     "criteria": {
-      "seeds": "2024-05-26 17:24:27 -0600"
+      "seeds": "2024-05-27 11:00:54 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pink_wool": {
+  "food:eat_obsidian_first_time": {
     "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
+      "apple": "2024-05-27 11:00:56 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "has_mushroom_stew": "2024-05-26 17:24:27 -0600"
+      "consumed_item": "2024-05-27 11:00:56 -0600"
     },
     "done": true
   },
-  "botania:recipes/botania/apothecary_deepslate": {
+  "minecraft:nether/root": {
     "criteria": {
-      "has_item": "2024-05-26 19:05:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "herbalist_garden:alchemist_garden": {
-    "criteria": {
-      "alchemist_garden": "2024-05-26 17:23:53 -0600"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2024-05-26 19:25:47 -0600"
-    },
-    "done": true
-  },
-  "enchanted:recipes/enchanted.main/earmuffs": {
-    "criteria": {
-      "has_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "herbalist_garden:geteffect": {
-    "criteria": {
-      "geteffect": "2024-05-26 17:23:53 -0600"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "mushroom_stew": "2024-05-26 17:33:11 -0600"
-    },
-    "done": false
-  },
-  "botania:main/pure_daisy_pickup": {
-    "criteria": {
-      "daisy": "2024-05-26 19:06:00 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dye_white": {
-    "criteria": {
-      "has_item": "2024-05-26 19:05:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:nether_wastes": "2024-05-26 19:25:51 -0600"
-    },
-    "done": false
-  },
-  "botania:recipes/botania/petal_white_double": {
-    "criteria": {
-      "has_alt_item": "2024-05-26 19:05:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "farmersdelight:main/eat_comfort_food": {
-    "criteria": {
-      "comfort": "2024-05-26 17:33:11 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_wool": {
-    "criteria": {
-      "has_white_wool": "2024-05-26 19:31:27 -0600"
-    },
-    "done": true
-  },
-  "botania:recipes/botania/twig_wand": {
-    "criteria": {
-      "has_item": "2024-05-26 19:05:45 -0600"
+      "entered_nether": "2024-05-27 11:00:56 -0600"
     },
     "done": true
   },
   "minecraft:story/form_obsidian": {
     "criteria": {
-      "obsidian": "2024-05-26 19:00:11 -0600"
+      "obsidian": "2024-05-27 11:00:54 -0600"
     },
     "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-05-27 11:00:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-05-27 11:00:54 -0600"
+    },
+    "done": true
+  },
+  "herbalist_garden:alchemist_garden": {
+    "criteria": {
+      "alchemist_garden": "2024-05-27 11:00:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2024-05-27 11:00:57 -0600"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-05-27 11:00:45 -0600"
+    },
+    "done": false
   },
   "DataVersion": 3120
 }

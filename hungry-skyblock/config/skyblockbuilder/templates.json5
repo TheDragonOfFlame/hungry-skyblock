@@ -21,8 +21,14 @@
   "templates": [
     {
       "name": "default",
-      "file": "starter_island.nbt",
-      "spawns": "starter_island",
+      "file": "default.nbt",
+      "spawns": "default",
+      "direction": "south"
+    },
+{
+      "name": "nether",
+      "file": "nether_island.nbt",
+      "spawns": "default",
       "direction": "south"
     }
   ]

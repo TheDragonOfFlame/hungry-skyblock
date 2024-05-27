@@ -1,45 +1,141 @@
-[19:28:53.097][INFO]: Parsing all .json files in upgrades folder.
-[19:28:53.154][INFO]: Finished, 0 .json files successfully parsed in upgrades folder.
-[19:28:53.094][INFO]: Parsing all .json files in machines folder.
-[19:28:53.171][INFO]: Finished, 1 .json files successfully parsed in machines folder.
-[19:28:54.407][INFO]: Parsing recipe json: custommachinery:eat_mud_ball
-[19:28:54.465][INFO]: Successfully read recipe json: custommachinery:eat_mud_ball
-[19:28:54.566][INFO]: Parsing recipe json: custommachinery:eat_clay_ball
-[19:28:54.567][INFO]: Successfully read recipe json: custommachinery:eat_clay_ball
-[19:28:54.569][INFO]: Parsing recipe json: custommachinery:eat_flowering_azalea_leaves
-[19:28:54.569][INFO]: Successfully read recipe json: custommachinery:eat_flowering_azalea_leaves
-[19:28:54.569][INFO]: Parsing recipe json: custommachinery:eat_vegitation
-[19:28:54.570][INFO]: Successfully read recipe json: custommachinery:eat_vegitation
-[19:28:54.570][INFO]: Parsing recipe json: custommachinery:eat_wool
-[19:28:54.570][INFO]: Successfully read recipe json: custommachinery:eat_wool
-[19:28:54.575][INFO]: Parsing recipe json: custommachinery:eat_azalea_plate
-[19:28:54.576][INFO]: Successfully read recipe json: custommachinery:eat_azalea_plate
-[19:28:54.583][INFO]: Parsing recipe json: custommachinery:eat_terracotta
-[19:28:54.583][INFO]: Successfully read recipe json: custommachinery:eat_terracotta
-[19:28:54.590][INFO]: Parsing recipe json: custommachinery:eat_magma_and_ice_stew
-[19:28:54.590][INFO]: Successfully read recipe json: custommachinery:eat_magma_and_ice_stew
-[19:28:54.591][INFO]: Parsing recipe json: custommachinery:eat_bone
-[19:28:54.591][INFO]: Successfully read recipe json: custommachinery:eat_bone
-[19:28:54.598][INFO]: Parsing recipe json: custommachinery:eat_stone
-[19:28:54.598][INFO]: Successfully read recipe json: custommachinery:eat_stone
-[19:28:54.630][INFO]: Parsing recipe json: custommachinery:eat_livingrock
-[19:28:54.631][INFO]: Successfully read recipe json: custommachinery:eat_livingrock
-[19:28:54.631][INFO]: Parsing recipe json: custommachinery:eat_iron_oreberry
-[19:28:54.632][INFO]: Successfully read recipe json: custommachinery:eat_iron_oreberry
-[19:28:54.635][INFO]: Parsing recipe json: custommachinery:eat_mud
-[19:28:54.636][INFO]: Successfully read recipe json: custommachinery:eat_mud
-[19:28:54.647][INFO]: Parsing recipe json: custommachinery:eat_rooted_dirt
-[19:28:54.648][INFO]: Successfully read recipe json: custommachinery:eat_rooted_dirt
-[19:28:54.652][INFO]: Parsing recipe json: custommachinery:eat_packed_mud
-[19:28:54.653][INFO]: Successfully read recipe json: custommachinery:eat_packed_mud
-[19:28:54.654][INFO]: Parsing recipe json: custommachinery:eat_fertilizer
-[19:28:54.654][INFO]: Successfully read recipe json: custommachinery:eat_fertilizer
-[19:28:54.670][INFO]: Parsing recipe json: custommachinery:eat_dirt
-[19:28:54.671][INFO]: Successfully read recipe json: custommachinery:eat_dirt
-[19:28:55.258][INFO]: Reading Custom Machinery Machines...
-[19:28:55.258][INFO]: Parsing machine json: custommachinery:muncher in datapack: contenttweaker
-[19:28:55.264][INFO]: Successfully parsed machine json: custommachinery:muncher
-[19:28:55.264][INFO]: Finished creating 1 custom machines.
-[19:28:55.264][INFO]: Reading Custom Machinery Upgrades json
-[19:28:55.264][INFO]: No machine upgrade json found.
-[19:28:55.264][INFO]: Finished creating custom machine upgrades.
+[12:00:14.351][INFO]: Parsing all .json files in machines folder.
+[12:00:14.374][INFO]: Finished, 1 .json files successfully parsed in machines folder.
+[12:00:14.375][INFO]: Parsing all .json files in upgrades folder.
+[12:00:14.376][INFO]: Finished, 0 .json files successfully parsed in upgrades folder.
+[12:00:15.022][INFO]: Parsing recipe json: custommachinery:eat_mud_ball
+[12:00:15.036][INFO]: Successfully read recipe json: custommachinery:eat_mud_ball
+[12:00:15.104][INFO]: Parsing recipe json: custommachinery:eat_clay_ball
+[12:00:15.107][INFO]: Successfully read recipe json: custommachinery:eat_clay_ball
+[12:00:15.110][INFO]: Parsing recipe json: custommachinery:eat_flowering_azalea_leaves
+[12:00:15.111][INFO]: Successfully read recipe json: custommachinery:eat_flowering_azalea_leaves
+[12:00:15.111][INFO]: Parsing recipe json: custommachinery:eat_vegitation
+[12:00:15.111][INFO]: Successfully read recipe json: custommachinery:eat_vegitation
+[12:00:15.111][INFO]: Parsing recipe json: custommachinery:eat_wool
+[12:00:15.115][INFO]: Successfully read recipe json: custommachinery:eat_wool
+[12:00:15.124][INFO]: Parsing recipe json: custommachinery:eat_azalea_plate
+[12:00:15.124][INFO]: Successfully read recipe json: custommachinery:eat_azalea_plate
+[12:00:15.131][INFO]: Parsing recipe json: custommachinery:eat_terracotta
+[12:00:15.131][INFO]: Successfully read recipe json: custommachinery:eat_terracotta
+[12:00:15.150][INFO]: Parsing recipe json: custommachinery:eat_magma_and_ice_stew
+[12:00:15.150][INFO]: Successfully read recipe json: custommachinery:eat_magma_and_ice_stew
+[12:00:15.151][INFO]: Parsing recipe json: custommachinery:eat_bone
+[12:00:15.152][INFO]: Successfully read recipe json: custommachinery:eat_bone
+[12:00:15.164][INFO]: Parsing recipe json: custommachinery:eat_stone
+[12:00:15.165][INFO]: Successfully read recipe json: custommachinery:eat_stone
+[12:00:15.171][INFO]: Parsing recipe json: custommachinery:eat_livingrock
+[12:00:15.171][INFO]: Successfully read recipe json: custommachinery:eat_livingrock
+[12:00:15.172][INFO]: Parsing recipe json: custommachinery:eat_iron_oreberry
+[12:00:15.172][INFO]: Successfully read recipe json: custommachinery:eat_iron_oreberry
+[12:00:15.180][INFO]: Parsing recipe json: custommachinery:eat_mud
+[12:00:15.181][INFO]: Successfully read recipe json: custommachinery:eat_mud
+[12:00:15.193][INFO]: Parsing recipe json: custommachinery:eat_rooted_dirt
+[12:00:15.194][INFO]: Successfully read recipe json: custommachinery:eat_rooted_dirt
+[12:00:15.201][INFO]: Parsing recipe json: custommachinery:eat_sapling_plate
+[12:00:15.201][INFO]: Successfully read recipe json: custommachinery:eat_sapling_plate
+[12:00:15.202][INFO]: Parsing recipe json: custommachinery:eat_packed_mud
+[12:00:15.202][INFO]: Successfully read recipe json: custommachinery:eat_packed_mud
+[12:00:15.211][INFO]: Parsing recipe json: custommachinery:eat_fertilizer
+[12:00:15.211][INFO]: Successfully read recipe json: custommachinery:eat_fertilizer
+[12:00:15.229][INFO]: Parsing recipe json: custommachinery:eat_dirt
+[12:00:15.229][INFO]: Successfully read recipe json: custommachinery:eat_dirt
+[12:00:15.998][INFO]: Reading Custom Machinery Machines...
+[12:00:16.003][INFO]: Parsing machine json: custommachinery:muncher in datapack: contenttweaker
+[12:00:16.021][INFO]: Successfully parsed machine json: custommachinery:muncher
+[12:00:16.022][INFO]: Finished creating 1 custom machines.
+[12:00:16.022][INFO]: Reading Custom Machinery Upgrades json
+[12:00:16.022][INFO]: No machine upgrade json found.
+[12:00:16.022][INFO]: Finished creating custom machine upgrades.
+[12:10:59.400][INFO]: Parsing all .json files in machines folder.
+[12:10:59.434][INFO]: Finished, 1 .json files successfully parsed in machines folder.
+[12:10:59.436][INFO]: Parsing all .json files in upgrades folder.
+[12:10:59.455][INFO]: Finished, 0 .json files successfully parsed in upgrades folder.
+[12:10:59.984][INFO]: Parsing recipe json: custommachinery:eat_mud_ball
+[12:10:59.988][INFO]: Successfully read recipe json: custommachinery:eat_mud_ball
+[12:11:00.013][INFO]: Parsing recipe json: custommachinery:eat_clay_ball
+[12:11:00.014][INFO]: Successfully read recipe json: custommachinery:eat_clay_ball
+[12:11:00.014][INFO]: Parsing recipe json: custommachinery:eat_flowering_azalea_leaves
+[12:11:00.015][INFO]: Successfully read recipe json: custommachinery:eat_flowering_azalea_leaves
+[12:11:00.015][INFO]: Parsing recipe json: custommachinery:eat_vegitation
+[12:11:00.015][INFO]: Successfully read recipe json: custommachinery:eat_vegitation
+[12:11:00.015][INFO]: Parsing recipe json: custommachinery:eat_wool
+[12:11:00.015][INFO]: Successfully read recipe json: custommachinery:eat_wool
+[12:11:00.018][INFO]: Parsing recipe json: custommachinery:eat_azalea_plate
+[12:11:00.021][INFO]: Successfully read recipe json: custommachinery:eat_azalea_plate
+[12:11:00.024][INFO]: Parsing recipe json: custommachinery:eat_terracotta
+[12:11:00.024][INFO]: Successfully read recipe json: custommachinery:eat_terracotta
+[12:11:00.027][INFO]: Parsing recipe json: custommachinery:eat_magma_and_ice_stew
+[12:11:00.029][INFO]: Successfully read recipe json: custommachinery:eat_magma_and_ice_stew
+[12:11:00.035][INFO]: Parsing recipe json: custommachinery:eat_bone
+[12:11:00.035][INFO]: Successfully read recipe json: custommachinery:eat_bone
+[12:11:00.040][INFO]: Parsing recipe json: custommachinery:eat_stone
+[12:11:00.040][INFO]: Successfully read recipe json: custommachinery:eat_stone
+[12:11:00.051][INFO]: Parsing recipe json: custommachinery:eat_livingrock
+[12:11:00.051][INFO]: Successfully read recipe json: custommachinery:eat_livingrock
+[12:11:00.052][INFO]: Parsing recipe json: custommachinery:eat_iron_oreberry
+[12:11:00.052][INFO]: Successfully read recipe json: custommachinery:eat_iron_oreberry
+[12:11:00.053][INFO]: Parsing recipe json: custommachinery:eat_mud
+[12:11:00.053][INFO]: Successfully read recipe json: custommachinery:eat_mud
+[12:11:00.058][INFO]: Parsing recipe json: custommachinery:eat_rooted_dirt
+[12:11:00.058][INFO]: Successfully read recipe json: custommachinery:eat_rooted_dirt
+[12:11:00.060][INFO]: Parsing recipe json: custommachinery:eat_sapling_plate
+[12:11:00.060][INFO]: Successfully read recipe json: custommachinery:eat_sapling_plate
+[12:11:00.064][INFO]: Parsing recipe json: custommachinery:eat_packed_mud
+[12:11:00.065][INFO]: Successfully read recipe json: custommachinery:eat_packed_mud
+[12:11:00.067][INFO]: Parsing recipe json: custommachinery:eat_fertilizer
+[12:11:00.067][INFO]: Successfully read recipe json: custommachinery:eat_fertilizer
+[12:11:00.092][INFO]: Parsing recipe json: custommachinery:eat_dirt
+[12:11:00.092][INFO]: Successfully read recipe json: custommachinery:eat_dirt
+[12:11:00.557][INFO]: Reading Custom Machinery Machines...
+[12:11:00.558][INFO]: Parsing machine json: custommachinery:muncher in datapack: contenttweaker
+[12:11:00.565][INFO]: Successfully parsed machine json: custommachinery:muncher
+[12:11:00.565][INFO]: Finished creating 1 custom machines.
+[12:11:00.565][INFO]: Reading Custom Machinery Upgrades json
+[12:11:00.565][INFO]: No machine upgrade json found.
+[12:11:00.565][INFO]: Finished creating custom machine upgrades.
+[12:23:02.675][INFO]: Parsing all .json files in machines folder.
+[12:23:02.681][INFO]: Finished, 1 .json files successfully parsed in machines folder.
+[12:23:02.681][INFO]: Parsing all .json files in upgrades folder.
+[12:23:02.681][INFO]: Finished, 0 .json files successfully parsed in upgrades folder.
+[12:23:03.157][INFO]: Parsing recipe json: custommachinery:eat_mud_ball
+[12:23:03.159][INFO]: Successfully read recipe json: custommachinery:eat_mud_ball
+[12:23:03.174][INFO]: Parsing recipe json: custommachinery:eat_clay_ball
+[12:23:03.174][INFO]: Successfully read recipe json: custommachinery:eat_clay_ball
+[12:23:03.175][INFO]: Parsing recipe json: custommachinery:eat_flowering_azalea_leaves
+[12:23:03.176][INFO]: Successfully read recipe json: custommachinery:eat_flowering_azalea_leaves
+[12:23:03.176][INFO]: Parsing recipe json: custommachinery:eat_vegitation
+[12:23:03.177][INFO]: Successfully read recipe json: custommachinery:eat_vegitation
+[12:23:03.177][INFO]: Parsing recipe json: custommachinery:eat_wool
+[12:23:03.178][INFO]: Successfully read recipe json: custommachinery:eat_wool
+[12:23:03.181][INFO]: Parsing recipe json: custommachinery:eat_azalea_plate
+[12:23:03.181][INFO]: Successfully read recipe json: custommachinery:eat_azalea_plate
+[12:23:03.184][INFO]: Parsing recipe json: custommachinery:eat_terracotta
+[12:23:03.184][INFO]: Successfully read recipe json: custommachinery:eat_terracotta
+[12:23:03.187][INFO]: Parsing recipe json: custommachinery:eat_magma_and_ice_stew
+[12:23:03.187][INFO]: Successfully read recipe json: custommachinery:eat_magma_and_ice_stew
+[12:23:03.187][INFO]: Parsing recipe json: custommachinery:eat_bone
+[12:23:03.188][INFO]: Successfully read recipe json: custommachinery:eat_bone
+[12:23:03.191][INFO]: Parsing recipe json: custommachinery:eat_stone
+[12:23:03.193][INFO]: Successfully read recipe json: custommachinery:eat_stone
+[12:23:03.196][INFO]: Parsing recipe json: custommachinery:eat_livingrock
+[12:23:03.196][INFO]: Successfully read recipe json: custommachinery:eat_livingrock
+[12:23:03.197][INFO]: Parsing recipe json: custommachinery:eat_iron_oreberry
+[12:23:03.198][INFO]: Successfully read recipe json: custommachinery:eat_iron_oreberry
+[12:23:03.199][INFO]: Parsing recipe json: custommachinery:eat_mud
+[12:23:03.199][INFO]: Successfully read recipe json: custommachinery:eat_mud
+[12:23:03.204][INFO]: Parsing recipe json: custommachinery:eat_rooted_dirt
+[12:23:03.204][INFO]: Successfully read recipe json: custommachinery:eat_rooted_dirt
+[12:23:03.206][INFO]: Parsing recipe json: custommachinery:eat_sapling_plate
+[12:23:03.206][INFO]: Successfully read recipe json: custommachinery:eat_sapling_plate
+[12:23:03.207][INFO]: Parsing recipe json: custommachinery:eat_packed_mud
+[12:23:03.207][INFO]: Successfully read recipe json: custommachinery:eat_packed_mud
+[12:23:03.208][INFO]: Parsing recipe json: custommachinery:eat_fertilizer
+[12:23:03.208][INFO]: Successfully read recipe json: custommachinery:eat_fertilizer
+[12:23:03.219][INFO]: Parsing recipe json: custommachinery:eat_dirt
+[12:23:03.222][INFO]: Successfully read recipe json: custommachinery:eat_dirt
+[12:23:03.597][INFO]: Reading Custom Machinery Machines...
+[12:23:03.597][INFO]: Parsing machine json: custommachinery:muncher in datapack: contenttweaker
+[12:23:03.601][INFO]: Successfully parsed machine json: custommachinery:muncher
+[12:23:03.601][INFO]: Finished creating 1 custom machines.
+[12:23:03.601][INFO]: Reading Custom Machinery Upgrades json
+[12:23:03.601][INFO]: No machine upgrade json found.
+[12:23:03.602][INFO]: Finished creating custom machine upgrades.
