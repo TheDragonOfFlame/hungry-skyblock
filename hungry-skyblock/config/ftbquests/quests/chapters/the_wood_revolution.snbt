@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "the_wood_revolution"
 	group: ""
-	icon: "botania:magenta_mystical_flower"
+	icon: "botania:pure_daisy"
 	id: "440E50A040E01B00"
 	order_index: 1
 	quest_links: [ ]

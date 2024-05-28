@@ -11,7 +11,11 @@
         "botania:generating_flowers/gourmaryllis",
         "botania:generating_flowers/intro",
         "botania:generating_flowers/endoflame",
-        "botania:mana/intro"
+        "botania:mana/intro",
+        "botania:mana/pool",
+        "botania:mana/mana_tablet",
+        "botania:mana/sparks",
+        "botania:mana/manastar"
       ],
       "bookmarks": [],
       "completedManualQuests": []

@@ -179,3 +179,31 @@
   }
 }
 );
+
+<recipeType:botania:mana_infusion>.addJsonRecipe("blaze_rod", {
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:stick"
+  },
+  "mana": 4000,
+  "output": {
+    "item": "minecraft:blaze_rod"
+  }
+}
+);
+
+<recipeType:botania:mana_infusion>.addJsonRecipe("end_stone", {
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "item": "minecraft:netherrack"
+  },
+  "mana": 2000,
+  "output": {
+    "item": "minecraft:end_stone"
+  }
+}
+);

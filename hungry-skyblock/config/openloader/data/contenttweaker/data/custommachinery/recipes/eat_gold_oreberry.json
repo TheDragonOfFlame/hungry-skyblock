@@ -1,0 +1,17 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "custommachinery:muncher",
+    "time": 80,
+    "requirements": [
+    {
+        "type": "custommachinery:item",
+        "mode": "input",
+        "item": "oreberriesreplanted:gold_oreberry",
+        "amount": 1
+    },
+    {
+        "type": "custommachinery:loot_table",
+        "mode": "output",
+        "table": "food:meals/eat_gold_oreberry"
+    }]
+}

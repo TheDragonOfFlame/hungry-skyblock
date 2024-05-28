@@ -147,13 +147,64 @@
 		}
 		{
 			dependencies: ["4429F37676FA2F26"]
-			description: ["Eat Obsidain to go to the Nether (not yet implemented dimension)."]
+			description: [
+				"Eat Obsidain to go to the Nether. Once you have everything you need, you can eat another to get back."
+				""
+				"Teleporting this way takes you to the world spawn: 2.5, 70, 1.5 in the overworld, and 0, 70, 0 in the Nether."
+			]
 			id: "47D74C4A7D03D99D"
-			tasks: [{
-				id: "564CAB4E5390478B"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "564CAB4E5390478B"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "44C5A008AF780FB5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:livingwood_log"
+								}
+								{
+									Count: 1b
+									id: "botania:stripped_livingwood_log"
+								}
+								{
+									Count: 1b
+									id: "botania:glimmering_livingwood_log"
+								}
+								{
+									Count: 1b
+									id: "botania:glimmering_stripped_livingwood_log"
+								}
+								{
+									Count: 1b
+									id: "botania:livingwood"
+								}
+								{
+									Count: 1b
+									id: "botania:stripped_livingwood"
+								}
+								{
+									Count: 1b
+									id: "botania:glimmering_livingwood"
+								}
+								{
+									Count: 1b
+									id: "botania:glimmering_stripped_livingwood"
+								}
+							]
+						}
+					}
+					title: "Livingwood Log"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -10.0d
 		}

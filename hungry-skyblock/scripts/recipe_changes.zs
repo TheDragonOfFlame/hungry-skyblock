@@ -12,3 +12,6 @@ craftingTable.remove(<item:farmersdelight:stove>);
 craftingTable.addShaped("cooking_pot", <item:farmersdelight:cooking_pot>, [[<item:minecraft:brick>, <item:minecraft:air>, <item:minecraft:brick>], [<item:minecraft:iron_nugget>, <item:minecraft:air>, <item:minecraft:iron_nugget>], [<item:minecraft:iron_ingot>, <item:minecraft:iron_nugget>, <item:minecraft:iron_ingot>]]);
 
 craftingTable.addShaped("stove", <item:farmersdelight:stove>, [[<item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>], [<item:minecraft:bricks>, <item:minecraft:air>, <item:minecraft:bricks>], [<item:minecraft:bricks>, <item:minecraft:bricks>, <item:minecraft:bricks>]]);
+
+craftingTable.remove(<item:botania:alchemy_catalyst>);
+craftingTable.addShaped("alchemy_catalyst", <item:botania:alchemy_catalyst>, [[<item:botania:livingrock>, <item:minecraft:gold_ingot>, <item:botania:livingrock>], [<item:minecraft:brewing_stand>, <item:botania:mana_diamond>, <item:minecraft:brewing_stand>], [<item:botania:livingrock>, <item:minecraft:gold_ingot>, <item:botania:livingrock>]]);

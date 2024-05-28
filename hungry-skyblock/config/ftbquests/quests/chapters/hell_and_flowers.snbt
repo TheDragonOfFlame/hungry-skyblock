@@ -1,0 +1,237 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hell_and_flowers"
+	group: ""
+	icon: "botania:gourmaryllis"
+	id: "328A8F59E4BE6EC5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["47D74C4A7D03D99D"]
+			id: "5F3214F12D889444"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2C7739281BF86E35"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F3214F12D889444"]
+			description: ["The hellish stone of the Nether can be used to produce many useful things. You have no way yet of duplicating it, so be careful to save some."]
+			id: "6ED6C22122108CBE"
+			tasks: [{
+				id: "0303441136255F82"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6ED6C22122108CBE"]
+			description: ["The Gold Oreberry bush is created similarly to the Iron, in the Petal Apothecary."]
+			id: "3EDA79DC21C12EEC"
+			tasks: [{
+				id: "520D5121FD8BBD21"
+				item: "oreberriesreplanted:gold_oreberry_bush"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EDA79DC21C12EEC"]
+			id: "12CBABEEDF41A7C8"
+			tasks: [{
+				count: 9L
+				id: "55166EAFD1D59E62"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12CBABEEDF41A7C8"]
+			description: ["The mana spreader takes the mana from a generating flora and moves it to where it is needed, such as a mana pool."]
+			id: "4C37F0CFA8315226"
+			tasks: [{
+				id: "0F7E2DB236331533"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4C37F0CFA8315226"
+				"3F9B3F7D1F611659"
+			]
+			description: ["The mana pool stores mana. The wand of the forest can help you configure the flow of mana according to your wishes."]
+			id: "2F539DD0B4D404D4"
+			tasks: [
+				{
+					id: "29F786BD310E0F62"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "7500EFE6D39422A3"
+					item: {
+						Count: 1b
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7CBC63B18576365E"]
+			description: ["The Gourmaryllis makes mana from food. It likes to keep a diverse diet! If you are having trouble finding things to feed it, try unlocking more crops."]
+			id: "3F9B3F7D1F611659"
+			tasks: [{
+				id: "5A5F7D2D5C29F726"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F539DD0B4D404D4"]
+			description: ["Get blaze rods by infusing sticks with mana in the mana pool."]
+			id: "092FBA4F8E62C4F2"
+			tasks: [{
+				id: "14A8F37A252ACFAF"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["092FBA4F8E62C4F2"]
+			id: "15D1991A4BF724E8"
+			tasks: [{
+				id: "013707DAD75C5FBA"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2F539DD0B4D404D4"]
+			description: ["Infuse Iron in the mana pool for Manasteel."]
+			id: "19470ADE7A3B947A"
+			tasks: [{
+				count: 9L
+				id: "7A3E0D511D055BEA"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["19470ADE7A3B947A"]
+			description: ["Eat a block of manasteel to get a diamond."]
+			id: "432C2AEFA0A4814F"
+			tasks: [{
+				id: "53CABCB47E3A6BDE"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["432C2AEFA0A4814F"]
+			description: ["Infuse a diamond to get a mana diamond."]
+			id: "16980D29F918CB05"
+			tasks: [{
+				id: "4A4297E5AAFA357F"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"15D1991A4BF724E8"
+				"16980D29F918CB05"
+			]
+			description: ["An alchemy catalyst allows for more complex infusions in a mana pool."]
+			id: "7CE66EE44934D3AF"
+			tasks: [{
+				id: "08A32C34087125A0"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7CE66EE44934D3AF"]
+			description: ["Infuse Netherrack with in a Mana Pool with the Alchemy Catalyst to get End Stone."]
+			id: "188D9DF6C0FC6945"
+			tasks: [{
+				id: "42A653F7DB9562BD"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["188D9DF6C0FC6945"]
+			description: ["Eat End Stone to summon an Enderman."]
+			id: "1448007B6F99366A"
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "274FFB98A621F451"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["1448007B6F99366A"]
+			id: "1A0A08CF46BA0EC8"
+			tasks: [{
+				id: "37816CCE199362F1"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["1A0A08CF46BA0EC8"]
+			description: ["Infuse Ender Pearls to get Mana Pearls."]
+			id: "75213FDFD3F916E7"
+			tasks: [{
+				id: "240FC0DABD6C6B18"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -22.0d
+		}
+	]
+	title: "Hell and Flowers"
+}
