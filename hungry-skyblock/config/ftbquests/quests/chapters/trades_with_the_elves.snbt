@@ -16,6 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["In this chapter, you will create Terrasteel and unlock Elven Trading."]
 			id: "59948DCBA23D4FB3"
 			shape: "hexagon"
 			size: 1.5d
@@ -126,6 +127,7 @@
 				"1C4AFCBB62C914AB"
 				"58BB27001390014A"
 			]
+			description: ["Craft the Terrestrial Agglomoration Plate and place it on top of a platform of Livingrock and Lapis blocks."]
 			id: "1A3625334E314516"
 			tasks: [{
 				id: "625F96AB532DA2CB"
@@ -137,6 +139,7 @@
 		}
 		{
 			dependencies: ["1A3625334E314516"]
+			description: ["Throw a Mana Pearl, a Mana Diamond, and a Manasteel ingot onto the Agglomoration Plate to get Terrasteel."]
 			id: "7480140CE30E7707"
 			tasks: [{
 				id: "1CC025A42F9009EF"
@@ -186,6 +189,7 @@
 				"575D7B03CF379191"
 				"2A55A4DC67F5B3CC"
 			]
+			description: ["Make the Portal to the Elves as described in the Lexica Botania."]
 			icon: "botania:lexicon"
 			id: "0E8E1423DEE602A8"
 			tasks: [{

@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["39D14C750D9A326F"]
+			description: ["In this chapter, you will gain access to the Nether by creating Obsidian through a series of cooking recipes."]
 			id: "06A4B35C06B0DCD7"
 			shape: "hexagon"
 			size: 1.5d

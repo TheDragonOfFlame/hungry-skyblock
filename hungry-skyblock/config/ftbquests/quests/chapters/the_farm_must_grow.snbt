@@ -223,38 +223,19 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["442E770A9515AC60"]
-			id: "73678359D11D2997"
-			tasks: [{
-				id: "78C6528C3A1360D1"
-				item: "minecraft:lightning_rod"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["784A061DE3700AA8"]
-			id: "442E770A9515AC60"
-			tasks: [{
-				id: "304EC6B98AE2B22C"
-				item: "oreberriesreplanted:copper_oreberry_bush"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -2.0d
-		}
-		{
+			dependencies: ["222488A042D928BE"]
+			description: ["Eat leather to summon a cow."]
 			id: "2E5D85497338254F"
 			tasks: [{
 				id: "2AA9E25320863767"
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 9.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["2E5D85497338254F"]
 			id: "1F257717E7673071"
 			tasks: [{
 				id: "34D924F11CD5F1A0"
@@ -263,8 +244,8 @@
 				to_observe: "minecraft:cow"
 				type: "observation"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 9.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7DB851455F51E099"]
@@ -289,14 +270,39 @@
 			y: -5.0d
 		}
 		{
+			description: ["Eat a Gold Block to summon a Piglin to trade with. Don't forget gold armor!"]
 			id: "6918863029413CFF"
 			tasks: [{
 				id: "339D81ABC9A54614"
 				item: "minecraft:gold_block"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["6918863029413CFF"]
+			id: "222488A042D928BE"
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "44720066169B8BDE"
+				type: "advancement"
+			}]
+			title: "Barter with the Piglins"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03933C572AA242FB"]
+			id: "6E9A8619EE643E3C"
+			tasks: [{
+				id: "0C08702DAE9345B0"
+				item: "nethersdelight:hoglin_loin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
 		}
 	]
 	title: "The Farm Must Grow"

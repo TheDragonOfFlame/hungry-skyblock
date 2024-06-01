@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["47D74C4A7D03D99D"]
+			description: ["In this chapter, you will delve into Botania mana generation with the end goal of a Mana Pearl."]
 			id: "5F3214F12D889444"
 			shape: "hexagon"
 			size: 1.5d

@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["In this final chapter, you will go to the end and eat the dragon."]
 			id: "72FEABFB36770ACE"
 			shape: "hexagon"
 			size: 1.5d
@@ -35,6 +36,7 @@
 		}
 		{
 			dependencies: ["72FEABFB36770ACE"]
+			description: ["Get Chorus Fruit by trading an apple with the Elves."]
 			id: "474236C5446006DE"
 			tasks: [{
 				id: "5658FF2746662042"
@@ -85,6 +87,7 @@
 				"46BF42EB47C2FF6F"
 				"6A0115266735EDB5"
 			]
+			description: ["Eating this strange meal will teleport you to its origin: the End. Beware what you might find there, and be sure to go prepared."]
 			id: "1377662F0FF2F72F"
 			tasks: [{
 				id: "49FABAEE7DB874F8"
@@ -173,15 +176,15 @@
 				item: "ends_delight:fried_dragon_egg"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -14.5d
 		}
 		{
 			dependencies: ["2680153B45D25CBB"]
-			id: "294017D619280209"
+			id: "78C8CE9E57D19302"
 			tasks: [{
-				id: "52DBCA6FEB1DCD98"
-				item: "ends_delight:steamed_dragon_egg_block"
+				id: "10FF50744FBE6547"
+				item: "ends_delight:steamed_dragon_egg"
 				type: "item"
 			}]
 			x: 0.0d

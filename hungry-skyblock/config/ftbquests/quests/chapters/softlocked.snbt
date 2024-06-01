@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "softlocked"
+	group: "054857A5A3D3D8EA"
+	id: "5B56795C4BB28EEE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "botania:livingwood_log"
+			id: "3A8ECFCC24DBB239"
+			rewards: [{
+				id: "03D3C997E4552172"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "2B869F8C1FEB61D3"
+				type: "advancement"
+			}]
+			title: "Stuck in the Nether?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:grass_block"
+			id: "56BC7413CAFD03F5"
+			rewards: [{
+				id: "4A5B5394CBF49AD1"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "021C76DBD61BFF37"
+				type: "checkmark"
+			}]
+			title: "Ran Out of Grass?"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "005373B37F85ECAE"
+			rewards: [{
+				id: "1E720A7F605F6E3E"
+				item: "minecraft:rooted_dirt"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DF5178D1AC8C3E0"
+				item: "minecraft:rooted_dirt"
+				type: "item"
+			}]
+			title: "No more Roots?"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "botania:lexicon"
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			id: "5DB069C24B107E39"
+			rewards: [{
+				id: "0276BBB50CD94E08"
+				item: {
+					Count: 1b
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FA6E2776B726BC1"
+				type: "checkmark"
+			}]
+			title: "Lost your Book?"
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "Softlocked"
+}

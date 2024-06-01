@@ -23,6 +23,7 @@
 		}
 		{
 			dependencies: ["12D9393EF0736D32"]
+			description: ["In this chapter, you will achieve cobblestone through use of Botania."]
 			id: "72FCA60E566FA03C"
 			shape: "hexagon"
 			size: 1.5d
