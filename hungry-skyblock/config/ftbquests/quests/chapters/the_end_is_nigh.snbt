@@ -1,0 +1,192 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end_is_nigh"
+	group: "2C874806893CD7A4"
+	icon: "minecraft:end_portal_frame"
+	id: "57E1FE6E2C997418"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "72FEABFB36770ACE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2316449CAF80A0B2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"092FBA4F8E62C4F2"
+				"1A0A08CF46BA0EC8"
+			]
+			id: "1CD79E9C74E8917D"
+			tasks: [{
+				id: "67E301576B20A742"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72FEABFB36770ACE"]
+			id: "474236C5446006DE"
+			tasks: [{
+				id: "5658FF2746662042"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4BB1C989A067D611"
+				"474236C5446006DE"
+			]
+			id: "46BF42EB47C2FF6F"
+			tasks: [{
+				id: "1E31ED743B2DB557"
+				item: "ends_delight:chorus_fruit_wine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1CD79E9C74E8917D"]
+			id: "35110ACD23694FBE"
+			tasks: [{
+				id: "1D7ED66847F9816E"
+				item: "contenttweaker:chopped_ender_eye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["35110ACD23694FBE"]
+			id: "6A0115266735EDB5"
+			tasks: [{
+				id: "6F3AEDF74B493963"
+				item: "contenttweaker:fried_ender_eye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"46BF42EB47C2FF6F"
+				"6A0115266735EDB5"
+			]
+			id: "1377662F0FF2F72F"
+			tasks: [{
+				id: "49FABAEE7DB874F8"
+				item: "contenttweaker:ender_port"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6A81037DF7CA1AF6"]
+			id: "4BB1C989A067D611"
+			tasks: [{
+				id: "0C6A22D61AB29CE4"
+				item: "minecraft:glass_bottle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7CE66EE44934D3AF"]
+			description: ["You can get sand by mana infusing cobblestone with the alchemy catalyst."]
+			id: "6A81037DF7CA1AF6"
+			tasks: [{
+				id: "0696BB8B7CFCB252"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1377662F0FF2F72F"]
+			description: ["You have slain the beast. Now feast on its bones."]
+			icon: "ends_delight:dragon_leg_with_sauce_block"
+			id: "2680153B45D25CBB"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "400DB7DD341DABC4"
+				type: "checkmark"
+			}]
+			title: "The Final Feast"
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			dependencies: ["2680153B45D25CBB"]
+			id: "6439BC532B3832E6"
+			tasks: [{
+				id: "4F4EF61B93FCD210"
+				item: "ends_delight:dragon_breath_soda"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2680153B45D25CBB"]
+			id: "5A13A5421AB060ED"
+			tasks: [{
+				id: "1F20103CE6F13DD1"
+				item: "ends_delight:dragon_meat_stew"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2680153B45D25CBB"]
+			id: "4AB3A03A60179828"
+			tasks: [{
+				id: "1A86C3632A710E4D"
+				item: "ends_delight:dragon_leg_with_sauce"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["2680153B45D25CBB"]
+			id: "3994F281065BED07"
+			tasks: [{
+				id: "795A80DB6B743515"
+				item: "ends_delight:fried_dragon_egg"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["2680153B45D25CBB"]
+			id: "294017D619280209"
+			tasks: [{
+				id: "52DBCA6FEB1DCD98"
+				item: "ends_delight:steamed_dragon_egg_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+	]
+	title: "The End is Nigh"
+}

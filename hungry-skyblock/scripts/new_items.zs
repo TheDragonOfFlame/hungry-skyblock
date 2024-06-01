@@ -27,5 +27,17 @@ import contenttweaker.builder.vanilla.item.Basic;
     .build("basic_plate");
 
 <factory:item>.typed<Basic>()
-    .tab(<tab:building_blocks>)
+    .tab(<tab:food>)
     .build("magma_and_ice_stew");
+
+<factory:item>.typed<Basic>()
+    .tab(<tab:building_blocks>)
+    .build("chopped_ender_eye");
+
+<factory:item>.typed<Basic>()
+    .tab(<tab:building_blocks>)
+    .build("fried_ender_eye");
+
+<factory:item>.typed<Basic>()
+    .tab(<tab:building_blocks>)
+    .build("ender_port");

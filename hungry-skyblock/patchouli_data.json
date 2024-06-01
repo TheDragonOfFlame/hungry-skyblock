@@ -15,7 +15,12 @@
         "botania:mana/pool",
         "botania:mana/mana_tablet",
         "botania:mana/sparks",
-        "botania:mana/manastar"
+        "botania:mana/manastar",
+        "botania:alfhomancy/elf_message",
+        "botania:alfhomancy/intro",
+        "botania:basics/terrasteel",
+        "botania:alfhomancy/elven_lore",
+        "botania:mana/spreader"
       ],
       "bookmarks": [],
       "completedManualQuests": []

@@ -5,3 +5,5 @@ craftingTable.addShaped("dirt_from_clumps", <item:minecraft:dirt>, [[<item:conte
 craftingTable.addShaped("basic_plate", <item:contenttweaker:basic_plate>, [[<item:minecraft:terracotta>, <item:minecraft:terracotta>]]);
 
 craftingTable.addShaped("blue_ice_from_needles", <item:minecraft:blue_ice>, [[<item:enchanted:icy_needle>,<item:enchanted:icy_needle>],[<item:enchanted:icy_needle>,<item:enchanted:icy_needle>]]);
+
+craftingTable.addShaped("auto_muncher", <item:custommachinery:custom_machine_item>.withTag({machine: "custommachinery:muncher"}), [[<item:minecraft:iron_ingot>,<item:minecraft:hopper>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>,<item:botania:gourmaryllis>, <item:minecraft:iron_ingot>], [<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);

@@ -1,825 +1,256 @@
-[18:31:05.188][INFO]: Successfully injected RecipeFS file system
-[18:31:05.572][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
-[18:31:05.632][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:vanilla
-[18:31:05.694][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:forge
-[18:31:05.863][INFO]: Successfully identified and loaded plugin contenttweaker:core
-[18:31:05.868][INFO]: Successfully identified and loaded plugin jeitweaker:common
-[18:31:05.883][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
-[18:31:05.884][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
-[18:31:05.924][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
-[18:31:05.926][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
-[18:31:05.930][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
-[18:31:05.930][INFO]: Running JeiTweaker plugin initialization
-[18:31:05.947][INFO]: JeiTweaker plugin initialization completed successfully
-[18:31:06.783][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
-[18:31:06.792][INFO]: - 'contenttweaker' at version '2.0.0+4'
-[18:31:06.805][INFO]: - 'crafttweaker' at version '10.1.55'
-[18:31:06.818][INFO]: - 'custommachinery' at version '0.9.20'
-[18:31:06.818][INFO]: - 'farmersdelight' at version '1.19.2-1.2.4'
-[18:31:06.819][INFO]: - 'jeitweaker' at version '4.0.13'
-[18:31:07.369][INFO]: Started loading scripts for loader 'contenttweaker'
-[18:31:07.668][INFO]: Compiling and executing scripts
-[18:31:07.996][INFO]: Successfully initialized modules [crafttweaker, contenttweaker, expansions]
-[18:31:08.002][INFO]: Loading file 'new_items.zs' with priority 0
-[18:31:08.010][INFO]: Loading file 'plates.zs' with priority 0
-[18:31:08.147][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mud_ball
-[18:31:08.349][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:dirt_clump
-[18:31:08.356][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:vegitation
-[18:31:08.360][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:crimson_vegitation
-[18:31:08.362][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:warped_vegitation
-[18:31:08.364][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:basic_plate
-[18:31:08.365][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:magma_and_ice_stew
-[18:31:08.367][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:azalea_plate
-[18:31:08.370][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:sapling_plate
-[18:31:08.391][INFO]: Execution for loader 'contenttweaker' completed successfully
-[18:31:14.505][INFO]: Started loading scripts for loader 'initialize'
-[18:31:14.832][INFO]: Compiling and executing scripts
-[18:31:14.908][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[18:31:14.991][INFO]: Execution for loader 'initialize' completed successfully
-[18:31:37.299][INFO]: Started loading scripts for loader 'tags'
-[18:31:37.427][INFO]: Compiling and executing scripts
-[18:31:37.458][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[18:31:37.515][INFO]: Execution for loader 'tags' completed successfully
-[18:31:38.485][INFO]: Started loading scripts for loader 'crafttweaker'
-[18:31:38.556][INFO]: Compiling and executing scripts
-[18:31:39.155][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[18:31:39.160][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[18:31:39.171][INFO]: Loading file 'farmers.zs' with priority 0
-[18:31:39.175][INFO]: Loading file 'new_recipes.zs' with priority 0
-[18:31:39.175][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[18:31:39.176][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[18:31:39.320][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
-[18:31:39.328][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
-[18:31:39.330][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
-[18:31:39.331][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
-[18:31:39.332][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
-[18:31:39.333][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
-[18:31:39.333][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
-[18:31:39.333][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
-[18:31:39.333][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
-[18:31:39.334][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
-[18:31:39.334][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
-[18:31:39.336][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
-[18:31:39.336][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
-[18:31:39.340][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
-[18:31:39.342][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
-[18:31:39.343][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
-[18:31:39.343][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
-[18:31:39.344][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
-[18:31:39.344][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
-[18:31:39.344][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
-[18:31:39.344][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
-[18:31:39.345][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
-[18:31:39.351][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
-[18:31:39.351][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
-[18:31:39.353][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
-[18:31:39.353][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
-[18:31:39.353][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
-[18:31:39.353][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
-[18:31:39.353][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
-[18:31:39.354][INFO]: Execution for loader 'crafttweaker' completed successfully
-[18:31:39.365][INFO]: This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[18:57:28.471][INFO]: Item: <item:botania:alchemy_catalyst>
-[18:57:28.485][INFO]: Block: <block:botania:alchemy_catalyst>
-[18:57:28.486][INFO]: BlockState: <blockstate:botania:alchemy_catalyst>
-[18:57:28.488][INFO]: Item Tag Entries
-[18:57:28.491][INFO]:     -  <tag:items:minecraft:piglin_loved>
-[18:57:28.491][INFO]: Block Tag Entries
-[18:57:28.491][INFO]:     -  <tag:blocks:minecraft:mineable/pickaxe>
-[18:58:14.711][INFO]: Started loading scripts for loader 'tags'
-[18:58:14.711][INFO]: Undoing previous actions
-[18:58:14.857][INFO]: Compiling and executing scripts
-[18:58:14.911][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[18:58:14.984][INFO]: Execution for loader 'tags' completed successfully
-[18:58:15.870][INFO]: Started loading scripts for loader 'crafttweaker'
-[18:58:15.870][INFO]: Undoing previous actions
-[18:58:15.933][INFO]: Compiling and executing scripts
-[18:58:16.143][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[18:58:16.144][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[18:58:16.146][INFO]: Loading file 'farmers.zs' with priority 0
-[18:58:16.148][INFO]: Loading file 'new_recipes.zs' with priority 0
-[18:58:16.148][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[18:58:16.150][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[18:58:16.261][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
-[18:58:16.263][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
-[18:58:16.263][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
-[18:58:16.263][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
-[18:58:16.263][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
-[18:58:16.265][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
-[18:58:16.265][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
-[18:58:16.265][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
-[18:58:16.266][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
-[18:58:16.266][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
-[18:58:16.266][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
-[18:58:16.268][ERROR]: Error while running scripts:
-com.google.gson.JsonParseException: Legacy mana infusion catalyst syntax used
-	at TRANSFORMER/botania@1.19.2-440-FORGE/vazkii.botania.common.crafting.ManaInfusionRecipe$Serializer.fromJson(ManaInfusionRecipe.java:119)
-	at TRANSFORMER/botania@1.19.2-440-FORGE/vazkii.botania.common.crafting.ManaInfusionRecipe$Serializer.m_6729_(ManaInfusionRecipe.java:105)
-	at TRANSFORMER/forge@43.3.0/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:164)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.api.recipe.manager.base.IRecipeManager.addJsonRecipe(IRecipeManager.java:93)
-	at scripts.botania_recipes.run(botania_recipes.zs:183)
-	at Scripts.run(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.javabytecode.JavaBytecodeRunUnit.run(JavaBytecodeRunUnit.java:127)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zencode.java.ScriptingEngine.run(ScriptingEngine.java:184)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ExecutingScriptRunner.executeRunAction(ExecutingScriptRunner.java:22)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:93)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:80)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:38)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.commands.Commands.m_242674_(Commands.java:240)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[18:58:16.271][INFO]: Execution for loader 'crafttweaker' completed successfully
-[18:58:16.273][INFO]: This reload was made possible by Ncc1702 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[18:59:20.901][INFO]: Started loading scripts for loader 'tags'
-[18:59:20.901][INFO]: Undoing previous actions
-[18:59:20.965][INFO]: Compiling and executing scripts
-[18:59:21.006][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[18:59:21.041][INFO]: Execution for loader 'tags' completed successfully
-[18:59:21.480][INFO]: Started loading scripts for loader 'crafttweaker'
-[18:59:21.480][INFO]: Undoing previous actions
-[18:59:21.520][INFO]: Compiling and executing scripts
-[18:59:21.655][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[18:59:21.655][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[18:59:21.656][INFO]: Loading file 'farmers.zs' with priority 0
-[18:59:21.657][INFO]: Loading file 'new_recipes.zs' with priority 0
-[18:59:21.659][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[18:59:21.659][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[18:59:21.724][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
-[18:59:21.725][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
-[18:59:21.725][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
-[18:59:21.725][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
-[18:59:21.726][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
-[18:59:21.726][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
-[18:59:21.726][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
-[18:59:21.726][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
-[18:59:21.726][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
-[18:59:21.726][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
-[18:59:21.727][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
-[18:59:21.727][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:blaze_rod' that outputs: '<item:minecraft:blaze_rod>'
-[18:59:21.729][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
-[18:59:21.729][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
-[18:59:21.729][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
-[18:59:21.730][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
-[18:59:21.730][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
-[18:59:21.730][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
-[18:59:21.730][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
-[18:59:21.730][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
-[18:59:21.731][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
-[18:59:21.732][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
-[18:59:21.732][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
-[18:59:21.734][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
-[18:59:21.735][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
-[18:59:21.735][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
-[18:59:21.735][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
-[18:59:21.735][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
-[18:59:21.736][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
-[18:59:21.736][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
-[18:59:21.736][INFO]: Execution for loader 'crafttweaker' completed successfully
-[18:59:21.738][INFO]: This reload was made possible by DreamThorn and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[19:25:21.428][INFO]: Started loading scripts for loader 'tags'
-[19:25:21.430][INFO]: Undoing previous actions
-[19:25:21.514][INFO]: Compiling and executing scripts
-[19:25:21.555][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[19:25:21.604][INFO]: Execution for loader 'tags' completed successfully
-[19:25:22.104][INFO]: Started loading scripts for loader 'crafttweaker'
-[19:25:22.104][INFO]: Undoing previous actions
-[19:25:22.251][INFO]: Compiling and executing scripts
-[19:25:22.403][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[19:25:22.404][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[19:25:22.412][INFO]: Loading file 'farmers.zs' with priority 0
-[19:25:22.417][INFO]: Loading file 'new_recipes.zs' with priority 0
-[19:25:22.418][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[19:25:22.419][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[19:25:22.419][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: botania_recipes.zs:189:2: } or , expected
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readPrimaryExpression(ParsedExpression.java:490)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:364)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:46)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:125)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:80)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:38)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.commands.Commands.m_242674_(Commands.java:240)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[19:25:22.421][ERROR]: Scripts are invalid!
-[19:25:22.422][INFO]: Execution for loader 'crafttweaker' completed successfully
-[19:25:22.425][INFO]: This reload was made possible by NickT and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[19:25:43.383][INFO]: Started loading scripts for loader 'tags'
-[19:25:43.384][INFO]: Undoing previous actions
-[19:25:43.470][INFO]: Compiling and executing scripts
-[19:25:43.508][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[19:25:43.562][INFO]: Execution for loader 'tags' completed successfully
-[19:25:44.191][INFO]: Started loading scripts for loader 'crafttweaker'
-[19:25:44.192][INFO]: Undoing previous actions
-[19:25:44.268][INFO]: Compiling and executing scripts
-[19:25:44.395][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[19:25:44.396][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[19:25:44.398][INFO]: Loading file 'farmers.zs' with priority 0
-[19:25:44.399][INFO]: Loading file 'new_recipes.zs' with priority 0
-[19:25:44.399][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[19:25:44.399][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[19:25:44.470][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
-[19:25:44.471][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
-[19:25:44.472][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
-[19:25:44.472][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
-[19:25:44.472][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
-[19:25:44.473][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
-[19:25:44.473][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
-[19:25:44.473][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
-[19:25:44.473][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
-[19:25:44.473][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
-[19:25:44.474][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
-[19:25:44.475][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:blaze_rod' that outputs: '<item:minecraft:blaze_rod>'
-[19:25:44.477][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
-[19:25:44.478][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
-[19:25:44.479][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
-[19:25:44.480][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
-[19:25:44.481][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
-[19:25:44.481][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
-[19:25:44.481][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
-[19:25:44.481][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
-[19:25:44.482][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
-[19:25:44.482][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
-[19:25:44.482][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
-[19:25:44.484][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
-[19:25:44.484][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
-[19:25:44.485][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
-[19:25:44.485][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
-[19:25:44.485][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
-[19:25:44.486][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
-[19:25:44.486][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
-[19:25:44.487][INFO]: Execution for loader 'crafttweaker' completed successfully
-[19:25:44.490][INFO]: This reload was made possible by Belathus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[20:06:59.177][INFO]: Started loading scripts for loader 'tags'
-[20:06:59.178][INFO]: Undoing previous actions
-[20:06:59.224][INFO]: Compiling and executing scripts
-[20:06:59.241][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:06:59.266][INFO]: Execution for loader 'tags' completed successfully
-[20:06:59.707][INFO]: Started loading scripts for loader 'crafttweaker'
-[20:06:59.709][INFO]: Undoing previous actions
-[20:06:59.955][INFO]: Compiling and executing scripts
-[20:07:00.162][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[20:07:00.166][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[20:07:00.173][INFO]: Loading file 'farmers.zs' with priority 0
-[20:07:00.175][INFO]: Loading file 'new_recipes.zs' with priority 0
-[20:07:00.175][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[20:07:00.176][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[20:07:00.295][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
-[20:07:00.298][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
-[20:07:00.298][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
-[20:07:00.299][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
-[20:07:00.299][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
-[20:07:00.300][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
-[20:07:00.300][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
-[20:07:00.300][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
-[20:07:00.300][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
-[20:07:00.300][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
-[20:07:00.301][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
-[20:07:00.302][ERROR]: Error while running scripts:
-com.google.gson.JsonParseException: Unknown type!
-	at TRANSFORMER/botania@1.19.2-440-FORGE/vazkii.botania.common.crafting.StateIngredientHelper.deserialize(StateIngredientHelper.java:114)
-	at TRANSFORMER/botania@1.19.2-440-FORGE/vazkii.botania.common.crafting.ManaInfusionRecipe$Serializer.fromJson(ManaInfusionRecipe.java:121)
-	at TRANSFORMER/botania@1.19.2-440-FORGE/vazkii.botania.common.crafting.ManaInfusionRecipe$Serializer.m_6729_(ManaInfusionRecipe.java:105)
-	at TRANSFORMER/forge@43.3.0/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:164)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.api.recipe.manager.base.IRecipeManager.addJsonRecipe(IRecipeManager.java:93)
-	at scripts.botania_recipes.run(botania_recipes.zs:183)
-	at Scripts.run(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.javabytecode.JavaBytecodeRunUnit.run(JavaBytecodeRunUnit.java:127)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zencode.java.ScriptingEngine.run(ScriptingEngine.java:184)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ExecutingScriptRunner.executeRunAction(ExecutingScriptRunner.java:22)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:93)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:80)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:38)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.commands.Commands.m_242674_(Commands.java:240)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[20:07:00.307][INFO]: Execution for loader 'crafttweaker' completed successfully
-[20:07:00.318][INFO]: This reload was made possible by DreamThorn and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[20:07:18.853][INFO]: Started loading scripts for loader 'tags'
-[20:07:18.855][INFO]: Undoing previous actions
-[20:07:18.943][INFO]: Compiling and executing scripts
-[20:07:18.973][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:07:19.010][INFO]: Execution for loader 'tags' completed successfully
-[20:07:19.393][INFO]: Started loading scripts for loader 'crafttweaker'
-[20:07:19.393][INFO]: Undoing previous actions
-[20:07:19.451][INFO]: Compiling and executing scripts
-[20:07:19.559][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[20:07:19.560][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[20:07:19.560][INFO]: Loading file 'farmers.zs' with priority 0
-[20:07:19.561][INFO]: Loading file 'new_recipes.zs' with priority 0
-[20:07:19.561][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[20:07:19.561][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[20:07:19.618][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
-[20:07:19.618][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
-[20:07:19.618][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
-[20:07:19.618][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
-[20:07:19.618][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
-[20:07:19.619][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
-[20:07:19.619][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
-[20:07:19.619][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
-[20:07:19.619][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
-[20:07:19.619][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
-[20:07:19.619][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
-[20:07:19.620][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:blaze_rod' that outputs: '<item:minecraft:blaze_rod>'
-[20:07:19.621][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
-[20:07:19.621][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
-[20:07:19.622][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
-[20:07:19.625][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
-[20:07:19.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
-[20:07:19.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
-[20:07:19.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
-[20:07:19.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
-[20:07:19.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
-[20:07:19.626][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
-[20:07:19.626][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
-[20:07:19.627][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
-[20:07:19.627][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
-[20:07:19.627][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
-[20:07:19.627][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
-[20:07:19.628][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
-[20:07:19.628][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
-[20:07:19.628][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
-[20:07:19.629][INFO]: Execution for loader 'crafttweaker' completed successfully
-[20:07:19.630][INFO]: This reload was made possible by Belathus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[20:16:34.038][INFO]: Item: <item:botania:manasteel_block>
-[20:16:34.046][INFO]: Block: <block:botania:manasteel_block>
-[20:16:34.046][INFO]: BlockState: <blockstate:botania:manasteel_block>
-[20:16:34.049][INFO]: Item Tag Entries
-[20:16:34.051][INFO]:     -  <tag:items:botania:manasteel_blocks>
-[20:16:34.051][INFO]:     -  <tag:items:diet:ingredients>
-[20:16:34.051][INFO]:     -  <tag:items:forge:storage_blocks/manasteel>
-[20:16:34.051][INFO]:     -  <tag:items:forge:storage_blocks>
-[20:16:34.051][INFO]: Block Tag Entries
-[20:16:34.052][INFO]:     -  <tag:blocks:botania:manasteel_blocks>
-[20:16:34.053][INFO]:     -  <tag:blocks:forge:storage_blocks/manasteel>
-[20:16:34.053][INFO]:     -  <tag:blocks:minecraft:mineable/pickaxe>
-[20:16:34.053][INFO]:     -  <tag:blocks:minecraft:beacon_base_blocks>
-[20:16:34.053][INFO]:     -  <tag:blocks:forge:storage_blocks>
-[20:21:47.683][INFO]: Item: <item:botania:livingrock>
-[20:21:47.684][INFO]: Block: <block:botania:livingrock>
-[20:21:47.684][INFO]: BlockState: <blockstate:botania:livingrock>
-[20:21:47.685][INFO]: Block Tag Entries
-[20:21:47.685][INFO]:     -  <tag:blocks:botania:terra_plate_base>
-[20:21:47.685][INFO]:     -  <tag:blocks:minecraft:mineable/pickaxe>
-[20:22:34.509][INFO]: Item: <item:minecraft:gold_ingot>
-[20:22:34.511][INFO]: Item Tag Entries
-[20:22:34.511][INFO]:     -  <tag:items:forge:ingots/gold>
-[20:22:34.511][INFO]:     -  <tag:items:minecraft:beacon_payment_items>
-[20:22:34.511][INFO]:     -  <tag:items:forge:ingots>
-[20:22:34.511][INFO]:     -  <tag:items:diet:ingredients>
-[20:22:34.511][INFO]:     -  <tag:items:minecraft:piglin_loved>
-[20:23:35.669][INFO]: Started loading scripts for loader 'tags'
-[20:23:35.670][INFO]: Undoing previous actions
-[20:23:35.741][INFO]: Compiling and executing scripts
-[20:23:35.780][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:23:35.815][INFO]: Execution for loader 'tags' completed successfully
-[20:23:36.267][INFO]: Started loading scripts for loader 'crafttweaker'
-[20:23:36.268][INFO]: Undoing previous actions
-[20:23:36.332][INFO]: Compiling and executing scripts
-[20:23:36.486][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[20:23:36.488][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[20:23:36.493][INFO]: Loading file 'farmers.zs' with priority 0
-[20:23:36.495][INFO]: Loading file 'new_recipes.zs' with priority 0
-[20:23:36.495][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[20:23:36.496][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[20:23:36.562][ERROR]: recipe_changes.zs:17:0: recipe_changes.zs:17:0: No compatible methods found!
-[20:23:36.564][ERROR]: Scripts are invalid!
-[20:23:36.568][INFO]: Execution for loader 'crafttweaker' completed successfully
-[20:23:36.574][INFO]: This reload was made possible by Jonathan McManus and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[20:24:00.429][INFO]: Started loading scripts for loader 'tags'
-[20:24:00.430][INFO]: Undoing previous actions
-[20:24:00.511][INFO]: Compiling and executing scripts
-[20:24:00.533][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:24:00.581][INFO]: Execution for loader 'tags' completed successfully
-[20:24:00.948][INFO]: Started loading scripts for loader 'crafttweaker'
-[20:24:00.949][INFO]: Undoing previous actions
-[20:24:00.968][INFO]: Compiling and executing scripts
-[20:24:01.050][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[20:24:01.051][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[20:24:01.053][INFO]: Loading file 'farmers.zs' with priority 0
-[20:24:01.053][INFO]: Loading file 'new_recipes.zs' with priority 0
-[20:24:01.054][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[20:24:01.054][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[20:24:01.055][ERROR]: Error while running scripts:
-org.openzen.zenscript.lexer.ParseException: recipe_changes.zs:17:341: ] or , expected
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.lexer.LLParserTokenStream.required(LLParserTokenStream.java:96)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readPrimaryExpression(ParsedExpression.java:467)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:364)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedCallArguments.parse(ParsedCallArguments.java:46)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readPostfixExpression(ParsedExpression.java:399)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readUnaryExpression(ParsedExpression.java:359)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readMulExpression(ParsedExpression.java:288)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAddExpression(ParsedExpression.java:258)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readShiftExpression(ParsedExpression.java:237)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readCompareExpression(ParsedExpression.java:166)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAndExpression(ParsedExpression.java:156)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readXorExpression(ParsedExpression.java:146)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readOrExpression(ParsedExpression.java:136)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAndAndExpression(ParsedExpression.java:126)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readOrOrExpression(ParsedExpression.java:110)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readConditionalExpression(ParsedExpression.java:97)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.readAssignExpression(ParsedExpression.java:49)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.expression.ParsedExpression.parse(ParsedExpression.java:40)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:299)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.statements.ParsedStatement.parse(ParsedStatement.java:81)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:215)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.parser.ParsedFile.parse(ParsedFile.java:158)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zencode.java.ScriptingEngine.createScriptedModule(ScriptingEngine.java:125)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:86)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:80)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:38)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.commands.Commands.m_242674_(Commands.java:240)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[20:24:01.059][ERROR]: Scripts are invalid!
-[20:24:01.059][INFO]: Execution for loader 'crafttweaker' completed successfully
-[20:24:01.061][INFO]: This reload was made possible by Jessie Sims and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[20:24:22.774][INFO]: Started loading scripts for loader 'tags'
-[20:24:22.775][INFO]: Undoing previous actions
-[20:24:22.876][INFO]: Compiling and executing scripts
-[20:24:22.904][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:24:22.959][INFO]: Execution for loader 'tags' completed successfully
-[20:24:23.399][INFO]: Started loading scripts for loader 'crafttweaker'
-[20:24:23.399][INFO]: Undoing previous actions
-[20:24:23.421][INFO]: Compiling and executing scripts
-[20:24:23.534][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[20:24:23.534][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[20:24:23.535][INFO]: Loading file 'farmers.zs' with priority 0
-[20:24:23.537][INFO]: Loading file 'new_recipes.zs' with priority 0
-[20:24:23.537][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[20:24:23.537][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[20:24:23.617][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
-[20:24:23.618][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
-[20:24:23.618][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
-[20:24:23.618][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
-[20:24:23.620][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
-[20:24:23.620][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
-[20:24:23.620][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
-[20:24:23.621][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
-[20:24:23.621][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
-[20:24:23.621][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
-[20:24:23.621][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
-[20:24:23.621][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:blaze_rod' that outputs: '<item:minecraft:blaze_rod>'
-[20:24:23.622][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
-[20:24:23.623][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
-[20:24:23.624][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
-[20:24:23.624][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
-[20:24:23.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
-[20:24:23.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
-[20:24:23.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
-[20:24:23.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
-[20:24:23.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
-[20:24:23.625][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
-[20:24:23.626][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
-[20:24:23.627][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
-[20:24:23.627][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
-[20:24:23.628][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
-[20:24:23.628][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
-[20:24:23.628][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
-[20:24:23.628][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
-[20:24:23.629][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
-[20:24:23.629][INFO]: Removing 'crafting' recipes with output: '<item:botania:alchemy_catalyst>'
-[20:24:23.630][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:alchemy_catalyst' that outputs: '<item:botania:alchemy_catalyst>'
-[20:24:23.630][INFO]: Execution for loader 'crafttweaker' completed successfully
-[20:24:23.632][INFO]: This reload was made possible by Pongo Sapiens and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[20:26:36.615][INFO]: Started loading scripts for loader 'tags'
-[20:26:36.616][INFO]: Undoing previous actions
-[20:26:36.656][INFO]: Compiling and executing scripts
-[20:26:36.671][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:26:36.710][INFO]: Execution for loader 'tags' completed successfully
-[20:26:37.148][INFO]: Started loading scripts for loader 'crafttweaker'
-[20:26:37.148][INFO]: Undoing previous actions
-[20:26:37.234][INFO]: Compiling and executing scripts
-[20:26:37.365][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[20:26:37.366][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[20:26:37.368][INFO]: Loading file 'farmers.zs' with priority 0
-[20:26:37.369][INFO]: Loading file 'new_recipes.zs' with priority 0
-[20:26:37.369][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[20:26:37.369][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[20:26:37.473][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
-[20:26:37.475][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
-[20:26:37.475][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
-[20:26:37.475][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
-[20:26:37.475][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
-[20:26:37.476][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
-[20:26:37.476][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
-[20:26:37.476][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
-[20:26:37.476][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
-[20:26:37.476][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
-[20:26:37.477][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
-[20:26:37.477][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:blaze_rod' that outputs: '<item:minecraft:blaze_rod>'
-[20:26:37.487][ERROR]: Error while running scripts:
-com.google.gson.JsonSyntaxException: Unknown item 'minecraft:endstone'
-	at TRANSFORMER/forge@43.3.0/net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:154)
-	at TRANSFORMER/forge@43.3.0/net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:180)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:269)
-	at TRANSFORMER/botania@1.19.2-440-FORGE/vazkii.botania.common.crafting.ManaInfusionRecipe$Serializer.fromJson(ManaInfusionRecipe.java:112)
-	at TRANSFORMER/botania@1.19.2-440-FORGE/vazkii.botania.common.crafting.ManaInfusionRecipe$Serializer.m_6729_(ManaInfusionRecipe.java:105)
-	at TRANSFORMER/forge@43.3.0/net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.item.crafting.RecipeManager.m_44045_(RecipeManager.java:164)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.api.recipe.manager.base.IRecipeManager.addJsonRecipe(IRecipeManager.java:93)
-	at scripts.botania_recipes.run(botania_recipes.zs:195)
-	at Scripts.run(Unknown Source)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zenscript.javabytecode.JavaBytecodeRunUnit.run(JavaBytecodeRunUnit.java:127)
-	at TRANSFORMER/crafttweaker@10.1.55/org.openzen.zencode.java.ScriptingEngine.run(ScriptingEngine.java:184)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ExecutingScriptRunner.executeRunAction(ExecutingScriptRunner.java:22)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:93)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:80)
-	at TRANSFORMER/crafttweaker@10.1.55/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:38)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
-	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
-	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1312)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.commands.ReloadCommand.m_138228_(ReloadCommand.java:53)
-	at MC-BOOTSTRAP/brigadier@1.0.18/com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.commands.Commands.m_242674_(Commands.java:240)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.m_242600_(ServerGamePacketListenerImpl.java:1239)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1217)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:68)
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.TickTask.run(TickTask.java:18)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:763)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:157)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:746)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:740)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:726)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:658)
-	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-[20:26:37.493][INFO]: Execution for loader 'crafttweaker' completed successfully
-[20:26:37.500][INFO]: This reload was made possible by Jellycraft and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
-[20:26:53.280][INFO]: Started loading scripts for loader 'tags'
-[20:26:53.281][INFO]: Undoing previous actions
-[20:26:53.344][INFO]: Compiling and executing scripts
-[20:26:53.365][INFO]: Successfully initialized modules [crafttweaker, expansions]
-[20:26:53.393][INFO]: Execution for loader 'tags' completed successfully
-[20:26:53.751][INFO]: Started loading scripts for loader 'crafttweaker'
-[20:26:53.751][INFO]: Undoing previous actions
-[20:26:53.783][INFO]: Compiling and executing scripts
-[20:26:53.863][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
-[20:26:53.863][INFO]: Loading file 'botania_recipes.zs' with priority 0
-[20:26:53.864][INFO]: Loading file 'farmers.zs' with priority 0
-[20:26:53.864][INFO]: Loading file 'new_recipes.zs' with priority 0
-[20:26:53.865][INFO]: Loading file 'plate_recipes.zs' with priority 0
-[20:26:53.865][INFO]: Loading file 'recipe_changes.zs' with priority 0
-[20:26:53.899][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
-[20:26:53.901][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
-[20:26:53.901][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
-[20:26:53.901][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
-[20:26:53.901][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
-[20:26:53.901][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
-[20:26:53.901][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
-[20:26:53.901][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
-[20:26:53.901][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
-[20:26:53.901][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
-[20:26:53.902][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
-[20:26:53.902][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:blaze_rod' that outputs: '<item:minecraft:blaze_rod>'
-[20:26:53.902][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:end_stone' that outputs: '<item:minecraft:end_stone>'
-[20:26:53.903][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
-[20:26:53.903][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
-[20:26:53.904][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
-[20:26:53.904][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
-[20:26:53.904][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
-[20:26:53.904][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
-[20:26:53.904][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
-[20:26:53.905][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
-[20:26:53.905][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
-[20:26:53.906][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
-[20:26:53.906][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
-[20:26:53.907][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
-[20:26:53.907][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
-[20:26:53.907][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
-[20:26:53.907][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
-[20:26:53.907][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
-[20:26:53.907][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
-[20:26:53.908][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
-[20:26:53.908][INFO]: Removing 'crafting' recipes with output: '<item:botania:alchemy_catalyst>'
-[20:26:53.908][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:alchemy_catalyst' that outputs: '<item:botania:alchemy_catalyst>'
-[20:26:53.908][INFO]: Execution for loader 'crafttweaker' completed successfully
-[20:26:53.912][INFO]: This reload was made possible by Phillip Swearingain and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[23:13:41.713][INFO]: Successfully injected RecipeFS file system
+[23:13:41.824][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[23:13:41.909][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:vanilla
+[23:13:41.912][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:forge
+[23:13:41.938][INFO]: Successfully identified and loaded plugin contenttweaker:core
+[23:13:41.941][INFO]: Successfully identified and loaded plugin jeitweaker:common
+[23:13:41.950][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[23:13:41.953][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[23:13:41.995][INFO]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
+[23:13:41.997][INFO]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
+[23:13:42.003][INFO]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
+[23:13:42.004][INFO]: Running JeiTweaker plugin initialization
+[23:13:42.023][INFO]: JeiTweaker plugin initialization completed successfully
+[23:13:42.487][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[23:13:42.489][INFO]: - 'contenttweaker' at version '2.0.0+4'
+[23:13:42.489][INFO]: - 'crafttweaker' at version '10.1.55'
+[23:13:42.489][INFO]: - 'custommachinery' at version '0.9.20'
+[23:13:42.489][INFO]: - 'farmersdelight' at version '1.19.2-1.2.4'
+[23:13:42.490][INFO]: - 'jeitweaker' at version '4.0.13'
+[23:13:42.829][INFO]: Started loading scripts for loader 'contenttweaker'
+[23:13:43.119][INFO]: Compiling and executing scripts
+[23:13:43.221][INFO]: Successfully initialized modules [crafttweaker, contenttweaker, expansions]
+[23:13:43.225][INFO]: Loading file 'new_items.zs' with priority 0
+[23:13:43.229][INFO]: Loading file 'plates.zs' with priority 0
+[23:13:43.396][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:mud_ball
+[23:13:43.450][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:dirt_clump
+[23:13:43.455][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:vegitation
+[23:13:43.457][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:crimson_vegitation
+[23:13:43.457][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:warped_vegitation
+[23:13:43.457][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:basic_plate
+[23:13:43.458][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:magma_and_ice_stew
+[23:13:43.458][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:chopped_ender_eye
+[23:13:43.459][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:fried_ender_eye
+[23:13:43.459][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:ender_port
+[23:13:43.460][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:azalea_plate
+[23:13:43.461][INFO]: Registering object of type minecraft:item[R]{net.minecraft.world.item.Item} with name contenttweaker:sapling_plate
+[23:13:43.471][INFO]: Execution for loader 'contenttweaker' completed successfully
+[23:13:48.717][INFO]: Started loading scripts for loader 'initialize'
+[23:13:49.137][INFO]: Compiling and executing scripts
+[23:13:49.157][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[23:13:49.263][INFO]: Execution for loader 'initialize' completed successfully
+[23:26:34.434][INFO]: Started loading scripts for loader 'tags'
+[23:26:34.536][INFO]: Compiling and executing scripts
+[23:26:34.565][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[23:26:34.622][INFO]: Execution for loader 'tags' completed successfully
+[23:26:35.629][INFO]: Started loading scripts for loader 'crafttweaker'
+[23:26:35.735][INFO]: Compiling and executing scripts
+[23:26:36.401][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[23:26:36.406][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[23:26:36.419][INFO]: Loading file 'farmers.zs' with priority 0
+[23:26:36.424][INFO]: Loading file 'new_recipes.zs' with priority 0
+[23:26:36.425][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[23:26:36.425][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[23:26:36.605][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[23:26:36.612][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[23:26:36.612][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:carrot' that outputs: '<item:minecraft:carrot>'
+[23:26:36.613][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[23:26:36.614][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
+[23:26:36.615][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[23:26:36.615][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[23:26:36.616][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[23:26:36.616][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[23:26:36.616][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[23:26:36.616][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[23:26:36.617][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
+[23:26:36.617][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:blaze_rod' that outputs: '<item:minecraft:blaze_rod>'
+[23:26:36.617][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:end_stone' that outputs: '<item:minecraft:end_stone>'
+[23:26:36.618][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:egg' that outputs: '<item:minecraft:egg>'
+[23:26:36.620][INFO]: Removing 'botania:mana_infusion' recipes with output: '<item:minecraft:carrot>'
+[23:26:36.621][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:onion' that outputs: '<item:farmersdelight:onion>'
+[23:26:36.622][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:rice' that outputs: '<item:farmersdelight:rice>'
+[23:26:36.623][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:copper_oreberry_bush' that outputs: '<item:oreberriesreplanted:copper_oreberry_bush>'
+[23:26:36.623][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:lapis_lazuli' that outputs: '<item:minecraft:lapis_lazuli>'
+[23:26:36.623][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:tadpole' that outputs: '<item:minecraft:tadpole_bucket>'
+[23:26:36.624][INFO]: Adding 'botania:elven_trade' recipe, with name: 'crafttweaker:chorus_fruit' that outputs: '<item:minecraft:air>'
+[23:26:36.624][INFO]: Adding 'botania:elven_trade' recipe, with name: 'crafttweaker:glowstone' that outputs: '<item:minecraft:air>'
+[23:26:36.625][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[23:26:36.626][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[23:26:36.630][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[23:26:36.632][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[23:26:36.632][INFO]: Removing 'crafting' recipes with output: '<item:minecraft:ender_eye>'
+[23:26:36.637][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:eye_of_ender' that outputs: '<item:minecraft:ender_eye>'
+[23:26:36.637][INFO]: Adding 'farmersdelight:cutting' recipe, with name: 'crafttweaker:chopped_eye_of_ender' that outputs: '<item:contenttweaker:chopped_ender_eye> * 2'
+[23:26:36.640][INFO]: Adding 'minecraft:campfire_cooking' recipe, with name: 'crafttweaker:fried_ender_eye_furnace' that outputs: '<item:contenttweaker:fried_ender_eye>'
+[23:26:36.640][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:ender_port' that outputs: '<item:contenttweaker:ender_port>'
+[23:26:36.640][INFO]: Removing 'crafting' recipes with output: '<item:ends_delight:non_hatchable_dragon_egg>'
+[23:26:36.641][INFO]: Removing 'farmersdelight:cutting' recipes that match a custom condition
+[23:26:36.643][INFO]: Adding 'farmersdelight:cutting' recipe, with name: 'crafttweaker:dragon_egg' that outputs: '<item:ends_delight:half_dragon_egg_shell> * 2'
+[23:26:36.644][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[23:26:36.644][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[23:26:36.644][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[23:26:36.644][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
+[23:26:36.647][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:auto_muncher' that outputs: '<item:custommachinery:custom_machine_item>.withTag({machine: "custommachinery:muncher"})'
+[23:26:36.647][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[23:26:36.648][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
+[23:26:36.648][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[23:26:36.649][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[23:26:36.649][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[23:26:36.649][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[23:26:36.649][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[23:26:36.649][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[23:26:36.650][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[23:26:36.650][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[23:26:36.650][INFO]: Removing 'crafting' recipes with output: '<item:botania:alchemy_catalyst>'
+[23:26:36.650][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:alchemy_catalyst' that outputs: '<item:botania:alchemy_catalyst>'
+[23:26:36.650][INFO]: Removing 'minecraft:smelting' recipes that match a custom condition
+[23:26:36.651][INFO]: Removing 'minecraft:blasting' recipes that match a custom condition
+[23:26:36.654][INFO]: Execution for loader 'crafttweaker' completed successfully
+[23:26:36.665][INFO]: This reload was made possible by Ncc1702 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[23:32:43.508][INFO]: Started loading scripts for loader 'tags'
+[23:32:43.509][INFO]: Undoing previous actions
+[23:32:43.627][INFO]: Compiling and executing scripts
+[23:32:43.677][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[23:32:43.801][INFO]: Execution for loader 'tags' completed successfully
+[23:32:44.521][INFO]: Started loading scripts for loader 'crafttweaker'
+[23:32:44.522][INFO]: Undoing previous actions
+[23:32:44.608][INFO]: Compiling and executing scripts
+[23:32:44.803][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[23:32:44.804][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[23:32:44.807][INFO]: Loading file 'farmers.zs' with priority 0
+[23:32:44.812][INFO]: Loading file 'new_recipes.zs' with priority 0
+[23:32:44.818][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[23:32:44.818][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[23:32:44.907][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[23:32:44.908][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[23:32:44.910][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:carrot' that outputs: '<item:minecraft:carrot>'
+[23:32:44.911][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[23:32:44.911][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
+[23:32:44.911][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:quartz_oreberry' that outputs: '<item:oreberriesreplanted:aluminum_oreberry_bush>'
+[23:32:44.912][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[23:32:44.913][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[23:32:44.913][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[23:32:44.914][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[23:32:44.914][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[23:32:44.914][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[23:32:44.915][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
+[23:32:44.915][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:blaze_rod' that outputs: '<item:minecraft:blaze_rod>'
+[23:32:44.915][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:end_stone' that outputs: '<item:minecraft:end_stone>'
+[23:32:44.915][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:egg' that outputs: '<item:minecraft:egg>'
+[23:32:44.915][INFO]: Removing 'botania:mana_infusion' recipes with output: '<item:minecraft:carrot>'
+[23:32:44.915][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:onion' that outputs: '<item:farmersdelight:onion>'
+[23:32:44.916][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:rice' that outputs: '<item:farmersdelight:rice>'
+[23:32:44.916][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:copper_oreberry_bush' that outputs: '<item:oreberriesreplanted:copper_oreberry_bush>'
+[23:32:44.916][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:lapis_lazuli' that outputs: '<item:minecraft:lapis_lazuli>'
+[23:32:44.918][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:tadpole' that outputs: '<item:minecraft:tadpole_bucket>'
+[23:32:44.919][INFO]: Adding 'botania:elven_trade' recipe, with name: 'crafttweaker:chorus_fruit' that outputs: '<item:minecraft:air>'
+[23:32:44.919][INFO]: Adding 'botania:elven_trade' recipe, with name: 'crafttweaker:glowstone' that outputs: '<item:minecraft:air>'
+[23:32:44.920][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[23:32:44.920][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[23:32:44.921][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[23:32:44.922][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[23:32:44.922][INFO]: Removing 'crafting' recipes with output: '<item:minecraft:ender_eye>'
+[23:32:44.923][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:eye_of_ender' that outputs: '<item:minecraft:ender_eye>'
+[23:32:44.924][INFO]: Adding 'farmersdelight:cutting' recipe, with name: 'crafttweaker:chopped_eye_of_ender' that outputs: '<item:contenttweaker:chopped_ender_eye> * 2'
+[23:32:44.926][INFO]: Adding 'minecraft:campfire_cooking' recipe, with name: 'crafttweaker:fried_ender_eye_furnace' that outputs: '<item:contenttweaker:fried_ender_eye>'
+[23:32:44.926][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:ender_port' that outputs: '<item:contenttweaker:ender_port>'
+[23:32:44.926][INFO]: Removing 'crafting' recipes with output: '<item:ends_delight:non_hatchable_dragon_egg>'
+[23:32:44.926][INFO]: Removing 'farmersdelight:cutting' recipes that match a custom condition
+[23:32:44.932][INFO]: Adding 'farmersdelight:cutting' recipe, with name: 'crafttweaker:dragon_egg' that outputs: '<item:ends_delight:half_dragon_egg_shell> * 2'
+[23:32:44.932][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[23:32:44.932][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[23:32:44.932][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[23:32:44.932][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
+[23:32:44.933][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:auto_muncher' that outputs: '<item:custommachinery:custom_machine_item>.withTag({machine: "custommachinery:muncher"})'
+[23:32:44.934][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[23:32:44.934][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
+[23:32:44.934][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[23:32:44.934][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[23:32:44.934][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[23:32:44.935][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[23:32:44.935][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[23:32:44.935][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[23:32:44.935][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[23:32:44.935][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[23:32:44.935][INFO]: Removing 'crafting' recipes with output: '<item:botania:alchemy_catalyst>'
+[23:32:44.936][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:alchemy_catalyst' that outputs: '<item:botania:alchemy_catalyst>'
+[23:32:44.936][INFO]: Removing 'minecraft:smelting' recipes that match a custom condition
+[23:32:44.938][INFO]: Removing 'minecraft:blasting' recipes that match a custom condition
+[23:32:44.938][INFO]: Execution for loader 'crafttweaker' completed successfully
+[23:32:44.941][INFO]: This reload was made possible by Ncc1702 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[23:56:03.815][INFO]: Item: <item:nethersdelight:hoglin_loin>
+[23:56:03.820][INFO]: Item Tag Entries
+[23:56:03.822][INFO]:     -  <tag:items:farmersdelight:cabbage_roll_ingredients>
+[23:56:03.822][INFO]:     -  <tag:items:minecraft:piglin_food>
+[23:56:23.394][INFO]: Started loading scripts for loader 'tags'
+[23:56:23.396][INFO]: Undoing previous actions
+[23:56:23.535][INFO]: Compiling and executing scripts
+[23:56:23.596][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[23:56:23.669][INFO]: Execution for loader 'tags' completed successfully
+[23:56:24.343][INFO]: Started loading scripts for loader 'crafttweaker'
+[23:56:24.343][INFO]: Undoing previous actions
+[23:56:24.423][INFO]: Compiling and executing scripts
+[23:56:24.619][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[23:56:24.619][INFO]: Loading file 'botania_recipes.zs' with priority 0
+[23:56:24.624][INFO]: Loading file 'farmers.zs' with priority 0
+[23:56:24.626][INFO]: Loading file 'new_recipes.zs' with priority 0
+[23:56:24.626][INFO]: Loading file 'plate_recipes.zs' with priority 0
+[23:56:24.626][INFO]: Loading file 'recipe_changes.zs' with priority 0
+[23:56:24.763][INFO]: Adding 'botania:pure_daisy' recipe, with name: 'crafttweaker:terracotta_livingrock' that outputs: '<item:minecraft:air>'
+[23:56:24.766][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:sweet_berries' that outputs: '<item:minecraft:sweet_berries>'
+[23:56:24.768][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:carrot' that outputs: '<item:minecraft:carrot>'
+[23:56:24.768][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:iron_oreberry' that outputs: '<item:oreberriesreplanted:iron_oreberry_bush>'
+[23:56:24.768][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gold_oreberry' that outputs: '<item:oreberriesreplanted:gold_oreberry_bush>'
+[23:56:24.768][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:quartz_oreberry' that outputs: '<item:oreberriesreplanted:aluminum_oreberry_bush>'
+[23:56:24.769][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:gourmaryllis>'
+[23:56:24.769][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:gourmaryllis' that outputs: '<item:botania:gourmaryllis>'
+[23:56:24.769][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:hydroangeas>'
+[23:56:24.769][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:hydroangea' that outputs: '<item:botania:hydroangeas>'
+[23:56:24.769][INFO]: Removing 'botania:petal_apothecary' recipes with output: '<item:botania:endoflame>'
+[23:56:24.770][INFO]: Adding 'botania:petal_apothecary' recipe, with name: 'crafttweaker:endoflame' that outputs: '<item:botania:endoflame>'
+[23:56:24.771][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:bone_to_pork' that outputs: '<item:farmersdelight:ham>'
+[23:56:24.771][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:blaze_rod' that outputs: '<item:minecraft:blaze_rod>'
+[23:56:24.771][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:end_stone' that outputs: '<item:minecraft:end_stone>'
+[23:56:24.771][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:egg' that outputs: '<item:minecraft:egg>'
+[23:56:24.771][INFO]: Removing 'botania:mana_infusion' recipes with output: '<item:minecraft:carrot>'
+[23:56:24.772][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:onion' that outputs: '<item:farmersdelight:onion>'
+[23:56:24.772][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:rice' that outputs: '<item:farmersdelight:rice>'
+[23:56:24.772][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:copper_oreberry_bush' that outputs: '<item:oreberriesreplanted:copper_oreberry_bush>'
+[23:56:24.772][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:lapis_lazuli' that outputs: '<item:minecraft:lapis_lazuli>'
+[23:56:24.772][INFO]: Adding 'botania:mana_infusion' recipe, with name: 'crafttweaker:tadpole' that outputs: '<item:minecraft:tadpole_bucket>'
+[23:56:24.773][INFO]: Adding 'botania:elven_trade' recipe, with name: 'crafttweaker:chorus_fruit' that outputs: '<item:minecraft:air>'
+[23:56:24.773][INFO]: Adding 'botania:elven_trade' recipe, with name: 'crafttweaker:glowstone' that outputs: '<item:minecraft:air>'
+[23:56:24.773][INFO]: Adding 'botania:elven_trade' recipe, with name: 'crafttweaker:hoglin' that outputs: '<item:minecraft:air>'
+[23:56:24.775][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma' that outputs: '<item:minecraft:magma_block>'
+[23:56:24.775][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:lava_bucket' that outputs: '<item:minecraft:lava_bucket>'
+[23:56:24.777][INFO]: Adding: [contenttweaker:magma_and_ice_stew] to tag: <tag:items:nethersdelight:meal_item>
+[23:56:24.779][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:magma_and_ice_stew' that outputs: '<item:contenttweaker:magma_and_ice_stew>'
+[23:56:24.779][INFO]: Removing 'crafting' recipes with output: '<item:minecraft:ender_eye>'
+[23:56:24.780][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:eye_of_ender' that outputs: '<item:minecraft:ender_eye>'
+[23:56:24.781][INFO]: Adding 'farmersdelight:cutting' recipe, with name: 'crafttweaker:chopped_eye_of_ender' that outputs: '<item:contenttweaker:chopped_ender_eye> * 2'
+[23:56:24.783][INFO]: Adding 'minecraft:campfire_cooking' recipe, with name: 'crafttweaker:fried_ender_eye_furnace' that outputs: '<item:contenttweaker:fried_ender_eye>'
+[23:56:24.783][INFO]: Adding 'farmersdelight:cooking' recipe, with name: 'crafttweaker:ender_port' that outputs: '<item:contenttweaker:ender_port>'
+[23:56:24.783][INFO]: Removing 'crafting' recipes with output: '<item:ends_delight:non_hatchable_dragon_egg>'
+[23:56:24.784][INFO]: Removing 'farmersdelight:cutting' recipes that match a custom condition
+[23:56:24.788][INFO]: Adding 'farmersdelight:cutting' recipe, with name: 'crafttweaker:dragon_egg' that outputs: '<item:ends_delight:half_dragon_egg_shell> * 2'
+[23:56:24.789][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_from_balls' that outputs: '<item:minecraft:mud>'
+[23:56:24.789][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:dirt_from_clumps' that outputs: '<item:minecraft:dirt>'
+[23:56:24.789][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:basic_plate' that outputs: '<item:contenttweaker:basic_plate>'
+[23:56:24.789][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:blue_ice_from_needles' that outputs: '<item:minecraft:blue_ice>'
+[23:56:24.790][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:auto_muncher' that outputs: '<item:custommachinery:custom_machine_item>.withTag({machine: "custommachinery:muncher"})'
+[23:56:24.791][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:azalea_plate' that outputs: '<item:contenttweaker:azalea_plate>'
+[23:56:24.793][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:sapling_plate' that outputs: '<item:contenttweaker:sapling_plate>'
+[23:56:24.793][INFO]: Removing 'crafting' recipes with output: '<item:botania:fertilizer>'
+[23:56:24.795][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:floral_fertilizer' that outputs: '<item:botania:fertilizer>'
+[23:56:24.796][INFO]: Removing 'crafting' recipes with output: '<item:botania:apothecary_deepslate>'
+[23:56:24.797][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:mud_apothecary' that outputs: '<item:botania:apothecary_deepslate>'
+[23:56:24.800][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:cooking_pot>'
+[23:56:24.802][INFO]: Removing 'crafting' recipes with output: '<item:farmersdelight:stove>'
+[23:56:24.802][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:cooking_pot' that outputs: '<item:farmersdelight:cooking_pot>'
+[23:56:24.802][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:stove' that outputs: '<item:farmersdelight:stove>'
+[23:56:24.802][INFO]: Removing 'crafting' recipes with output: '<item:botania:alchemy_catalyst>'
+[23:56:24.803][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:alchemy_catalyst' that outputs: '<item:botania:alchemy_catalyst>'
+[23:56:24.803][INFO]: Removing 'minecraft:smelting' recipes that match a custom condition
+[23:56:24.806][INFO]: Removing 'minecraft:blasting' recipes that match a custom condition
+[23:56:24.807][INFO]: Execution for loader 'crafttweaker' completed successfully
+[23:56:24.810][INFO]: This reload was made possible by Jordan Pineo and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod

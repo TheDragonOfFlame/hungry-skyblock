@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "automation"
+	group: "054857A5A3D3D8EA"
+	icon: {
+		Count: 1b
+		id: "custommachinery:custom_machine_item"
+		tag: {
+			machine: "custommachinery:muncher"
+		}
+	}
+	id: "4FD4E25CC438434C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["782C8EA4635F933F"]
+			id: "3BD4E6CD65616DB1"
+			tasks: [{
+				id: "451CC470F9A01331"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3BD4E6CD65616DB1"]
+			id: "4E722F4043D63D80"
+			tasks: [{
+				id: "091EBD4D923CF9A8"
+				item: {
+					Count: 1b
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:muncher"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7CBC63B18576365E"
+				"0EFDA98AD6B1294B"
+			]
+			description: ["The Hopperhock picks up items in a radius around it and deposits them into an adjacent inventory. It is especially useful for automating mana infusion."]
+			id: "670E4BFF0768C011"
+			tasks: [{
+				id: "3F5BC3711CAEC1FF"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0341848C16E44DAB"
+				"395810CE89E077CA"
+			]
+			description: ["The Conjuration Catalyst allows duplication of certain items with mana, very valuable with your limited resources."]
+			id: "0647F56905C9A03F"
+			tasks: [{
+				id: "60951A9BC58E13CD"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0E8E1423DEE602A8"]
+			description: ["Glowstone Dust can be gotten by Elven Trading rice."]
+			id: "6A0BF127687BF542"
+			tasks: [{
+				id: "67EFF069449BC502"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6A0BF127687BF542"]
+			description: ["Redstone unlocks much automation. It can be obtained by infusing Glowstone Dust with mana using an Alchemy Catalyst."]
+			id: "0EFDA98AD6B1294B"
+			tasks: [{
+				id: "0F5FFDE38EC3D3A2"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "0341848C16E44DAB"
+			tasks: [{
+				id: "0B8C613288845ADB"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			id: "395810CE89E077CA"
+			tasks: [{
+				id: "78FC25D31A030C7B"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0EFDA98AD6B1294B"]
+			description: ["The dropper is very useful for automating mana infusion or elven trading."]
+			id: "626205F780D088D7"
+			tasks: [{
+				id: "0B736196FCFF113C"
+				item: "minecraft:dropper"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+	]
+	title: "Automation"
+}

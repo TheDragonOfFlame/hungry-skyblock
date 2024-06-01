@@ -6,10 +6,13 @@
     "item.contenttweaker.mud_ball": "Mud Ball",
     "item.contenttweaker.basic_plate": "Clay Plate",
     "item.contenttweaker.dirt_clump": "Dirt Clump",
-    "item.contenttweaker.vegitation": "Vegitation",
-    "item.contenttweaker.crimson_vegitation": "Crimson Vegitation",
-    "item.contenttweaker.warped_vegitation": "Warped Vegitation",
+    "item.contenttweaker.vegitation": "Vegetation",
+    "item.contenttweaker.crimson_vegitation": "Crimson Vegetation",
+    "item.contenttweaker.warped_vegitation": "Warped Vegetation",
     "item.contenttweaker.sapling_plate": "Plate of Sapling",
     "item.contenttweaker.azalea_plate": "Plate of Azalea",
-    "item.contenttweaker.magma_and_ice_stew": "Magma and Ice Stew"
+    "item.contenttweaker.magma_and_ice_stew": "Magma and Ice Stew",
+    "item.contenttweaker.chopped_ender_eye": "Chopped Eye of Ender",
+    "item.contenttweaker.fried_ender_eye": "Fried Eye of Ender",
+    "item.contenttweaker.ender_port": "Chorus Glazed Ender Fillet"
 }

@@ -1,0 +1,203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trades_with_the_elves"
+	group: "2C874806893CD7A4"
+	icon: {
+		Count: 1b
+		id: "botania:dreamwood_wand"
+		tag: {
+			color1: 0
+			color2: 0
+		}
+	}
+	id: "1F3D81559F92A3EA"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "59948DCBA23D4FB3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4E4D0A1EA487D5B6"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["59948DCBA23D4FB3"]
+			description: ["The Runic Altar is used to create runes. These runes have many uses, covered in the Lexica Botania, but what you will need them for here is the acquisition of Terrasteel."]
+			id: "77DCC279C154DB85"
+			tasks: [{
+				id: "5AB346285E978FB1"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["59948DCBA23D4FB3"]
+			description: ["Get Quartz from a Quartz Oreberry Bush."]
+			id: "297AE9BAA730DA59"
+			tasks: [{
+				id: "26CBE8CD117E5CAE"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["77DCC279C154DB85"]
+			id: "1C4AFCBB62C914AB"
+			tasks: [{
+				id: "4A83489B50DFF032"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["77DCC279C154DB85"]
+			id: "31575A1E47C26D76"
+			tasks: [{
+				id: "7C1921980F942D92"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["77DCC279C154DB85"]
+			id: "5F4E7C25B5B9E782"
+			tasks: [{
+				id: "5E37210A277453BE"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["77DCC279C154DB85"]
+			id: "6FAE2D7AE4673005"
+			tasks: [{
+				id: "130B0A9481CECE27"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["77DCC279C154DB85"]
+			id: "45B0D3D0F4155A30"
+			tasks: [{
+				id: "23A55539D0A02BFE"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["297AE9BAA730DA59"]
+			description: ["Infuse the Quartz with mana and an Alchemy Catalyst to get lapis."]
+			id: "58BB27001390014A"
+			tasks: [{
+				id: "25BDA19B69439FA3"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"6FAE2D7AE4673005"
+				"5F4E7C25B5B9E782"
+				"31575A1E47C26D76"
+				"45B0D3D0F4155A30"
+				"1C4AFCBB62C914AB"
+				"58BB27001390014A"
+			]
+			id: "1A3625334E314516"
+			tasks: [{
+				id: "625F96AB532DA2CB"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1A3625334E314516"]
+			id: "7480140CE30E7707"
+			tasks: [{
+				id: "1CC025A42F9009EF"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -14.5d
+		}
+		{
+			id: "41A76CBD682B9471"
+			tasks: [{
+				id: "6CE5FF460DCB663E"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"7480140CE30E7707"
+				"41A76CBD682B9471"
+			]
+			id: "2A55A4DC67F5B3CC"
+			tasks: [{
+				id: "12F2CAECE95FCC60"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7480140CE30E7707"]
+			id: "575D7B03CF379191"
+			tasks: [{
+				id: "1781DAB82637FC4D"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.5d
+		}
+		{
+			dependencies: [
+				"575D7B03CF379191"
+				"2A55A4DC67F5B3CC"
+			]
+			icon: "botania:lexicon"
+			id: "0E8E1423DEE602A8"
+			tasks: [{
+				advancement: "botania:main/elf_portal_open"
+				criterion: ""
+				id: "39E19884B8D2F0F2"
+				type: "advancement"
+			}]
+			title: "Portal to the Elves"
+			x: 0.5d
+			y: -18.5d
+		}
+	]
+	title: "Trades with the Elves"
+}

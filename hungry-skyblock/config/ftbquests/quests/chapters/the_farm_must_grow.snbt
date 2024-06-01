@@ -1,0 +1,303 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_farm_must_grow"
+	group: "054857A5A3D3D8EA"
+	icon: {
+		Count: 1b
+		id: "minecraft:wooden_hoe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "747CF7F62B51D6F1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "63C21A19A77BADA5"
+			tasks: [{
+				id: "5598CBE2F8872877"
+				item: "contenttweaker:vegitation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63C21A19A77BADA5"]
+			id: "7DB851455F51E099"
+			tasks: [{
+				id: "75A07BCC3D821178"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63C21A19A77BADA5"]
+			id: "7E5277ABAA73ADF8"
+			tasks: [{
+				id: "4F09BDC700BBC401"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63C21A19A77BADA5"]
+			id: "63BDA9D4F5913E92"
+			tasks: [{
+				id: "319500D16C0DF34C"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63C21A19A77BADA5"]
+			id: "289F901047828B9E"
+			tasks: [{
+				id: "2125278F1ECD94F1"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63C21A19A77BADA5"]
+			id: "584AA31768B0AA0C"
+			tasks: [{
+				id: "4CCA204FD6E6F32C"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63C21A19A77BADA5"]
+			id: "2BC92110D0DF494B"
+			tasks: [{
+				id: "130589F262DB2023"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63C21A19A77BADA5"]
+			id: "083E62516F8A4BD7"
+			tasks: [{
+				id: "7F200CD23211A7A7"
+				item: "culturaldelights:cucumber_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63C21A19A77BADA5"]
+			id: "02FB355C6918FFFD"
+			tasks: [{
+				id: "285C9C7A40ECE444"
+				item: "culturaldelights:eggplant_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02FB355C6918FFFD"]
+			id: "7EFC6BB10E2572CC"
+			tasks: [{
+				id: "0994494466DCBED9"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["Make a carrot in the petal apothecary, with a green petal and two orange petals."]
+			id: "77692A4EAF328C9D"
+			tasks: [{
+				id: "605AFB879319251F"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77692A4EAF328C9D"]
+			description: ["Make a carrot crate with 9 carrots."]
+			id: "17C239DDAE79D419"
+			tasks: [{
+				id: "254AB2C702989118"
+				item: "farmersdelight:carrot_crate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17C239DDAE79D419"]
+			description: ["Eat a Carrot Crate to summon a rabbit."]
+			icon: "minecraft:rabbit"
+			id: "572C6629A0BED0C8"
+			tasks: [{
+				id: "7C594A4E9FAC48F3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:rabbit"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EFC6BB10E2572CC"]
+			id: "70EE8EE7FE9BFE16"
+			tasks: [{
+				icon: "minecraft:feather"
+				id: "2817893C02FB0B0E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DB851455F51E099"]
+			id: "50A2CA3ADD527297"
+			tasks: [{
+				id: "71EB91BC5C4BDB9F"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["50A2CA3ADD527297"]
+			id: "5D85567BBC55ABB9"
+			tasks: [{
+				id: "457C9701EB6AAF58"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["09DDDEBB7F2DACF7"]
+			id: "5E4BC90179AAF118"
+			tasks: [{
+				id: "139B23F49F0045A7"
+				item: "farmersdelight:ham"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5E4BC90179AAF118"]
+			icon: "minecraft:porkchop"
+			id: "03933C572AA242FB"
+			tasks: [{
+				id: "0B1DACD1FE1C5A35"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["442E770A9515AC60"]
+			id: "73678359D11D2997"
+			tasks: [{
+				id: "78C6528C3A1360D1"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["784A061DE3700AA8"]
+			id: "442E770A9515AC60"
+			tasks: [{
+				id: "304EC6B98AE2B22C"
+				item: "oreberriesreplanted:copper_oreberry_bush"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "2E5D85497338254F"
+			tasks: [{
+				id: "2AA9E25320863767"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			id: "1F257717E7673071"
+			tasks: [{
+				id: "34D924F11CD5F1A0"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7DB851455F51E099"]
+			id: "44C8B2FC6168D8BB"
+			tasks: [{
+				id: "6A7FE9385CAB3A90"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44C8B2FC6168D8BB"]
+			id: "6478DE0C515195FC"
+			tasks: [{
+				id: "01A90EC17EADF5BA"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "6918863029413CFF"
+			tasks: [{
+				id: "339D81ABC9A54614"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+	]
+	title: "The Farm Must Grow"
+}

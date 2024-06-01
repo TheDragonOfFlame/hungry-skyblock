@@ -31,6 +31,28 @@
 }
 );
 
+<recipeType:botania:petal_apothecary>.addJsonRecipe("carrot", {
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "tag": "botania:petals/green"
+    },
+    {
+      "tag": "botania:petals/orange"
+    },
+    {
+      "tag": "botania:petals/orange"
+    }
+  ],
+  "output": {
+    "item": "minecraft:carrot"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}
+);
+
 <recipeType:botania:petal_apothecary>.addJsonRecipe("iron_oreberry", {
   "type": "botania:petal_apothecary",
   "ingredients": [
@@ -74,6 +96,31 @@
   ],
   "output": {
     "item": "oreberriesreplanted:gold_oreberry_bush"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}
+);
+
+<recipeType:botania:petal_apothecary>.addJsonRecipe("quartz_oreberry", {
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "tag": "botania:petals/white"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+  "output": {
+    "item": "oreberriesreplanted:aluminum_oreberry_bush"
   },
   "reagent": {
     "tag": "botania:seed_apothecary_reagent"
@@ -205,5 +252,143 @@
   "output": {
     "item": "minecraft:end_stone"
   }
+}
+);
+
+<recipeType:botania:mana_infusion>.addJsonRecipe("egg", {
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "tag": "culturaldelights:all_eggplants"
+  },
+  "mana": 300,
+  "output": {
+    "item": "minecraft:egg"
+  }
+}
+);
+
+<recipeType:botania:mana_infusion>.remove(<item:minecraft:carrot>);
+<recipeType:botania:mana_infusion>.addJsonRecipe("onion", {
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "item": "minecraft:potato"
+  },
+  "mana": 1800,
+  "output": {
+    "item": "farmersdelight:onion"
+  }
+}
+);
+
+<recipeType:botania:mana_infusion>.addJsonRecipe("rice", {
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "item": "minecraft:wheat"
+  },
+  "mana": 2400,
+  "output": {
+    "item": "farmersdelight:rice"
+  }
+}
+);
+
+<recipeType:botania:mana_infusion>.addJsonRecipe("copper_oreberry_bush", {
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "item": "oreberriesreplanted:iron_oreberry_bush"
+  },
+  "mana": 4500,
+  "output": {
+    "item": "oreberriesreplanted:copper_oreberry_bush"
+  }
+}
+);
+
+<recipeType:botania:mana_infusion>.addJsonRecipe("lapis_lazuli", {
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "item": "minecraft:quartz"
+  },
+  "mana": 200,
+  "output": {
+    "item": "minecraft:lapis_lazuli"
+  }
+}
+);
+
+<recipeType:botania:mana_infusion>.addJsonRecipe("tadpole", {
+  "type": "botania:mana_infusion",
+  "input": {
+    "item": "minecraft:water_bucket"
+  },
+  "mana": 2000,
+  "output": {
+    "item": "minecraft:tadpole_bucket"
+  }
+}
+);
+
+<recipeType:botania:elven_trade>.addJsonRecipe("chorus_fruit", {
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  ]
+}
+);
+
+<recipeType:botania:elven_trade>.addJsonRecipe("glowstone", {
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "farmersdelight:rice"
+    }
+  ],
+  "output": [
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ]
+}
+);
+
+<recipeType:botania:elven_trade>.addJsonRecipe("hoglin", {
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "output": [
+    {
+      "item": "nethersdelight:hoglin_loin"
+    }
+  ]
 }
 );

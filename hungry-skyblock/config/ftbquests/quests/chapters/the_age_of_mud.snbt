@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_age_of_mud"
-	group: ""
+	group: "2C874806893CD7A4"
 	icon: "contenttweaker:mud_ball"
 	id: "5D2A14887B402E92"
 	order_index: 0
@@ -70,7 +70,7 @@
 		}
 		{
 			dependencies: ["5F465250D106CC59"]
-			description: ["Mud balls can be eaten to make dirt clumps, which caan be crafted back into dirt, allowing you to make more and more dirt, albiet slowly."]
+			description: ["Mud balls can be eaten to make dirt clumps, which can be crafted back into dirt, allowing you to make more and more dirt, albeit slowly."]
 			id: "05F419DDE0577EF1"
 			tasks: [{
 				id: "0F6385BD27A5398B"
@@ -89,6 +89,7 @@
 				item: "contenttweaker:vegitation"
 				type: "item"
 			}]
+			title: "Vegetation"
 			x: 1.5d
 			y: -2.0d
 		}

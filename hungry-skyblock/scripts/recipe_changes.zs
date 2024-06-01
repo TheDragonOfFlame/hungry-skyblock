@@ -15,3 +15,6 @@ craftingTable.addShaped("stove", <item:farmersdelight:stove>, [[<item:minecraft:
 
 craftingTable.remove(<item:botania:alchemy_catalyst>);
 craftingTable.addShaped("alchemy_catalyst", <item:botania:alchemy_catalyst>, [[<item:botania:livingrock>, <item:minecraft:gold_ingot>, <item:botania:livingrock>], [<item:minecraft:brewing_stand>, <item:botania:mana_diamond>, <item:minecraft:brewing_stand>], [<item:botania:livingrock>, <item:minecraft:gold_ingot>, <item:botania:livingrock>]]);
+
+furnace.removeByInput(<item:oreberriesreplanted:aluminum_oreberry>);
+blastFurnace.removeByInput(<item:oreberriesreplanted:aluminum_oreberry>);

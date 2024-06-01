@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "2C874806893CD7A4", title: "Main Progression" }
+		{ id: "054857A5A3D3D8EA", title: "Unlocking Everything" }
+	]
 }

@@ -16,7 +16,7 @@
 	#Only allow placing Tin Bushes in darkness [Default: true]
 	darknessOnlyTinBush = true
 	#Only allow placing Aluminum Bushes in darkness [Default: true]
-	darknessOnlyAluminumBush = true
+	darknessOnlyAluminumBush = false
 	#Only allow placing Lead Bushes in darkness [Default: true]
 	darknessOnlyLeadBush = true
 	#Only allow placing Nickel Bushes in darkness [Default: true]
