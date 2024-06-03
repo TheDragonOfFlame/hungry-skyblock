@@ -124,6 +124,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7CBC63B18576365E"]
 			description: ["Make a carrot in the petal apothecary, with a green petal and two orange petals."]
 			id: "77692A4EAF328C9D"
 			tasks: [{
@@ -149,9 +150,54 @@
 		{
 			dependencies: ["17C239DDAE79D419"]
 			description: ["Eat a Carrot Crate to summon a rabbit."]
-			icon: "minecraft:rabbit"
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							562478534
+							1437682500
+							-1975108470
+							299110205
+						]
+						Name: "Brown_Rabbit"
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QxMTY5YjI2OTRhNmFiYTgyNjM2MDk5MjM2NWJjZGE1YTEwYzg5YTNhYTJiNDhjNDM4NTMxZGQ4Njg1YzNhNyJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"Brown Rabbit Head\"}"
+					}
+				}
+			}
 			id: "572C6629A0BED0C8"
 			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								562478534
+								1437682500
+								-1975108470
+								299110205
+							]
+							Name: "Brown_Rabbit"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QxMTY5YjI2OTRhNmFiYTgyNjM2MDk5MjM2NWJjZGE1YTEwYzg5YTNhYTJiNDhjNDM4NTMxZGQ4Njg1YzNhNyJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Brown Rabbit Head\"}"
+						}
+					}
+				}
 				id: "7C594A4E9FAC48F3"
 				observe_type: 5
 				timer: 0L
@@ -165,7 +211,29 @@
 			dependencies: ["7EFC6BB10E2572CC"]
 			id: "70EE8EE7FE9BFE16"
 			tasks: [{
-				icon: "minecraft:feather"
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								2100988622
+								-532328774
+								-1418628645
+								-182068495
+							]
+							Name: "Chicken"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ=="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Chicken Head\"}"
+						}
+					}
+				}
 				id: "2817893C02FB0B0E"
 				observe_type: 5
 				timer: 0L
@@ -210,9 +278,54 @@
 		}
 		{
 			dependencies: ["5E4BC90179AAF118"]
-			icon: "minecraft:porkchop"
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-505298204
+							517097277
+							-1109246265
+							408114073
+						]
+						Name: "Pig"
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"Pig Head\"}"
+					}
+				}
+			}
 			id: "03933C572AA242FB"
 			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-505298204
+								517097277
+								-1109246265
+								408114073
+							]
+							Name: "Pig"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Pig Head\"}"
+						}
+					}
+				}
 				id: "0B1DACD1FE1C5A35"
 				observe_type: 5
 				timer: 0L
@@ -236,8 +349,54 @@
 		}
 		{
 			dependencies: ["2E5D85497338254F"]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1747061837
+							-1648473541
+							-1978721511
+							-571817795
+						]
+						Name: "Cow"
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19"
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"Cow Head\"}"
+					}
+				}
+			}
 			id: "1F257717E7673071"
 			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1747061837
+								-1648473541
+								-1978721511
+								-571817795
+							]
+							Name: "Cow"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2YzZlZGE5NDJmN2Y1ZjcxYzMxNjFjNzMwNmY0YWVkMzA3ZDgyODk1ZjlkMmIwN2FiNDUyNTcxOGVkYzUifX19"
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"Cow Head\"}"
+						}
+					}
+				}
 				id: "34D924F11CD5F1A0"
 				observe_type: 5
 				timer: 0L
@@ -270,6 +429,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["3EDA79DC21C12EEC"]
 			description: ["Eat a Gold Block to summon a Piglin to trade with. Don't forget gold armor!"]
 			id: "6918863029413CFF"
 			tasks: [{
@@ -282,6 +442,29 @@
 		}
 		{
 			dependencies: ["6918863029413CFF"]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-591210517
+							-624276625
+							-2141543340
+							-523118334
+						]
+						Name: "Piglin"
+						Properties: {
+							textures: [{
+								Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBiYzlkYmI0NDA0YjgwMGY4Y2YwMjU2MjIwZmY3NGIwYjcxZGJhOGI2NjYwMGI2NzM0ZjRkNjMzNjE2MThmNSJ9fX0="
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"Piglin Head\"}"
+					}
+				}
+			}
 			id: "222488A042D928BE"
 			tasks: [{
 				advancement: "minecraft:nether/distract_piglin"
@@ -303,6 +486,174 @@
 			}]
 			x: 7.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["31869C2292D6751D"]
+			id: "37FB9CE6B81E0821"
+			tasks: [{
+				id: "2B95A333D8C3F274"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47D14D8CBFD508FF"]
+			id: "31869C2292D6751D"
+			tasks: [{
+				id: "115F68632E49E61A"
+				item: "minecraft:vine"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"61AD3B7C25B6F703"
+				"12D9393EF0736D32"
+			]
+			id: "0A51996232E5C5EE"
+			tasks: [{
+				id: "6372BF992DA1738B"
+				item: "contenttweaker:sapling_plate"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "55E68ACC3B468BA9"
+			tasks: [{
+				id: "1A7EDCD53B68D9F6"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "19EAF611D4D09BE7"
+			tasks: [{
+				id: "35DD12B736F7A9F0"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "262F51FEFF04F3DF"
+			tasks: [{
+				id: "44570FADDD7B802B"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "6EF20018C2348671"
+			tasks: [{
+				id: "13DFFF44AD2CF022"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "22C6D8F5165132CE"
+			tasks: [{
+				id: "10EA2F3F82E37BA2"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "0653FF08E794582E"
+			tasks: [{
+				id: "5E27DF5E519E48D0"
+				item: "minecraft:acacia_sapling"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "693A082B4FFF0F20"
+			tasks: [{
+				id: "1F1AAB22B5026626"
+				item: "culturaldelights:avocado_sapling"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "458FECFD24437287"
+			tasks: [{
+				id: "4DE5619A64381778"
+				item: "enchanted:rowan_sapling"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "1FAB8B42B865FA82"
+			tasks: [{
+				id: "335189B20C628390"
+				item: "enchanted:hawthorn_sapling"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "40AA58E5EEE114E3"
+			tasks: [{
+				id: "6FBD1C8B33FCEDE5"
+				item: "enchanted:alder_sapling"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A51996232E5C5EE"]
+			id: "6890EDC30BBC06F3"
+			tasks: [{
+				id: "067294747A450C62"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C5819459BE15DEA"]
+			id: "6154F5AF1DA878EA"
+			tasks: [{
+				id: "1AC6123EAD8889AA"
+				item: "minecraft:azalea"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
 		}
 	]
 	title: "The Farm Must Grow"

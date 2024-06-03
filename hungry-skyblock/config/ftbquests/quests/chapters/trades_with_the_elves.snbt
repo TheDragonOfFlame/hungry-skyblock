@@ -16,6 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["75213FDFD3F916E7"]
 			description: ["In this chapter, you will create Terrasteel and unlock Elven Trading."]
 			id: "59948DCBA23D4FB3"
 			shape: "hexagon"
@@ -150,6 +151,7 @@
 			y: -14.5d
 		}
 		{
+			dependencies: ["2F539DD0B4D404D4"]
 			id: "41A76CBD682B9471"
 			tasks: [{
 				id: "6CE5FF460DCB663E"

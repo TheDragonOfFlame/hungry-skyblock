@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0E8E1423DEE602A8"]
 			description: ["In this final chapter, you will go to the end and eat the dragon."]
 			id: "72FEABFB36770ACE"
 			shape: "hexagon"
@@ -181,6 +182,7 @@
 		}
 		{
 			dependencies: ["2680153B45D25CBB"]
+			description: ["Get chorus succulents by elven trading a carrot."]
 			id: "78C8CE9E57D19302"
 			tasks: [{
 				id: "10FF50744FBE6547"

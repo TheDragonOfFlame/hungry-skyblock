@@ -178,3 +178,21 @@ craftingTable.remove(<item:ends_delight:non_hatchable_dragon_egg>);
     "tag": "forge:tools/knives"
   }
 });
+
+<recipeType:farmersdelight:cutting>.addJsonRecipe("string", {
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "minecraft:string"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+});

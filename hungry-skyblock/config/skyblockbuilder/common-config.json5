@@ -124,7 +124,7 @@
     "generationStructures": {
       "allow_list": true,
       "elements": [
-        "minecraft:fortress"
+        "minecraft:ruined_portal"
       ]
     }
   },

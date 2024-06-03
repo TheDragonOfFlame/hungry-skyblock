@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: hungy
+Specification-Vendor: Sammy
+Specification-Version: 1
+Implementation-Title: Hungy
+Implementation-Version: 1.0.0
+Implementation-Vendor: Sammy
+Implementation-Timestamp: 2024-05-21T12:21:29-0500
+MixinConfigs: mixins.hungy.json
+

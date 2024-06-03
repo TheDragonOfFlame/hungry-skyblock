@@ -26,6 +26,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			icon: "minecraft:grass_block"
 			id: "56BC7413CAFD03F5"
 			rewards: [{
@@ -42,10 +43,11 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			id: "005373B37F85ECAE"
 			rewards: [{
-				id: "1E720A7F605F6E3E"
-				item: "minecraft:rooted_dirt"
+				id: "12673EADA3B78E59"
+				item: "minecraft:hanging_roots"
 				type: "item"
 			}]
 			tasks: [{
@@ -58,6 +60,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			icon: {
 				Count: 1b
 				id: "botania:lexicon"
@@ -83,6 +86,31 @@
 			}]
 			title: "Lost your Book?"
 			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: ["I told you not to run out! Beware, this quest can only be claimed once."]
+			icon: "minecraft:netherrack"
+			id: "6A3D04D8B4627E1E"
+			rewards: [{
+				count: 3
+				id: "76C22DFA7FB91805"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3BDBCCF790CA4C00"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					id: "2DD3230A02D41744"
+					type: "checkmark"
+				}
+			]
+			title: "Out of 'Rack?"
+			x: 10.0d
 			y: 0.0d
 		}
 	]

@@ -336,6 +336,38 @@
 }
 );
 
+<recipeType:botania:mana_infusion>.addJsonRecipe("beef_to_mutton", {
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "item": "minecraft:beef"
+  },
+  "mana": 200,
+  "output": {
+    "item": "minecraft:mutton"
+  }
+}
+);
+
+<recipeType:botania:mana_infusion>.addJsonRecipe("mutton_to_beef", {
+  "type": "botania:mana_infusion",
+  "catalyst": {
+    "type": "block",
+    "block": "botania:alchemy_catalyst"
+  },
+  "input": {
+    "item": "minecraft:mutton"
+  },
+  "mana": 200,
+  "output": {
+    "item": "minecraft:beef"
+  }
+}
+);
+
 <recipeType:botania:mana_infusion>.addJsonRecipe("tadpole", {
   "type": "botania:mana_infusion",
   "input": {
@@ -388,6 +420,21 @@
   "output": [
     {
       "item": "nethersdelight:hoglin_loin"
+    }
+  ]
+}
+);
+
+<recipeType:botania:elven_trade>.addJsonRecipe("succulent", {
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "output": [
+    {
+      "item": "ends_delight:chorus_succulent"
     }
   ]
 }

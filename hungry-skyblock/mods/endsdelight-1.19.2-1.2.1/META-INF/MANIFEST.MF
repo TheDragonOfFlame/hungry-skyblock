@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: End's Delight - 1.19.2
+Implementation-Version: 1.19.2-1.2.1
+Specification-Vendor: ends_delightsareus
+Specification-Title: ends_delight
+Implementation-Timestamp: 2023-08-01T09:28:23+0800
+Specification-Version: 1
+Implementation-Vendor: ends_delightsareus
+

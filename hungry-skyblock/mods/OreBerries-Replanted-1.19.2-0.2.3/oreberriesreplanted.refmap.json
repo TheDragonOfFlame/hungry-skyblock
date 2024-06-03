@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/mrbysco/oreberriesreplanted/mixin/LivingEntityAccessor": {
+      "jumpFromGround": "m_6135_()V"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/mrbysco/oreberriesreplanted/mixin/LivingEntityAccessor": {
+        "jumpFromGround": "m_6135_()V"
+      }
+    }
+  }
+}

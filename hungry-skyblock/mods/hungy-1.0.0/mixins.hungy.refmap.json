@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "com/sammy/hungy/mixins/ItemMixin": {
+      "isEdible": "Lnet/minecraft/world/item/Item;m_41472_()Z",
+      "getUseDuration": "Lnet/minecraft/world/item/Item;m_8105_(Lnet/minecraft/world/item/ItemStack;)I"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/sammy/hungy/mixins/ItemMixin": {
+        "isEdible": "Lnet/minecraft/world/item/Item;m_41472_()Z",
+        "getUseDuration": "Lnet/minecraft/world/item/Item;m_8105_(Lnet/minecraft/world/item/ItemStack;)I"
+      }
+    }
+  }
+}

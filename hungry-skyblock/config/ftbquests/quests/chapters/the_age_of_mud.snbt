@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["4FE34744C38B0464"]
 			description: [
 				"Mmmm dirt..."
 				""
@@ -100,7 +101,7 @@
 				""
 				"Oh, but you can't till soil... Hmmm."
 				""
-				"(Mandrake seeds can be obtained by eating vegitation)."
+				"(Mandrake seeds can be obtained by eating vegitation. A Mandrake can be summoned by eating its seeds)."
 			]
 			id: "75EB0725FD18FED6"
 			tasks: [
@@ -135,7 +136,7 @@
 		}
 		{
 			dependencies: ["4B3482BC29F5276D"]
-			description: ["These roots look like they come from a tree. Maybe you could coax them to grow again."]
+			description: ["These roots look like they come from a tree. Maybe you could coax them to grow again. There is too much dirt in the way, though..."]
 			id: "5B252466EB03600A"
 			tasks: [{
 				id: "6860B42F3E321A8A"
@@ -220,6 +221,18 @@
 			}]
 			x: 1.5d
 			y: -8.5d
+		}
+		{
+			description: ["It ate everything. Your world, your family, your friends... All that's left is this little patch of dirt. You must have your revenge. With nothing but your teeth and a bottomless gullet, eat your way to victory, eat the very beast that took everything from you."]
+			icon: "minecraft:dragon_head"
+			id: "4FE34744C38B0464"
+			tasks: [{
+				id: "4939CD0F27C3BCCF"
+				type: "checkmark"
+			}]
+			title: "The Devourer"
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "The Age of Mud"

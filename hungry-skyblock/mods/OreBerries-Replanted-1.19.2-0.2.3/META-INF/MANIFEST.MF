@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: oreberriesreplanted
+Specification-Vendor: Mrbysco
+Specification-Version: 1
+Implementation-Title: OreBerries-Replanted
+Implementation-Version: 0.2.3
+Implementation-Vendor: Mrbysco
+Implementation-Timestamp: 2023-06-28T19:07:29+0000
+MixinConfigs: oreberriesreplanted.mixins.json
+
